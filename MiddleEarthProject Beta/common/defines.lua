@@ -573,32 +573,32 @@ NCharacter = {
 
 NTitle = {
 -- Monthly prestige from vassals
-	BARON_AS_VASSAL_PRESTIGE = 0.025,
-	COUNT_AS_VASSAL_PRESTIGE = 0.1,
-	DUKE_AS_VASSAL_PRESTIGE = 0.4,
-	KING_AS_VASSAL_PRESTIGE = 1.6,
-	EMPEROR_AS_VASSAL_PRESTIGE = 3.2, 	-- Impossible, but needs to be here
+    BARON_AS_VASSAL_PRESTIGE = 0.01, -- previously 0.025
+    COUNT_AS_VASSAL_PRESTIGE = 0.025, -- previously 0.1
+    DUKE_AS_VASSAL_PRESTIGE = 0.1, -- previously 0.4
+    KING_AS_VASSAL_PRESTIGE = 0.4, -- previously 1.6
+    EMPEROR_AS_VASSAL_PRESTIGE = 3.2,     -- Impossible, but needs to be here
 
 -- Monthly prestige from held titles
-	BARON_TITLE_PRESTIGE = 0.025,
-	COUNT_TITLE_PRESTIGE = 0.1,
-	DUKE_TITLE_PRESTIGE = 0.2,
-	KING_TITLE_PRESTIGE = 0.8,
-	EMPEROR_TITLE_PRESTIGE = 1.6,
-	
+    BARON_TITLE_PRESTIGE = 0.001,  -- previously 0.025
+    COUNT_TITLE_PRESTIGE = 0.025, -- previously 0.1
+    DUKE_TITLE_PRESTIGE = 0.05, -- previously 0.2
+    KING_TITLE_PRESTIGE = 0.2, -- previously 0.8
+    EMPEROR_TITLE_PRESTIGE = 0.4, -- previously 1.6
+   
 -- Monthly prestige LOSS from each unlanded adult son
-	BARON_LANDLESS_SON_PRESTIGE = 0.025,
-	COUNT_LANDLESS_SON_PRESTIGE = 0.1,
-	DUKE_LANDLESS_SON_PRESTIGE = 0.4,
-	KING_LANDLESS_SON_PRESTIGE = 0.8,
-	EMPEROR_LANDLESS_SON_PRESTIGE = 1.0,
+    BARON_LANDLESS_SON_PRESTIGE = 0.01, -- previously 0.025
+    COUNT_LANDLESS_SON_PRESTIGE = 0.05, -- previously 0.1
+    DUKE_LANDLESS_SON_PRESTIGE = 0.2, -- previously 0.4
+    KING_LANDLESS_SON_PRESTIGE = 0.4, -- previously 0.8
+    EMPEROR_LANDLESS_SON_PRESTIGE = 0.5, -- previously 1.0
 
 -- Dynasty Prestige is the sum of current and previous holdings of all living and dead members of a dynasty
-	BARON_TITLE_DYNASTY_PRESTIGE = 1,
-	COUNT_TITLE_DYNASTY_PRESTIGE = 5,
-	DUKE_TITLE_DYNASTY_PRESTIGE = 10,
-	KING_TITLE_DYNASTY_PRESTIGE = 20,
-	EMPEROR_TITLE_DYNASTY_PRESTIGE = 40,
+    BARON_TITLE_DYNASTY_PRESTIGE = 1, -- previously 1
+    COUNT_TITLE_DYNASTY_PRESTIGE = 3, -- previously 5
+    DUKE_TITLE_DYNASTY_PRESTIGE = 6, -- previously 10
+    KING_TITLE_DYNASTY_PRESTIGE = 10, -- previously 20
+    EMPEROR_TITLE_DYNASTY_PRESTIGE = 15, -- previously 40
 
 -- Piety from giving titles to the Church or Holy Orders
 	BARON_GRANT_TO_CHURCH_PIETY = 25,
@@ -696,7 +696,7 @@ NReligion = {
 	AUTHORITY_FROM_IMMORAL_HEAD = -0.1,				-- Authority from having an immoral religious head
 	AUTHORITY_FROM_RELHEAD_DIPLOMACY = 0.05,		-- Authority from each 10 diplomacy of religious head
 	AUTHORITY_FROM_RELHEAD_HOLY_SITE = 0.05,		-- Authority from religious head controlling a holy site (does not stack)
-	AUTHORITY_FROM_ORG_RELIGION = 0.2,				-- Authority from being an organized religion§ki§
+	AUTHORITY_FROM_ORG_RELIGION = 0.2,				-- Authority from being an organized religionÂ§kiÂ§
 	DIVINE_BLOOD_FERTILITY_MULT = 0.25,				-- Fertility multiplier in a religious close kin marriage
 	ELECTOR_TITLE_CAMPAIGN_FUND_FACTOR = 1,			-- The effect of money in the Campaign Fund when the Pope is choosing a new Cardinal (money * factor)
 	ELECTOR_TITLE_OPINION_FACTOR = 3.5,
