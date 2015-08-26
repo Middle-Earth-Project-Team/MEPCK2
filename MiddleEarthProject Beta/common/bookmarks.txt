@@ -1,32 +1,22 @@
-bookmark =
-{
-	name = "BM_CHARLEMAGNE"
-	desc = "BM_BM_CHARLEMAGNE_DESC"
-	date = 1.1.1
-}
-
-bookmark =
-{
-	name = "BM_THE_OLD_GODS"
-	desc = "BM_THE_OLD_GODS_DESC"
-	date = 1.1.1
-}
-
 bookmark = {
-    name = "BM_FATE_OF_ENGLAND"
+
+	name = "BM_CHARLEMAGNE"
 	desc = "BM_FALL_OF_ARNOR_DESC"
 	date = 9651.1.1
 	
 	character = 2013 # King Marvegil of Arthedain
-	character = 2089 # King Minalcar of Cardolan
-	character = 2097 # King Forodacil of Rudhaur
 	character = 1668 # King Romendacil II of Gondor	
 	character = 12223 # The Witch-King of Angmar
 	character = 9010 # King Fulkahari of Rhovanion
+	character = 4097 # King Dor of Durin's Folk - Khazad-Dum
+	character = 3104 # King Oropher of Mirkwood
+	character = 2089 # King Minalcar of Cardolan
+	character = 2097 # King Forodacil of Rudhaur
 }
 
 bookmark = {
-    name = "BM_RISE_OF_THE_HANSA"
+
+	name = "BM_THE_OLD_GODS"
 	desc = "BM_KIN_STRIFE_DESC"
 	date = 9770.1.1
 	
@@ -38,7 +28,7 @@ bookmark = {
 }
 
 bookmark = {
-    name = "BM_100_YEARS_WAR"
+    name = "BM_FATE_OF_ENGLAND"
 	desc = "BM_WAR_OF_THE_RING_DESC"
 	date = 11361.1.1
 	
@@ -47,5 +37,19 @@ bookmark = {
    	character = 10016 # Sauron
 	character = 2038 # Aragorn II
 	character = 3003 # Lord Elrond of Fondcombe
-    character = 8079 # Frodo Baggins
+	character = 4043 # Dain II Ironfoot
 }
+
+#bookmark =
+#{
+#	name = "BM_RISE_OF_THE_HANSA"
+#	desc = "BM_RISE_OF_THE_HANSA_DESC"
+#	date = 1.1.1
+#}
+
+#bookmark =
+#{
+ #   name = "BM_100_YEARS_WAR"
+#	desc = "BM_100_YEARS_WAR_DESC"
+#	date = 1.1.1
+#}
