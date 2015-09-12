@@ -2738,8 +2738,23 @@ e_gondor = {
 		}
 	}
 }
+e_angmar = {
+
+		    color={ 181 181 181 }
+			color2={ 125 125 142 }
+			
+			capital = 225 # Orthanc	
+	        primary = yes
+			creation_requires_capital = yes		
+	allow = {
+			culture = culture_wight
+			religion = religion_wight
+			any_realm_title = { title = k_angmar }
+	}
+	dignity = 100 # Counted as having this many more counties than it does	
 	
-k_angmar = {
+	k_angmar = {
+	
 	color={ 130 88 129 }
 	color2={ 125 125 142 }
 	
@@ -3042,6 +3057,164 @@ k_angmar = {
 			}
 		}
 	}
+}
+k_gundabad = {
+	color={ 164 105 105 }
+	color2={ 125 125 142 }
+	
+	capital = 642 # Gundabad
+	
+	culture = culture_longbeard
+	religion = religion_mahal
+	
+	religion_mahal = 100 # Crusade target weight
+	
+	d_gundabad = {
+		color={ 149 186 85 }
+		color2={ 255 255 255 }		
+		capital = 642 # Gundabad
+			
+		c_gundabad = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+			
+			holy_site = religion_mahal
+			holy_site = religion_orkish
+			holy_site = religion_uruk
+			holy_site = religion_wight
+			holy_site = religion_olog	
+		
+			b_gundabad_throne_hall = {
+			}
+			b_main_hall = {
+			}
+			b_market_square_gundabad = {
+			}
+			b_forges_gundabad = {
+			}
+			b_main_corridors = {
+			}
+			b_black_pass = {
+			}
+			b_thob = {
+			}
+		}
+		c_forovirkain = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_forovirkain = {
+			}
+			b_heleg_dum = {
+			}
+			b_dollador = {
+			}
+		}	
+		c_ugulai = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_ugulai = {
+			}
+			b_aksa = {
+			}
+			b_den_loke = {
+			}
+			b_ikrist = {
+			}
+			b_mokoros = {
+			}
+		}
+	}
+	d_nan_loke = {
+		color={ 99 146 151 }
+		color2={ 255 255 255 }		
+		capital = 642 # Gundabad
+		
+		c_nan_loke = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_nan_loke = {
+			}
+			b_lokesir = {
+			}
+			b_durth_iaur = {
+			}
+			b_carach_lakir = {
+			}
+			b_methrest = {
+			}
+			b_kibuldul = {
+			}
+		}
+		c_lokosin = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_lokosin = {
+			}
+			b_aksa_sin = {
+			}
+			b_dol_loke = {
+			}
+		}
+		c_helkasiril = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_helkasiril = {
+			}
+			b_siril_dum = {
+			}
+			b_dorheleg = {
+			}
+		}			
+	}
+	d_gram = {
+		color={ 51 100 168 }
+		color2={ 255 255 255 }		
+		capital = 805 # Mount Gram
+		
+		c_mount_gram = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_mount_gram = {
+			}
+			b_halls_of_golfimbul = {
+			}
+			b_braig_dum = {
+			}
+			b_yrchothrond = {
+			}
+			b_glamod_dum = {
+			}
+		}
+		c_gundalok = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_gundalok = {
+			}
+			b_baradgund = {
+			}
+			b_hith_dum = {
+			}
+		}
+		c_dunhith = {
+			color={ 149 186 85 }
+			color2={ 255 255 255 }
+		
+			b_dunhith = {
+			}
+			b_hethu_dum = {
+			}
+			b_dol_hithlain = {
+				}
+			}			
+		}	
+	}	
 }
 	
 k_forochel = {	
@@ -6701,164 +6874,6 @@ k_nurunkhizdin = {
 		}
 	}
 }	
-k_gundabad = {
-	color={ 164 105 105 }
-	color2={ 125 125 142 }
-	
-	capital = 642 # Gundabad
-	
-	culture = culture_longbeard
-	religion = religion_mahal
-	
-	religion_mahal = 100 # Crusade target weight
-	
-	d_gundabad = {
-		color={ 149 186 85 }
-		color2={ 255 255 255 }		
-		capital = 642 # Gundabad
-			
-		c_gundabad = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-			
-			holy_site = religion_mahal
-			holy_site = religion_orkish
-			holy_site = religion_uruk
-			holy_site = religion_wight
-			holy_site = religion_olog	
-		
-			b_gundabad_throne_hall = {
-			}
-			b_main_hall = {
-			}
-			b_market_square_gundabad = {
-			}
-			b_forges_gundabad = {
-			}
-			b_main_corridors = {
-			}
-			b_black_pass = {
-			}
-			b_thob = {
-			}
-		}
-		c_forovirkain = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_forovirkain = {
-			}
-			b_heleg_dum = {
-			}
-			b_dollador = {
-			}
-		}	
-		c_ugulai = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_ugulai = {
-			}
-			b_aksa = {
-			}
-			b_den_loke = {
-			}
-			b_ikrist = {
-			}
-			b_mokoros = {
-			}
-		}
-	}
-	d_nan_loke = {
-		color={ 99 146 151 }
-		color2={ 255 255 255 }		
-		capital = 642 # Gundabad
-		
-		c_nan_loke = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_nan_loke = {
-			}
-			b_lokesir = {
-			}
-			b_durth_iaur = {
-			}
-			b_carach_lakir = {
-			}
-			b_methrest = {
-			}
-			b_kibuldul = {
-			}
-		}
-		c_lokosin = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_lokosin = {
-			}
-			b_aksa_sin = {
-			}
-			b_dol_loke = {
-			}
-		}
-		c_helkasiril = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_helkasiril = {
-			}
-			b_siril_dum = {
-			}
-			b_dorheleg = {
-			}
-		}			
-	}
-	d_gram = {
-		color={ 51 100 168 }
-		color2={ 255 255 255 }		
-		capital = 805 # Mount Gram
-		
-		c_mount_gram = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_mount_gram = {
-			}
-			b_halls_of_golfimbul = {
-			}
-			b_braig_dum = {
-			}
-			b_yrchothrond = {
-			}
-			b_glamod_dum = {
-			}
-		}
-		c_gundalok = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_gundalok = {
-			}
-			b_baradgund = {
-			}
-			b_hith_dum = {
-			}
-		}
-		c_dunhith = {
-			color={ 149 186 85 }
-			color2={ 255 255 255 }
-		
-			b_dunhith = {
-			}
-			b_hethu_dum = {
-			}
-			b_dol_hithlain = {
-			}
-		}			
-	}	
-	
-}	
 	
 e_harad = {
 	color={ 243 46 26 }
@@ -8464,31 +8479,18 @@ k_mirkwood = {
 			b_abonnen = {
 			}
 		}
-		
 	}
-}
-
-k_dol_guldur = {
-	color={ 213 230 110 }
-	color2={ 125 125 142 }
-	creation_requires_capital = yes
-	capital = 310 #Amon Lanc
-	short_name = yes
-
-	
-	culture_group_quendi = "Amon Lanc"
-	culture_group_amanyar = "Amon Lanc"
-	culture_group_umanyar = "Amon Lanc"
-	culture_group_moriquendi = "Amon Lanc"	
-	culture_group_numenorean = "Amon Lanc"	
-	culture_group_middlemen = "Amon Lanc"		
-	
-	d_emyn_guldur = {
+		d_emyn_guldur = {
 		color={ 145 145 106 }
 		color2={ 255 255 255 }
+		
+		culture_group_melkor = "Dol Guldur"
+		culture_maiar = "Dol Guldur"
+		
+		title = "BLANK"
 			  
 		capital = 310 #Amon Lanc
-		  
+	  
 		c_amon_lanc = {
 			color={ 23 94 174 }
 			color2={ 255 255 255 }
@@ -8592,6 +8594,22 @@ k_dol_guldur = {
 		}		
 	}	
 }
+
+#k_dol_guldur = {
+#	color={ 213 230 110 }
+#	color2={ 125 125 142 }
+#	creation_requires_capital = yes
+#	capital = 310 #Amon Lanc
+#	short_name = yes
+#
+#	
+#	culture_group_quendi = "Amon Lanc"
+#	culture_group_amanyar = "Amon Lanc"
+#	culture_group_umanyar = "Amon Lanc"
+#	culture_group_moriquendi = "Amon Lanc"	
+#	culture_group_numenorean = "Amon Lanc"	
+#	culture_group_middlemen = "Amon Lanc"		
+#}
 
 
 e_rhovanion = {
@@ -10622,29 +10640,29 @@ k_meneltarma = {
 	}
 }
 
-k_sauron_shadow = {
-	color={ 157 121 114 }
-	color2={ 125 125 142 }
-		
-		capital = 654 # Barad-Dûr
-		
-	culture =  culture_maiar
-	religion = religion_maiar
-		
-	d_sauron_shadow = {
-		color={ 148 19 19 }
-		color2={ 255 255 255 }
-			
-			
-		c_sauron_shadow = {
-			color={ 83 63 10 }
-			color2={ 255 255 255 }
-			
-			b_sauron = {
-			}				
-		}
-	}
-}
+#k_sauron_shadow = {
+#	color={ 157 121 114 }
+#	color2={ 125 125 142 }
+#		
+#		capital = 654 # Barad-Dûr
+#		
+#	culture =  culture_maiar
+#	religion = religion_maiar
+#		
+#	d_sauron_shadow = {
+#		color={ 148 19 19 }
+#		color2={ 255 255 255 }
+#			
+#			
+#		c_sauron_shadow = {
+#			color={ 83 63 10 }
+#			color2={ 255 255 255 }
+#			
+#			b_sauron = {
+#			}				
+#		}
+#	}
+#}
 
 e_anduin = {
 	color={ 40 86 22 }
@@ -13033,28 +13051,16 @@ e_isengard = {
 	}
 	dignity = 100 # Counted as having this many more counties than it does	
 }
-e_angmar = {
-
-		    color={ 181 181 181 }
-			color2={ 125 125 142 }
-			
-			capital = 225 # Orthanc	
-	        primary = yes
-			creation_requires_capital = yes		
-	allow = {
-			culture = culture_wight
-			religion = religion_wight
-			any_realm_title = { title = k_angmar }
-	}
-	dignity = 100 # Counted as having this many more counties than it does	
-}
-
 e_silvan_elves = {
 	 color={ 213 230 110 }
 	color2={ 125 125 142 }
 	
 	short_name = yes
 	primary = yes
+	
+	allow = {
+		always = no
+	}
 
 	capital = 225 # Orthanc		
 }

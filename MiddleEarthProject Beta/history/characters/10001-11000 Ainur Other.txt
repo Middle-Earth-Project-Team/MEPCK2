@@ -331,7 +331,6 @@
 	} #Sauron comes to the Eldar under a fair guise
 	6482.1.1={
 		name="Sauron"
-		give_nickname = nick_the_dark_lord
 		remove_trait = fair
 		add_trait = strong
 		add_trait = wroth
@@ -351,9 +350,8 @@
 		add_trait = spiritform
 	} #Sauron is defeated and loses the Ring
 	9343.1.1={
-		name="Necromancer"
-		dynasty = 0
-		give_nickname = nick_the_black
+		name="The Necromancer"
+		#give_nickname = nick_the_black
 	} #Sauron come to Dol Guldur
 	10345.1.1={
 		add_trait = palantir_ithil
