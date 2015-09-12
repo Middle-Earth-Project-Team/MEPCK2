@@ -6,12 +6,12 @@ title = c_kadar_an_balkuzor
 # Settlements
 max_settlements = 4
 
-b_kadar_an_balkuzor  = castle
+b_kadar_an_balkuzor  = tribal
 b_kadar_an_balkuzortemple  = city
 b_kadar_an_balkuzorcity  = city
 
 # Misc
-culture = culture_bellakaze
+culture = culture_far_haradrim
 religion = religion_southron
 8222.1.1 = {
 

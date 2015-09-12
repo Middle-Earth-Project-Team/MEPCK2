@@ -10123,9 +10123,11 @@ e_barad_dur = {
 	religion = religion_orkish
 	religion_orkish = 300
 	
-	title = "DARK_LORD"
-	title_female = "DARK_QUEEN"
-	title_prefix = "SCOURGE_OF"
+#	title = "DARK_LORD"
+#	title_female = "DARK_QUEEN"
+#	title_prefix = "SCOURGE_OF"
+
+	short_name = yes
 	
 	k_mordor = {
 		color={ 201 182 159 }
@@ -12779,21 +12781,6 @@ e_anadune = {
 				b_kamravor = {
 				}
 			}
-			c_nilulonde = {
-				color={ 149 186 85 }
-				color2={ 255 255 255 }
-			
-				b_nilulonde = {
-				}
-				b_tarikanash = {
-				}
-				b_burlivondash = {
-				}
-				b_zarukafel = {
-				}
-				b_ferlafoth = {
-				}
-			}
 			}
 			
 		d_ashatur = {
@@ -12835,6 +12822,21 @@ e_anadune = {
 				b_zadan_an_adun2 = {
 				}
 				b_zadan_an_adun3 = {
+				}
+			}
+			c_nilulonde = {
+				color={ 149 186 85 }
+				color2={ 255 255 255 }
+			
+				b_nilulonde = {
+				}
+				b_tarikanash = {
+				}
+				b_burlivondash = {
+				}
+				b_zarukafel = {
+				}
+				b_ferlafoth = {
 				}
 			}
 		}
@@ -14008,8 +14010,15 @@ d_dark_lord = {
 	
 	# Controls a religion
 	controls_religion = religion_umaiar
+	#controls_religion = religion_wight
+	#controls_religion = religion_olog
+	#controls_religion = religion_orkish
+	#controls_religion = religion_uruk
+	#controls_religion = religion_dragons
+	#controls_religion = religion_spider
 	
 	religion = religion_umaiar
 	
 	dynasty_title_names = no
+	landless = no
 }

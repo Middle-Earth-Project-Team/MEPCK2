@@ -277,6 +277,8 @@
 	religion="religion_eruhini"
 	culture="culture_valar"
 	add_trait=valar
+	dna="bkadfwkiaal"
+  	properties="am0ad000a00"
 	4.1.1={
 		birth="4.1.1"
 	} #First Vala to enter Arda
@@ -287,6 +289,9 @@
 		add_trait=evil_side
 		religion="religion_umaiar"
 	} #Name given by Fëanor
+	4899.1.1={
+		death = yes
+	}
 }
 10016 = {
 	name="Mairon"
@@ -363,7 +368,7 @@
 	11284.1.1={
 		name="Sauron"
 		dynasty = 10012
-		give_nickname = nick_the_dark_lord
+		#give_nickname = nick_the_dark_lord
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
