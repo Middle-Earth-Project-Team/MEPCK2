@@ -22,10 +22,10 @@ culture_druedain;Drughu;Drughu;;;Drughu;;x
 culture_haladin;Folk of Haleth;Peuple d'Haleth;;;Popolo di Haleth;;x
 culture_maradin;Folk of Marach;Peuple de Marach;;;Popolo di Marach;;x
 culture_beodin;Folk of Bëor;Peuple de Bëor;;;Popolo di Bëor;;x
-culture_boradin;Boradins;Boradin;;;Boradini;;x
-culture_numenorean;Númenóreans;Númenóreen;;;Númenóreani;;x
+culture_boradin;Boradin;Boradin;;;Boradini;;x
+culture_numenorean;Númenórean;Númenóreen;;;Númenóreani;;x
 culture_adunaic;Adûnaic;Adûnaic;;;Adûnaici;;x
-culture_arnorian;Arnorians;Arnorien;;;Arnoriani;;x
+culture_arnorian;Arnorian;Arnorien;;;Arnoriani;;x
 culture_gondorian;Gondorian;Gondorien;;;Uomini di Gondor;;x
 culture_black_numenorean;Black Númenóreans;Númenóreen Noir;;;N. Neri;;x
 culture_dunedain;Dúnedain;Dúnedain;;;Dúnedain;;x
@@ -34,38 +34,38 @@ culture_gondorian_middlemen;Gondorian Middlemen;Gondorien Commun;;;Gondoriani Co
 culture_gondorian_middlemen_desc;Gondorian middle men are of mixed ancestry, with both hillmen ancestors and traces of numenorean blood, though they no longer have the strength and long life of their dunedain ancestors.;Les Gondoriens communs descendent de deux peuples différents qui se sont mélangés au fil du temps. Les Numénoréens ont ainsi dilués leur sang parmi les peuples originaux de la région.;;;;;x
 culture_arnorian_middlemen;Arnorian Middlemen;Arnorien Commun;;;Gondoriani Comuni;;x
 culture_arnorian_middlemen_desc;Arnorian middle men are of mixed ancestry, with both hillmen and Haladin ancestors and traces of numenorean blood, though they no longer have the strength and long life of their dunedain ancestors.;Les Arnoriens communs descendent de deux peuples différents qui se sont mélangés au fil du temps. Les Numénoréens ont ainsi dilués leur sang parmi les peuples originaux de la région.;;;;;x
-culture_barding;Bardings;Barding;;;Bardini;;x
-culture_northmen;Northrons;Hommes du Nord;;;Nordroni;;x
+culture_barding;Barding;Barding;;;Bardini;;x
+culture_northmen;Northron;Hommes du Nord;;;Nordroni;;x
 culture_eotheod;Éothéod;Éothéod;;;Éothéod;;x
 culture_rohirrim;Rohirrim;Rohirrim;;;Rohirrim;;x
-culture_beorning;Beornings;Beornides;;;Beorniani;;x
+culture_beorning;Beorning;Beornides;;;Beorniani;;x
 culture_lossoth;Snowmen;Lossoth;;;Uomini delle Nevi;;x
 culture_hillmen;Hillmen;Hommes des Collines;;;Uomini delle Colline;;x
-culture_dunlending;Dunlendings;Hommes du Pays de Dun;;;Dunlandiani;;x
-culture_calending;Calendings;Calending;;;Calendiani;;x
-culture_druwaithing;Drúwaithings;Drúwaithrim;;;Drúwaithiani;;x
+culture_dunlending;Dunlending;Hommes du Pays de Dun;;;Dunlandiani;;x
+culture_calending;Calending;Calending;;;Calendiani;;x
+culture_druwaithing;Drúwaithing;Drúwaithrim;;;Drúwaithiani;;x
 culture_andrasting;Dunir;Dunir;;;Dunir;;x
 culture_breelander;Breemen;Hommes de Bree;;;Uomini di Brea;;x
 culture_haradrim;Haradrim;Haradrim;;;Haradrim;;x
 culture_harondorian;Harondorim;Harondorim;;;Harûze;;x
 culture_ishmalogim;Ishmalogim;Ishmalogim;;;Ishmalogim;;x
-culture_far_haradrim;Barangils;Barangils;;;Barangil;;x
-culture_easterling;Easterlings;Easterling;;;Esterling;;x
-culture_balchoth;Balchoths;Balchoth;;;Balchoth;;x
-culture_wainriders;Wainriders;Wainrider;;;Carrieri;;x
-culture_nurnim;Núrniags;Núrniags;;;Núrniag;;x
-culture_variags;Variags;Variags;;;Variag;;x
-culture_harfoot;Harfoots;Pieds-Velus;;;Pelopiedi;;x
-culture_fallohide;Fallohides;Pâles;;;Paloidi;;x
-culture_stoor;Stoors;Forts;;;Sturoi;;x
-culture_hobbit;Hobbits;Hobbits;;;Hobbits;;x
-culture_longbeard;Longbeards;Longue-Barbes;;;Lungobarbi;;x
-culture_firebeard;Firebeards;Barbes-Enflammées;;;Barbafiamma;;x
-culture_broadbeam;Broadbeams;Torses-Larges;;;Vastifasci;;x
-culture_ironfist;Ironfists;Poings-de-Fer;;;Pugniferro;;x
-culture_stiffbeard;Stiffbeards;Barbes-Touffues;;;Barbedure;;x
-culture_blacklock;Blacklocks;Boucles-Noires;;;Nerachiave;;x
-culture_stonefoot;Stonefoots;Pieds-de-Pierre;;;Piediroccia;;x
+culture_far_haradrim;Barangil;Barangils;;;Barangil;;x
+culture_easterling;Easterling;Easterling;;;Esterling;;x
+culture_balchoth;Balchoth;Balchoth;;;Balchoth;;x
+culture_wainriders;Wainrider;Wainrider;;;Carrieri;;x
+culture_nurnim;Núrniags;Núrniag;;;Núrniag;;x
+culture_variags;Variags;Variag;;;Variag;;x
+culture_harfoot;Harfoot;Pieds-Velus;;;Pelopiedi;;x
+culture_fallohide;Fallohide;Pâles;;;Paloidi;;x
+culture_stoor;Stoor;Forts;;;Sturoi;;x
+culture_hobbit;Hobbit;Hobbits;;;Hobbits;;x
+culture_longbeard;Longbeard;Longue-Barbes;;;Lungobarbi;;x
+culture_firebeard;Firebeard;Barbes-Enflammées;;;Barbafiamma;;x
+culture_broadbeam;Broadbeam;Torses-Larges;;;Vastifasci;;x
+culture_ironfist;Ironfist;Poings-de-Fer;;;Pugniferro;;x
+culture_stiffbeard;Stiffbeard;Barbes-Touffues;;;Barbedure;;x
+culture_blacklock;Blacklock;Boucles-Noires;;;Nerachiave;;x
+culture_stonefoot;Stonefoot;Pieds-de-Pierre;;;Piediroccia;;x
 culture_minyar;Minyar;Minyar;;;Minyar;;x
 culture_tatyar;Tatyar;Tatyar;;;Tatyar;;x
 culture_nelyar;Nelyar;Nelyar;;;Nelyar;;x
@@ -84,24 +84,24 @@ culture_maiar;Maiar;Maiar;;;Maiar;;x
 culture_valar;Valar;Valar;;;Valar;;x
 culture_enigma;Unknown;Inconnu;;;Ignoti;;x
 culture_istari;Istari;Istari;;;Istari;;x
-culture_half_orc;Half Orcs;Semi-Orque;;;;;x
+culture_half_orc;Half Orc;Semi-Orque;;;;;x
 culture_urukhai;Uruk-hai;Uruk-hai;;;;;x
-culture_goblin;Goblins;Gobelin;;;;;x
-culture_orkish;Orcs;Orque;;;Orchi;;x
-culture_troll;Trolls;Troll;;;;;x
+culture_goblin;Goblin;Gobelin;;;;;x
+culture_orkish;Orc;Orque;;;Orchi;;x
+culture_troll;Troll;Troll;;;;;x
 culture_balrog;Balrog;Balrog;;;Balrog;;x
-culture_dragons;Dragons;Dragon;;;Draghi;;x
-culture_spider;Spiders;Araignée;;;Ragni;;x
+culture_dragons;Dragon;Dragon;;;Draghi;;x
+culture_spider;Spider;Araignée;;;Ragni;;x
 culture_wilderness;Wilderness;Vie Sauvage;;;Terre Selvagge;;x
-culture_wight;Wights;Ombre;;;Spettri;;x
+culture_wight;Wight;Ombre;;;Spettri;;x
 culture_daoine;Daoine;Daoine;;;Daoine;;x
-culture_nuriags;Nûriags;Nûriag;;;Nûriag;;x
-culture_khundolars;Khundolars;Khundolar;;;Khundolar;;x
-culture_jangovars;Jangovars;Jangovar;;;Jangovar;;x
-culture_umbareans;Umbareans;Umbarien;;;Umbarim;;x
+culture_nuriags;Nûriag;Nûriag;;;Nûriag;;x
+culture_khundolars;Khundolar;Khundolar;;;Khundolar;;x
+culture_jangovars;Jangovar;Jangovar;;;Jangovar;;x
+culture_umbareans;Umbarean;Umbarien;;;Umbarim;;x
 culture_bellakaze;Bellakaze;Bellakaze;;;Bellakaze;;x
-culture_eagles;Great Eagles;Grand Aigle;;;Grandi Aquile;;x
-culture_mountains;Mountains;Mountains;;;Montagne;;x
+culture_eagles;Great Eagle;Grand Aigle;;;Grandi Aquile;;x
+culture_mountains;Mountain;Mountains;;;Montagne;;x
 culture_eredrim;Eredrim;Eredrim;;;Eredrim;;x
 culture_ethirfolk;Sakalai;Sakalai;;;Sakalai;;x
 culture_dorwinrim;Dorwinrim;Dorwinrim;;;Dorwinrim;;x

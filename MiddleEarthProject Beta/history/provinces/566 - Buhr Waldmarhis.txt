@@ -13,8 +13,8 @@ b_waldaril = castle
 #b_nerevan = castle
 
 # Misc
-culture = culture_wilderness
-religion = religion_wilderness
+culture = culture_northmen
+religion = religion_rhovanion }
 10199.1.1 = {
 culture = culture_wainriders
 religion = religion_easterlings }

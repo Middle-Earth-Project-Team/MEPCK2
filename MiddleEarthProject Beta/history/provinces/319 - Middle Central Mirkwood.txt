@@ -70,7 +70,7 @@ culture = culture_spider
 religion = religion_spider }
 
 9393.1.1 = {
-culture = culture_northmen
+culture = culture_woodsmen
 religion = religion_rhovanion
 
 			b_cell_angol = ca_Hwall_1

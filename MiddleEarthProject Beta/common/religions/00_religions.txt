@@ -815,7 +815,7 @@ religion_group_wilderness = {
 		graphical_culture = westerngfx
 
 		icon = 6
-		color = { 0.59 0.48 0.46 }
+		color = { 0 0 0 }
 		
 		high_god_name = GOD_TREE
 		
