@@ -8220,6 +8220,19 @@ k_aglarond = {
 		}
 	}
 }
+
+e_silvan_elves = {
+	color={ 213 230 110 }
+	color2={ 125 125 142 }
+	
+	short_name = yes
+	primary = yes
+	
+	allow = {
+		always = no
+	}
+
+	capital = 323 # Thranduill's Halls
 	
 k_mirkwood = {
 	color={ 121 172 40 }
@@ -8593,6 +8606,7 @@ k_mirkwood = {
 			}
 		}		
 	}	
+}
 }
 
 #k_dol_guldur = {
@@ -13050,19 +13064,6 @@ e_isengard = {
 			any_realm_title = { title = k_isengard }
 	}
 	dignity = 100 # Counted as having this many more counties than it does	
-}
-e_silvan_elves = {
-	 color={ 213 230 110 }
-	color2={ 125 125 142 }
-	
-	short_name = yes
-	primary = yes
-	
-	allow = {
-		always = no
-	}
-
-	capital = 225 # Orthanc		
 }
 
 k_woodsmen_mirkwood = {
