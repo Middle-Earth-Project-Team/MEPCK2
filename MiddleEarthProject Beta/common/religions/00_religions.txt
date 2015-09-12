@@ -101,7 +101,7 @@ religion_group_eldar = {
 	ai_convert_other_group = 0	# never try to convert
 	
 	religion_moriquendi = {
-		graphical_culture = westerngfx
+		graphical_culture = hindugfx #westerngfx
 
 		icon = 9
 		color = { 0.81 0.63 0.90 }
@@ -419,7 +419,7 @@ religion_group_edain = {
 		graphical_culture = norsegfx
 
 		icon = 3
-		color = { 0.76 0.35 0.76 }
+		color = { 102 35 32 }
 		
 		high_god_name = GOD_THE_POWERS
 		
@@ -676,7 +676,7 @@ religion_group_melkor = {
 	religion_olog = {
 		graphical_culture = westerngfx
 		icon = 4
-		color = { 0.83 0.10 0.5 }
+		color = { 176 57 0 }
 	
 		high_god_name = GOD_MORGOTH
 		
@@ -779,7 +779,7 @@ religion_group_melkor = {
 	religion_spider = {
 		graphical_culture = westerngfx
 		icon = 4
-		color = { 0.83 0.10 0.5 }
+		color = { 100 100 100 }
 		
 		high_god_name = GOD_MORGOTH
 		

@@ -2836,7 +2836,7 @@ culture_group_melkor = {
 	culture_urukhai = {
 		graphical_culture = orkgfx
 		
-		color = { 255 167 79 }
+		color = { 0.83 0.10 0.5 }
 		
 		male_names = {
 			Azog_Azog Bolg_Bolg Búrz_Búrz Fimbul_Fimbul Gazbag_Gazbag Gazduf_Gazduf Gazdush_Gazdush Gazhúr_Gazhúr Gazgash_Gazgash Gazbug_Gazbug 
@@ -2995,7 +2995,7 @@ culture_group_melkor = {
 	culture_spider = {
 		graphical_culture = spidergfx
 		used_for_random = no
-		color = { 0.62 0.76 0.88 }
+		color = { 100 100 100 }
 		
 		male_names = {
 			Ungolwë_Ungolwë
