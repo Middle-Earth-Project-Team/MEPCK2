@@ -71,7 +71,8 @@ holder = 2444 # Galador
 }
 9900.1.1=
 {
-liege=no
+liege=k_shire
+holder=0
 }
 9944.1.1=
 {
