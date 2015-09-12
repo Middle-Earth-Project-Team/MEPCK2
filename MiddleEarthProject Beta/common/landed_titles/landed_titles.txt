@@ -8499,6 +8499,7 @@ k_mirkwood = {
 		
 		culture_group_melkor = "Dol Guldur"
 		culture_maiar = "Dol Guldur"
+		culture_wight = "Dol Guldur"
 		
 		title = "BLANK"
 			  
@@ -13121,27 +13122,27 @@ k_wainriders = {
 	allow = {culture = culture_wainriders}
 	
 }
-k_hillmen = {
-	 color={ 197 205 148 }
-	color2={ 125 125 142 }
-	primary = yes
-	capital = 373 #Cameth Brin
-	culture = culture_hillmen
-	religion = religion_haldadian
-	allow = { culture = culture_hillmen }
-	
-}
-k_angmarim_hillmen = {
-	 color={ 183 97 97 }
-	color2={ 125 125 142 }
-	primary = yes
-    capital = 633 # Aughaire
-	culture = culture_hillmen
-	religion = religion_angmarim
-	allow = { religion = religion_angmarim }
-
-	
-}
+#k_hillmen = {
+#	 color={ 197 205 148 }
+#	color2={ 125 125 142 }
+#	primary = yes
+#	capital = 373 #Cameth Brin
+#	culture = culture_hillmen
+#	religion = religion_haldadian
+#	allow = { culture = culture_hillmen }
+#	
+#}
+#k_angmarim_hillmen = {
+#	 color={ 183 97 97 }
+#	color2={ 125 125 142 }
+#	primary = yes
+#    capital = 633 # Aughaire
+#	culture = culture_hillmen
+#	religion = religion_angmarim
+#	allow = { religion = religion_angmarim }
+#
+#	
+#}
 k_eothed = {
 	color={ 14 68 1 }
 	color2={ 255 255 252 }

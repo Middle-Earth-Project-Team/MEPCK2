@@ -356,6 +356,7 @@
 	} #Sauron is defeated and loses the Ring
 	9343.1.1={
 		name="The Necromancer"
+		#set_special_character_title = BLANK
 		#give_nickname = nick_the_black
 	} #Sauron come to Dol Guldur
 	10345.1.1={
