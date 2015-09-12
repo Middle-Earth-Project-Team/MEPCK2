@@ -19,7 +19,6 @@ e_gondor = {
 	capital = 422 # Minas Tirith	
 	
 	culture = culture_gondorian	
-	religion = religion_dunedain
 	
 	religion_dunedain = 200
 
@@ -35,7 +34,6 @@ e_gondor = {
 		culture_ishmalogim = "Ishmalog"
 	
 		culture = culture_gondorian
-		religion = religion_dunedain
 	    religion_dunedain = 100
 		
 		d_royal_demesne = {
@@ -419,7 +417,6 @@ e_gondor = {
 		capital = 18 # Pelargir
 	    
 		culture = culture_gondorian
-	    religion = religion_dunedain
 		religion_dunedain = 100 # Crusade target weight
 	
 		d_arnach = {
@@ -790,7 +787,6 @@ e_gondor = {
 		capital = 656 # Dol Amroth
 	
 		culture = culture_gondorian
-		religion = religion_dunedain
 	
 		religion_dunedain = 100 # Crusade target weight
 	
@@ -1092,7 +1088,6 @@ e_gondor = {
 		capital = 426 # Minas Ithil
 	
 		culture = culture_gondorian
-		religion = religion_dunedain
 	
 		religion_dunedain = 100 # Crusade target weight
 	
@@ -1473,7 +1468,6 @@ e_gondor = {
 		capital = 131 #Gobel Mirlond
 		
 		culture = culture_harondorian
-		religion = religion_southron
 	
 		religion_southron = 100 # Crusade target weight
 	
@@ -1928,7 +1922,6 @@ e_gondor = {
 		capital = 178 # Andrast
 	
 		culture = culture_andrasting
-		religion = religion_haldadian
 	
 		religion_haldadian = 100
 	
@@ -2089,7 +2082,6 @@ e_gondor = {
 		capital = 197 # Lond Galen
 	
 		culture = culture_gondorian_middlemen
-		religion = religion_dunedain
 	
 		religion_dunedain = 100 # Crusade target weight
 	
@@ -2233,7 +2225,6 @@ e_gondor = {
 		capital = 203 #Annon Wain
 	
 		culture = culture_gondorian
-	    religion = religion_dunedain
 		religion_dunedain = 100 # Crusade target weight	
 	
 		d_west_pinnath = {
@@ -2414,7 +2405,6 @@ e_gondor = {
 		capital = 220 # Calembel
 	
 		culture = culture_gondorian_middlemen
-	    religion = religion_rhovanion
 		
 		religion_rhovanion = 100 # Crusade target weight
 	
@@ -2740,17 +2730,13 @@ e_gondor = {
 }
 e_angmar = {
 
-		    color={ 181 181 181 }
-			color2={ 125 125 142 }
+	color={ 181 181 181 }
+	color2={ 125 125 142 }
 			
-			capital = 225 # Orthanc	
-	        primary = yes
-			creation_requires_capital = yes		
-	allow = {
-			culture = culture_wight
-			religion = religion_wight
-			any_realm_title = { title = k_angmar }
-	}
+	capital = 225 # Orthanc	
+	primary = yes
+	creation_requires_capital = yes		
+	
 	dignity = 100 # Counted as having this many more counties than it does	
 	
 	k_angmar = {
@@ -3306,7 +3292,6 @@ e_arnor = {
 	title_prefix = "KING_OF"
 	
 	culture = culture_arnorian
-	religion = religion_dunedain
 	
 	religion_dunedain = 200
 	
@@ -3317,7 +3302,6 @@ e_arnor = {
 		capital = 105 # Barrow Downs/Tyrn Gorthad
 	
 		culture = culture_arnorian
-		religion = religion_dunedain
 		
 		religion_dunedain = 100
 	
@@ -3599,7 +3583,6 @@ e_arnor = {
 			
 			capital = 156 #Suduri
 			culture = culture_daoine
-			religion = religion_haldadian
 			
 			c_linnuis = {
 				color={ 47 136 30 }
@@ -3954,7 +3937,6 @@ e_arnor = {
 	
 		capital = 242 # Fornost
 		culture = culture_dunedain
-		religion = religion_dunedain
 	
 	    religion_dunedain = 200
 		
@@ -5212,7 +5194,6 @@ e_arnor = {
 		capital = 373 #Cameth Brin
 	
 		culture = culture_arnorian
-		religion = religion_dunedain
 		
 		religion_dunedain = 200
 	
@@ -5944,7 +5925,6 @@ e_rhun = {
 	capital = 614 # Kas Rhûn
 	
 	culture = culture_easterling
-	religion = religion_easterlings
     religion_easterlings = 200 # Crusade target weight
 
 
@@ -5958,7 +5938,6 @@ e_rhun = {
 		capital = 614 # Kas Rhûn
 	
 		culture = culture_easterling
-	    religion = religion_easterlings
 		religion_easterlings = 200 # Crusade target weight
 	
 	    d_rhun = {
@@ -6342,7 +6321,6 @@ e_rhun = {
 		capital = 449 # Ammu Khand
 	
 		culture = culture_variags
-		religion = religion_easterlings
 	
 		religion_easterlings = 100
 	
@@ -6556,7 +6534,6 @@ e_rhun = {
 		capital = 450 #Ahrul Admal
 	
 		culture = culture_nuriags
-		religion = religion_easterlings
 		religion_easterlings = 100
 	
 		d_nurad = {
@@ -6882,7 +6859,6 @@ e_harad = {
 	capital = 489 #Talazhan
 	
 	culture = culture_haradrim
-    religion = religion_southron
 	
 	religion_southron = 100 # Crusade target weight
 	
@@ -6893,7 +6869,6 @@ e_harad = {
 		capital = 462 # Korb Chelkar
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_kajbah = {
@@ -7019,7 +6994,6 @@ e_harad = {
 		capital = 471 # Korondaj
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_amrun = {
@@ -7127,7 +7101,6 @@ e_harad = {
 		capital = 478 # Sukh Akhôr
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_akhor = {
@@ -7286,7 +7259,6 @@ e_harad = {
 		capital = 489 # Talazhan
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_mikarin = {
@@ -7431,7 +7403,6 @@ e_harad = {
 		capital = 504 # Bur Lurmsakûn
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_lurmsakun = {
@@ -7557,7 +7528,6 @@ e_harad = {
 		capital = 512 # Kruk Azbanna
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_arysis = {
@@ -7633,7 +7603,6 @@ e_harad = {
 		capital = 533 # Khôrsaj
 	
 		culture = culture_haradrim
-		religion = religion_southron
 		religion_southron = 100 # Crusade target weight
 	
 		d_belabar = {
@@ -8634,7 +8603,6 @@ e_rhovanion = {
 	capital = 569 # Dor Rhovanion
 	
 	culture = culture_northmen
-    religion = religion_rhovanion
 
 	religion_rhovanion = 100 
 	
@@ -8649,7 +8617,6 @@ e_rhovanion = {
 		capital = 539 # Dale
 	
 		culture = culture_barding
-		religion = religion_rhovanion
 	
 		religion_rhovanion = 100
 
@@ -8924,7 +8891,6 @@ e_rhovanion = {
 		capital = 409 #Talath Harroch
 		
 		culture = culture_northmen
-		religion = religion_rhovanion
 		
 		religion_rhovanion = 100
 	
@@ -9165,7 +9131,6 @@ e_rhovanion = {
 		capital = 569 # Dor Rhovanion
 		
 		culture = culture_northmen
-		religion = religion_rhovanion
 		
 		religion_rhovanion = 100 # Crusade target weight
 	
@@ -9434,7 +9399,6 @@ e_rhovanion = {
 		capital = 576 # Szrel-Kain
 		
 		culture = culture_dorwinrim
-		religion = religion_rhovanion
 		
 		religion_rhovanion = 100
 		
@@ -10121,7 +10085,6 @@ e_barad_dur = {
 	capital = 654 # Barad-Dûr
 	
 	culture = culture_orkish
-	religion = religion_orkish
 	religion_orkish = 300
 	
 #	title = "DARK_LORD"
@@ -10137,7 +10100,6 @@ e_barad_dur = {
 		capital = 654 # Barad-Dûr
 		
 		culture = culture_orkish
-		religion = religion_orkish
 		
 		religion_orkish = 100
 		
@@ -10702,11 +10664,9 @@ e_anduin = {
 		culture_orkish = "Rûkuzg"
 		culture_goblin = "Rûkuzg"
 		culture_maiar = "Rûkuzg"
-		culture_rohirrim = "Riddermark"
 	
 		capital = 115 # Edoras
 		culture = culture_rohirrim
-		religion = religion_rhovanion
 		religion_rhovanion = 100
 	
 		d_eastfolde = {
@@ -11339,7 +11299,6 @@ e_anduin = {
 		capital = 689 # Beorn's Hall
 		
 		culture = culture_beorning
-		religion = religion_rhovanion
 		religion_rhovanion = 100 # Crusade target weight
 		
 		
@@ -11872,7 +11831,6 @@ e_isenvale = {
 		capital = 386 # Morbet
 
 		culture = culture_dunlending
-		religion = religion_haldadian
 	
 		religion_haldadian = 100 # Crusade target weight
 	
@@ -12020,7 +11978,6 @@ e_isenvale = {
 		capital = 383 #Galtrev
 	
 		culture = culture_dunlending
-		religion = religion_haldadian
 	
 		religion_haldadian = 100 # Crusade target weight	
 	
@@ -12300,7 +12257,6 @@ e_isenvale = {
 		capital = 231 # Druwaith Laden/Druwaith Iaur
 
 		culture = culture_druwaithing
-		religion = religion_haldadian
 
 		religion_haldadian = 100 # Crusade target weight
 
@@ -12441,7 +12397,6 @@ e_anadune = {
 		capital = 430 # Umbar
 		
 		culture = culture_black_numenorean
-		religion = religion_black_numenorean
 		religion_black_numenorean = 200 # Crusade target weight	
 			
 		d_dusalan = {
@@ -12639,7 +12594,6 @@ e_anadune = {
 		capital = 517 # Urezayân
 		
 		culture = culture_black_numenorean
-		religion = religion_black_numenorean
 		religion_black_numenorean = 100 # Crusade target weight
 		
 		d_mardruak = {
