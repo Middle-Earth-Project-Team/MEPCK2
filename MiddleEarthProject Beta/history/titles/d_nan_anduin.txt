@@ -81,6 +81,70 @@ holder = 9043 # Léod
 }
 10844.1.1=
 {
-holder = 0 # The Eothed arrives in Calenardhon and create the kingdom of Rohan
 liege = 0
+holder = 9084 # Guillabert # The Eothed arrives in Calenardhon and create the kingdom of Rohan
+}
+10854.1.1=
+{
+holder = 9085 # Chararic
+}
+10887.1.1=
+{
+holder = 9086 # Berald
+}
+10931.1.1=
+{
+holder = 9087 # Arcambald
+}
+10970.1.1=
+{
+holder = 9088 # Ansovald
+}
+11005.1.1=
+{
+holder = 9089 # Sunnegisil
+}
+11042.1.1=
+{
+holder = 9090 # Ragambald
+}
+11083.1.1=
+{
+holder = 9091 # Siclevold
+}
+11116.1.1=
+{
+holder = 9092 # Theudebald
+}
+11151.1.1=
+{
+holder = 9093 # Hucbert
+}
+11200.1.1=
+{
+holder = 9094 # Ascaric
+}
+11223.1.1=
+{
+holder = 9095 # Munderic
+}
+11262.1.1=
+{
+holder = 9096 # Charibert
+}
+11298.1.1=
+{
+holder = 9097 # Ragenard
+}
+11325.1.1=
+{
+holder = 9098 # Gedalca
+}
+11372.1.1=
+{
+holder = 9099 # Guadulf
+}
+11396.1.1=
+{
+holder = 9101 # Imnachar
 }

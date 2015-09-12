@@ -1,8 +1,5 @@
 10818.1.1=
 {
 holder = 10031 #Radagast
-}
-11284.1.1=
-{
-liege=d_beorncrofts
+liege=0
 }

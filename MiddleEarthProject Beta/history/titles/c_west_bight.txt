@@ -13,7 +13,7 @@ holder =  0
 10276.1.1=
 {
 holder = 9070 # Adalgrim I
-liege=k_woodsmen_mirkwood
+liege=d_nan_anduin
 }
 10320.1.1=
 {

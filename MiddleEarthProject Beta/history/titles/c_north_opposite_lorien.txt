@@ -90,7 +90,7 @@ holder = 9043 # Léod
 10844.1.1=
 {
 holder = 9084 #
-liege = k_woodsmen_mirkwood
+liege = d_nan_anduin
 }
 10854.1.1=
 {

@@ -1000,7 +1000,7 @@ culture_group_haldadian = {
 	culture_dunlending = {
 		graphical_culture = hillmengfx
 		
-		color = { 0.3 0.8 0.8 }
+		color = { 160 86 31 }
 
 		male_names = {
 			Haldad_Haldad Buldar_Buldar Hasad_Hazad
@@ -2510,7 +2510,7 @@ culture_group_amanyar = {
         culture_noldor = {
 		graphical_culture = elfgfx
 		
-		color = { 0.25 0.5 0.75 }
+		color = { 92 59 213 }
 		
 		male_names = {
 			Aicanáro_Aegnor Ailinwë_Ailinwë Aldaron_Galadhon Aldawë_Aldawë Almasil_Galathil Alqualírë_Alqualír Alwë_Alwë Ambanér_Amdír Ambaráto_Amrod Ambarondo_Amroth Angamaitë_Angamaitë Angaráto_Angrod Angawë_Angawë Aracáno_Argon Aracórno_Aragorn Arafinwë_Finarfin Aranel_Aranel Ardamírë_Ardamir Artafinde_Finrod Artaher_Arothir Artanáro_Rodnor Artaresto_Orodreth Asëanér_Atheadir Atandil_Atandil Aulendil_Aulendil Aulendur_Aulendur Celepwë_Celepwë Ciryatan_Círdan Curwë_Curwë Eärendil_Eärendil Eärendur_Eärendur Elatan_Elladan Elemmacil_Elemmacil Elemmírë_Elemmírë Elendil_Elendil Elendur_Elendur Elerohér_Elrohir Elerondo_Elrond Elerossë_Elros Elerussa_Elross Elemwë_Elmo Elenwë_Elenwë Elehildë_Eluchíl Elerána_Eluréd Elerína_Elurín Elwë_Elu Eöl_Eöl Falawë_Falawë Fárëmírë_Faramir Fáwë_Fáwë Fëawë_Fëawë Findaráto_Finrod Findecáno_Fingon Finwë_Finwë Hallassë_Hallas Ilmandil_Ilmandil Ilmandur_Ilmandur Ilnalta_Gil-galad Ilwë_Ilwë Ingoldo_Ingoldo Ingwë_Ingwë Isilvoro_Ithilbor Isilwë_Isilwë Istawë_Istawë Laiqalassë_Legolas Laurefindil_Glorfindel Lenwë_Lenwë Lómion_Lómion Löwë_Löwë Lungumá_Mablung Macalaurë_Maglor Mahtan_Mahtan Maicalintil_Maeglin Maiwë_Maiwë Malalata_Malgalad Malawë_Malawë Mírwë_Mírwë Mírëatan_Mírdan Morwë_Morwë Nanirondo_Deneroth Nanisáro_Denethor Neuro_Dior Nolofinwë_Fingolfin Nowë_Noue Nurwë_Nurwë Olwë_Olue Orofernë_Oropher Palantir_Palantir Quilwë_Quilwë Rúmil_Rúmil Rúwë_Rúwë Sairon_Daeron Sárarossë_Saeros Singollo_Thingol Tanwë_Tanwë Tarantuilë_Thranduil Tucoro_Tuor Turucáno_Turgon Tyeleporno_Celeborn Umbarto_Úmarth Urundil_Urundil Urundur_Urundur Urunwë_Urunwë Voromírë_Boromir Voronwë_Voronwë
@@ -2543,7 +2543,7 @@ culture_group_umanyar = {
        culture_sindar = {
 		graphical_culture = elfgfx
 		
-		color = { 0.25 0.5 0.75 }
+		color = { 136 150 198 }
 		
 		male_names = {
 			Aegnor_Aegnor Aelu_Ailinwë Aeol_Eöl Aeredhil_Eärendil Aeredhur_Eärendur Aerennel_Eärendil Alphalír_Alqualír Amdír_Amdír Amrod_Amrod Amroth_Amroth Angmaetha_Angamaitë Angrod_Angrod Angau_Angawë Aragorn_Aragorn Aranel_Aranel Ardamir_Ardamir Argon_Argon Arothir_Arothir Atheadir_Atheadir Borou_Voronwë Boromir_Boromir Celeborn_Celeborn Celebu_Celepwë Círdan_Círdan Calu_Quilwë Curu_Curwë Daeron_Daeron Danu_Tanwë Deneroth_Deneroth Denethor_Denethor Denu_Lenwë Dior_Dior Drúeu_Rúwë Edendhil_Atandil Eleu_Elenwë Eldhil_Elendil Eldhur_Elendur Elladan_Elladan Elmeu_Elmo Elmagil_Elemmacil Elmir_Elemmírë Elrohir_Elrohir Elrond_Elrond Elros_Elros Elross_Elross Elu_Elu Eluchíl_Eluchíl Eluréd_Eluréd Elurín_Elurín Faeu_Fëawë Falau_Falawë Faramir_Faramir Fau_Fáwë Finarfin_Finarfin Fingolfin_Fingolfin Fingon_Fingon Finrod_Finrod Finu_Finwë Galadhon_Galadhon Galadhu_Aldawë Galathil_Galathil Gildhil_Ilmandil Gildhur_Ilmandur Gil-galad_Gil-galad Glorfindel_Glorfindel Hallas_Hallas Ilu_Ilwë Ingolodh_Ingoldo Ingu_Ingwë Ithau_Istawë Ithilbor_Itihlbor Ithilu_Isilwë Laegolas_Legolas Lalu_Alwë Loeu_Löwë Mablung_Mablung Maeglin_Maeglin Maewu_Maiwë Magdan_Mahtan Maglor_Maglor Malau_Malawë Malgalad_Malgalad Míru_Mírwë Mírdan_Mírdan Moru_Morwë Nou_Noue Nuru_Nurwë Ólidhil_Aulendil Ólidhur_Aulendur Orodreth_Orodreth Orofer_Oropher Palantir_Palantir Rodnor_Rodnor Rúmil_Rúmil Saeros_Saeros Tharanduil_Thranduil Thingol_Thingol Tuor_Tuor Turgon_Turgon Uialion_Lómion Úmarth_Úmarth Urudhil_Urundil Urudhur_Urundur Urunu_Urunwë
@@ -2604,7 +2604,7 @@ culture_group_moriquendi = {
         culture_avari = {
 		graphical_culture = elfgfx
 		
-		color = { 0.25 0.5 0.75 }
+		color = { 3 7 171 }
 		
 		male_names = {
 			Aiknâro_Aegnor Alkwâlîrê_Alqualír Amberauto_Amrod Amdêr_Amdír Amrôda_Amroth Angâerauto_Angrod Angâmahitê_Angamaitë Angâwê_Angawë Arakânô_Argon Arakôrnô_Aragorn Araphinwê_Finarfin Artakhêr_Arothir Artanarwâ_Rodnor Artaphindê_Finrod Artareztô_Orodreth Atandnil_Atandil Boromir_Boromir Boronwê_Voronwë Danirod_Deneroth Danithârô_Denethor Dairon_Daeron Denwê_Lenwë Deuro_Dior Eârednil_Eärendil Eârednur_Eärendur Elednil_Elendil Elednur_Elendur Elemmakil_Elemmacil Elemwê_Elmo Elerôda_Elrond Elerokkô_Elrohir Elerossê_Elros Elerussê_Elross Elewê_Elu Eôl_Eöl Gawadnil_Aulendil Gawadnur_Aulendur Gilyañalatâ_Gil-galad Hallassê_Hallas Ingoldô_Ingoldo Ingwê_Ingwë Isilboro_Ithilbor Kîrtanô_Círdan Laikalassê_Legolas Lômêion_Lómion Lôwê_Löwë Mahtanô_Mahtan Maikalintil_Maeglin Maiwê_Maiwë Makalaurê_Maglor Mîrtanô_Mírdan Mîrwê_Mírwë Moriwê_Morwë Ñolophinwê_Fingolfin Nurwê_Nurwë Pharamir_Faramir Orophêr_Oropher Phayanâro_Fëanor Phayawê_Fëawë Phinderauto_Finrod Phinderkano_Fingon Phinwê_Finwë Rhûmil_Rúmil Tharantuilê_Thranduil Tûrukano_Turgon Umbarauto_Úmarth Urudnil_Urundil Urudnur_Urundur Urunwê_Urunwë Wolwê_Olue
@@ -2836,7 +2836,7 @@ culture_group_melkor = {
 	culture_urukhai = {
 		graphical_culture = orkgfx
 		
-		color = { 0.25 0.5 0.75 }
+		color = { 255 167 79 }
 		
 		male_names = {
 			Azog_Azog Bolg_Bolg Búrz_Búrz Fimbul_Fimbul Gazbag_Gazbag Gazduf_Gazduf Gazdush_Gazdush Gazhúr_Gazhúr Gazgash_Gazgash Gazbug_Gazbug 
@@ -2949,7 +2949,7 @@ culture_group_melkor = {
 	culture_troll = {
 		graphical_culture = trollgfx
 		
-		color = { 0.84 0.21 0.0 }
+		color = { 176 57 0 }
 		
 		male_names = {
 			Bûrat_Bert Tûma_Thomas Wûluag_William Dhît Huggin Hugh Agin Ardagor Baltab Brök Drek Freg Trek Krog Krek

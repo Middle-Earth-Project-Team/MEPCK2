@@ -167,7 +167,7 @@ religion_group_edain = {
 		graphical_culture = westerngfx
 
 		icon = 1
-		color = { 0.49 0.75 0.22 }
+		color = { 180 139 39 }
 		
 		high_god_name = GOD_THE_POWERS
 		
@@ -312,7 +312,7 @@ religion_group_edain = {
 		graphical_culture = celticgfx
 
 		icon = 1
-		color = { 0.90 0.87 0.23 }
+		color = { 0.84 0.72 0.56 }
 		
 		high_god_name = GOD_THE_POWERS
 		
@@ -394,7 +394,7 @@ religion_group_edain = {
 		graphical_culture = norsegfx
 
 		icon = 1
-		color = { 0.46 0.35 0.05 }
+		color = { 0.3 0.7 0.7 }
 		
 		high_god_name = GOD_THE_POWERS
 		
@@ -702,7 +702,7 @@ religion_group_melkor = {
 	religion_orkish = {
 		graphical_culture = norsegfx
 		icon = 4
-		color = { 0.74 0.27 0.09 }
+		color = { 255 128 0 }
 		
 		high_god_name = GOD_MORGOTH
 		
