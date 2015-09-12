@@ -16,7 +16,7 @@ b_druabad = city
 
 # Misc
 culture = culture_gondorian_middlemen
-religion = religion_haldadian
+religion = religion_dunedain
 terrain = plains
 8222.1.1 = {
 

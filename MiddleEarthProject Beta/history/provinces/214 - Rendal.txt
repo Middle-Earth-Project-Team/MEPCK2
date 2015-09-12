@@ -16,7 +16,7 @@ b_lebigir = city
 
 # Misc
 culture = culture_gondorian_middlemen
-religion = religion_rhovanion
+religion = religion_dunedain
 8222.1.1 = {
 
 

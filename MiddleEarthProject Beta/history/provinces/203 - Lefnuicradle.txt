@@ -15,7 +15,7 @@ b_dol_lefnui = city
 
 # Misc
 culture = culture_gondorian_middlemen
-religion = religion_haldadian
+religion = religion_dunedain
 8222.1.1 = {
 
 			b_annon_wain = ca_Hwall_1

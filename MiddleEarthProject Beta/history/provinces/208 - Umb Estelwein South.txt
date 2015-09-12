@@ -14,4 +14,4 @@ b_umbiar = city
 
 # Misc
 culture = culture_gondorian_middlemen
-religion = religion_haldadian
+religion = religion_dunedain

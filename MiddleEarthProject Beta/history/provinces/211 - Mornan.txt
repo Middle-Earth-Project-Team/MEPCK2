@@ -16,4 +16,4 @@ b_minas_mornan = city
 
 # Misc
 culture = culture_gondorian_middlemen
-religion = religion_rhovanion
+religion = religion_dunedain
