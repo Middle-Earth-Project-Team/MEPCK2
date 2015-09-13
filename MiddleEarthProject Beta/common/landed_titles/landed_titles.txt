@@ -12849,6 +12849,10 @@ d_mayor_shire = {
 	title_female = "MAYORESS"
 	title_prefix = "MAYOR_OF"
 	foa = "MAYOR_FOA"
+	
+	allow = { 
+		always=no
+	}
 
 }
 
