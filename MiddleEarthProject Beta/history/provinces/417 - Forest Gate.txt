@@ -12,7 +12,7 @@ b_forest_gate = castle
 #b_cabed_annon = castle
 
 # Misc
-culture = culture_northmen
+culture = culture_eotheod
 religion = religion_rhovanion
 
 10853.1.1 = {

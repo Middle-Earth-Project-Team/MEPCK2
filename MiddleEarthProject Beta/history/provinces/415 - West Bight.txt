@@ -14,7 +14,7 @@ b_dernburg = city
 #b_esgulburg = city
 
 # Misc
-culture = culture_northmen
+culture = culture_eotheod
 religion = religion_rhovanion
 
 10293.1.1 = {

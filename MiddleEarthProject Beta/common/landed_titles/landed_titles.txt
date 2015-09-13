@@ -11312,6 +11312,8 @@ e_anduin = {
 			color={ 210 17 17 }
 			color2={ 255 255 255 }
 			
+			culture_eotheod = "Éothéod Hall"
+			
 				b_beornhall = {
 				}
 				b_beornfields = {

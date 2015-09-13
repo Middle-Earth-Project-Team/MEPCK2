@@ -101,7 +101,7 @@ religion_group_eldar = {
 	ai_convert_other_group = 0	# never try to convert
 	
 	religion_moriquendi = {
-		graphical_culture = hindugfx #westerngfx
+		graphical_culture = westerngfx
 
 		icon = 9
 		color = { 0.81 0.63 0.90 }
