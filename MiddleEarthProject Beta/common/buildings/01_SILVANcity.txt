@@ -788,7 +788,7 @@ city = {
 		build_time = 1460 #4y
 		fort_level = 4.4
 		garrison_size = 2.50
-		heavy_infantry = 500
+		heavy_infantry = 550
 		archers = 1000
 		ai_creation_factor = 100
         	potential = {
@@ -804,6 +804,7 @@ city = {
 		ai_creation_factor = 86
 		light_infantry = 250
 		archers = 250
+		pikemen = 250
 		tax_income = 3		
         	potential = {
             		province_id = 310 #Amon Lanc
@@ -823,7 +824,7 @@ city = {
 		fort_level = 6.0
 		garrison_size = 2.00
 		heavy_infantry = 1000
-		archers = 1000
+		archers = 1025
 		light_infantry = 500
 		horse_archers = 250
 		ai_creation_factor = 86
@@ -831,4 +832,23 @@ city = {
             		FROMFROM = { title = b_galadriel_garden }
 		}
 	}	
+	tp_halls_remembrance = {
+		desc = tp_halls_remembrance_desc
+		gold_cost = 150
+		build_time = 547
+		liege_piety = 0.05
+		pikemen = 20
+		archers = 20
+		ai_creation_factor = 109
+		add_number_to_name = no
+        	potential = {
+            		has_global_flag = building
+			OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+			}
+        }
+	}
 }

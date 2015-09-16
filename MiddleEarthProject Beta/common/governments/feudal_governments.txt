@@ -1,4 +1,55 @@
 feudal_governments = {
+    
+	
+		wilderness_government = {
+
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+			CASTLE
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			wilderness_government
+		}
+		free_revoke_on_tiers = {
+
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+
+			tribal_government
+		}
+		potential = {
+
+			religion = religion_wilderness
+			is_patrician = no
+		}
+
+		color = { 50 50 50 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = no
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+
+			tribal_government
+		}
+	}
 
 	feudal_government = {
 		preferred_holdings = { CASTLE }
@@ -10,18 +61,37 @@ feudal_governments = {
 			TRIBAL
 		}
 		accepts_liege_governments = { # Gets the wrong religion modifier instead
-			muslim_government
+			elf_government
+			dwarf_government
+			dunedain_government
+            gondor_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
 		potential = {
-			NAND = {
-				controls_religion = yes
-				NOT = { religion_group = muslim }
-				NOT = { religion = norse_pagan_reformed }
-			}
-			NOT = {	religion_group = muslim	}
+		    NOT = { is_government_potential = elf_government}
+			NOT = { is_government_potential = dwarf_government}
+			NOT = { is_government_potential = melkor_government }
+			NOT = { is_government_potential = darkness_government }
+			NOT = { is_government_potential = haradwaith_government }
+			NOT = { is_government_potential = fallenmen_government }
+			NOT = { is_government_potential = dunedain_government }
+			NOT = { is_government_potential = wraith_government }
+			NOT = { is_government_potential = wilderness_government }
+			NOT = { is_government_potential = halfling_government }
+			NOT = { primary_title = e_gondor }
+			NOT = { primary_title = e_arnor }
+			NOT = { culture = culture_maiar }
+			NOT = { culture = culture_valar }
 			is_patrician = no
 		}
 		
@@ -31,9 +101,523 @@ feudal_governments = {
 		barons_need_dynasty = yes
 
 		can_build_tribal = no
+		can_build_temple = no
 		
 		ignore_in_vassal_limit_calculation = {
 			tribal_government
+			elf_government
+			dwarf_government
+			halfling_government
+			dunedain_government
+		}
+	}
+	
+	elf_government = {
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+			CASTLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			dwarf_government
+			dunedain_government
+			halfling_government
+			gondor_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
+		potential = {
+		culture_group = culture_group_amanyar
+		culture_group = culture_group_umanyar
+		culture_group = culture_group_moriquendi
+		culture_group = culture_group_quendi
+			#is_patrician = no
+		}
+		
+		color = { 28 138 81 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		capital_move_delay = 120
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			dwarf_government
+			halfling_government
+		}
+	}
+	
+	dwarf_government = {
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+			CASTLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			elf_government
+			dunedain_government
+			halfling_government
+			gondor_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
+		potential = {
+		culture_group = culture_group_dwarves
+			#is_patrician = no
+		}
+		
+		color = { 125 74 6 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		capital_move_delay = 120
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			elf_government
+			halfling_government
+		}
+	}
+	
+	dunedain_government = {
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			TRIBAL
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+			CASTLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			dwarf_government
+			elf_government
+			halfling_government
+			gondor_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
+		potential = {
+		culture = culture_numernorian
+		culture = culture_dunedain
+		culture = culture_gondorian
+		culture = culture_arnorian
+		NOT = { culture = culture_black_numenorean }
+		NOT = { culture = culture_adunaic }
+			#is_patrician = no
+		}
+		
+		color = { 150 149 163 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			dwarf_government
+			halfling_government
+			elf_government
+		}
+	}
+	
+	halfling_government = {
+	    preferred_holdings ={ CITY }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+			CASTLE
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			dwarf_government
+			elf_government
+			dunedain_government
+			gondor_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
+		potential = {
+		culture_group = culture_group_halfling
+			#is_patrician = no
+		}
+		
+		color = { 146 219 35 }
+		
+		dukes_called_kings = no
+		barons_need_dynasty = yes
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			dwarf_government
+			dunedain_government
+			elf_government
+		}
+	}
+	
+	gondor_government = {
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			dwarf_government
+			elf_government
+			dunedain_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			melkor_government
+			darkness_government
+			haradwaith_government
+			fallenmen_government
+			wraith_government
+		}
+		vassal_call_to_arms = {
+			dunedain_government #Dunedain princes are a fickle bunch.
+			halfling_government 
+			dwarf_government #Dwarves are stubborn
+			feudal_government
+		}
+		potential = {
+		OR = {
+		primary_title = e_gondor
+		primary_title = e_arnor
+		}
+		#is_patrician = no
+		}
+		
+		color = { 237 237 237 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			dwarf_government
+			elf_government
+		}
+	}
+	
+	#Evil Governments
+	melkor_government = { #Melkor's creations
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CASTLE
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			darkness_government
+			fallenmen_government
+			haradwaith_government
+			wraith_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			feudal_government
+			halfling_government
+			dwarf_government
+			dunedain_government
+			elf_government
+		}
+		vassal_call_to_arms = {
+			fallenmen_government #Dunedain princes are a fickle bunch.
+			wraith_government 
+			haradwaith_government
+			darkness_government
+			melkor_government #Only the strongest are followed, but even then, some do not accept them entirely.
+		}
+		potential = {
+		culture_group = culture_group_melkor
+			#is_patrician = no
+		}
+		
+		color = { 92 39 5 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			fallenmen_government
+			darkness_government
+			wraith_government
+		}
+	}
+	
+		darkness_government = { #Sauron and Saruman
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CASTLE
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			darkness_government
+			fallenmen_government
+			haradwaith_government
+			wraith_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			feudal_government
+			halfling_government
+			dwarf_government
+			dunedain_government
+			elf_government
+		}
+		potential = {
+		    OR = {
+		        primary_title = e_barad_dur
+				primary_title = e_isengard
+				culture = culture_istari
+				culture = culture_maiar }
+		    NOT = { trait = good_side }
+			#is_patrician = no
+		}
+		
+		color = { 66 50 50 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			fallenmen_government
+			darkness_government
+			wraith_government
+		}
+	}
+	
+	fallenmen_government = { #Black Numenoreans and Angmarim Hill Men
+	    preferred_holdings ={ CASTLE }
+		allowed_holdings = {
+		    CASTLE
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CASTLE
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			darkness_government
+			melkor_government
+			haradwaith_government
+			wraith_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			feudal_government
+			halfling_government
+			dwarf_government
+			dunedain_government
+			elf_government
+		}
+		potential = {
+		    OR = {
+		        culture = culture_black_numenorean
+				culture = culture_adunaic
+				culture = culture_umbareans
+			#is_patrician = no
+		    }
+		}
+		
+		color = { 145 150 51 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			melkor_government
+			darkness_government
+			wraith_government
+		}
+	}
+	
+	haradwaith_government = { #Haradrim
+	    preferred_holdings ={ TRIBAL }
+		allowed_holdings = {
+			CITY
+			FORT
+			}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			CASTLE
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			darkness_government
+			melkor_government
+			haradwaith_government
+			wraith_government
+		}
+		free_revoke_on_governments = { # Vassals of can have their titles revoked for free
+			tribal_government
+			feudal_government
+			halfling_government
+			dwarf_government
+			dunedain_government
+			elf_government
+		}
+		potential = {
+		    culture_group = culture_group_southron
+			NOT = culture = culture_umbareans
+			#is_patrician = no
+		}
+		
+		color = { 83 84 68 }
+		
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = yes
+		can_build_castle = no
+		can_build_temple = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+			melkor_government
+			darkness_government
+			wraith_government
 		}
 	}
 	

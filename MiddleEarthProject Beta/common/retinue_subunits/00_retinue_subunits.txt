@@ -278,6 +278,26 @@ redserpentguard =
     }
 }
 
+#250 Light Cavalry, 150 Camel Cavalry#
+haradrimnomads =
+{
+    first_type = 3
+    first_amount = 250
+	second_type = 6
+	second_amount = 150
+    culture = culture_haradrim
+	potential = {
+		culture = culture_haradrim
+		is_nomadic = no
+	}
+    modifier = {
+        light_cavalry_offensive = 1.5
+        light_cavalry_defensive = 1.5
+        light_cavalry_morale = 0.3
+       
+    }
+}
+
 #Black Numenorean Retinues#
 
 #250 Heavy Cavalry#
@@ -318,15 +338,15 @@ blacknumenoreanpalaceguards =
     }
 }
 
-#2 Oliphants, 150 archers#
-haradrimmumakil =
+#150 Camels, 150 archers#
+haradrimcavalry =
 {
     first_type = 5
     first_amount = 150
 	second_type = 6
-	second_amount = 2
+	second_amount = 150
 	
-	special_troops = war_elephants
+	special_troops = camel_cavalry
 	
     culture = culture_black_numenorean
 	potential = {
@@ -337,6 +357,9 @@ haradrimmumakil =
         archers_offensive = 0.75
         archers_defensive = 0.75
 		archers_morale = 0.75
+		camel_cavalry_offensive = 0.75
+		camel_cavalry_defensive = 0.75
+		camel_cavalry_morale = 0.75
        
     }
 }
@@ -822,7 +845,7 @@ avarihorsearchers = {
 		is_nomadic = no
 	}
     modifier = {
-        horse_archers_defebsive = 3.0
+        horse_archers_defensive = 3.0
         horse_archers_offensive = 3.0
     }
 }

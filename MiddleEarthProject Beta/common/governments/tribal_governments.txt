@@ -25,6 +25,11 @@ tribal_governments = {
 		frame_suffix = "_tribal"
 		title_prefix = "tribal_"
 		potential = {
+		    NOT = culture_group = culture_group_numenorian
+			NOT = culture_group = culture_group_melkor
+			NOT = culture_group = culture_group_dwarves
+			NOT = culture = culture_istari
+			NOT = culture = culture_maiar
 			NAND = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }

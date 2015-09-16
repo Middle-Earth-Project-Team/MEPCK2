@@ -717,6 +717,7 @@ city = {
 		build_time = 665
 		light_cavalry = 48
 		knights = 16
+		horse_archers = 16
 		
 		ai_creation_factor = 95
 		potential = {
@@ -735,6 +736,7 @@ city = {
 		build_time = 875
 		light_cavalry = 54
 		knights = 18
+		horse_archers = 18
 		
 		ai_creation_factor = 94
         	potential = {
@@ -753,6 +755,7 @@ city = {
 		build_time = 1060
 		light_cavalry = 60
 		knights = 20
+		horse_archers = 20
 		
 		ai_creation_factor = 93
         	potential = {
@@ -770,6 +773,7 @@ city = {
 		build_time = 1606
 		light_cavalry = 66
 		knights = 22
+		horse_archers = 22
 		
 		ai_creation_factor = 92
         	potential = {
@@ -787,6 +791,7 @@ city = {
 		build_time = 2800
 		light_cavalry = 72
 		knights = 24
+		horse_archers = 24
 		
 		ai_creation_factor = 91
         	potential = {
@@ -804,6 +809,7 @@ city = {
 		build_time = 3370
 		light_cavalry = 75
 		knights = 25
+		horse_archers = 25
 		
 		ai_creation_factor = 90
         	potential = {

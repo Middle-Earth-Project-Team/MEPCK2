@@ -139,7 +139,6 @@ narrative_event = {
 			copy_title_laws = k_arthedain
 		}
 		hidden_tooltip = {
-			activate_title = { title = e_arnor status = no }
 			any_playable_ruler = {
 				limit = {
 					NOT = { has_landed_title = e_arnor }
@@ -196,7 +195,6 @@ narrative_event = {
 			copy_title_laws = e_gondor
 		}
 		hidden_tooltip = {
-			activate_title = { title = e_reunited_kingdom status = no }
 			any_playable_ruler = {
 				limit = {
 					NOT = { has_landed_title = e_reunited_kingdom }

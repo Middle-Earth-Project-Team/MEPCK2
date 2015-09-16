@@ -209,6 +209,9 @@ castle = {
 		gold_cost = 75
 		build_time = 275
 		levy_size = 0.05
+		heavy_infantry = -150
+		knights = -100
+		light_cavalry = -50
 		ai_creation_factor = 102
 		potential = {
             		has_global_flag = building
@@ -476,13 +479,14 @@ castle = {
             	}
 	}
 	
-####################### Castle Guard, gives heavy infantry and pikemen #######################
+####################### Castle Guard, gives archers and pikemen #######################
 	ca_Scastleguards_1 = {
 		desc = ca_Scastleguards_1_desc
 		
 		gold_cost = 100
 		build_time = 365
 		pikemen = 45
+		archers = 35
 		ai_creation_factor = 105
 		potential = {
 	 		has_global_flag = building
@@ -501,6 +505,7 @@ castle = {
 		gold_cost = 120
 		build_time = 547
 		pikemen = 55
+		archers = 45
 		ai_creation_factor = 104
 		potential = {
             		has_global_flag = building
@@ -519,6 +524,7 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		pikemen = 65
+		archers = 55
 		ai_creation_factor = 103
         	potential = {
             		has_global_flag = building
@@ -536,6 +542,7 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		pikemen = 75
+		archers = 65
 		ai_creation_factor = 102
         	potential = {
             		has_global_flag = building
@@ -553,6 +560,7 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		pikemen = 85
+		archers = 75
 		ai_creation_factor = 101
         	potential = {
             		has_global_flag = building
@@ -570,6 +578,7 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		pikemen = 95
+		archers = 85
 		ai_creation_factor = 100
         	potential = {
             		has_global_flag = building
@@ -581,7 +590,7 @@ castle = {
             	}
 	}
 	
-####################### Stable, gives light cavalry and some heavy cavalry #######################
+####################### Stable, gives light cavalry  #######################
 	ca_Sstable_1 = {
 		desc = ca_Sstable_1_desc
 		
@@ -860,6 +869,97 @@ castle = {
 			}
             	}
 	}
+		ca_Ssilvan_elite_1 = {
+		desc = ca_silvan_elite_desc
+		
+		prerequisites = { ca_Swall_1 }
+		gold_cost = 85
+		build_time = 320
+		pikemen = 40
+		ai_creation_factor = 104
+		potential = {
+            		has_global_flag = building
+						OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+		}
+	}
+	ca_Sslivan_elite_2 = {
+		desc = ca_silvan_elite_desc
+		
+		prerequisites = { ca_Swall_1 }
+		upgrades_from = ca_Ssilvan_elite_1
+		gold_cost = 90
+		build_time = 395
+		pikemen = 40
+		ai_creation_factor = 104
+		potential = {
+            		has_global_flag = building
+						OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+		}
+	}
+	ca_Ssilvan_elite_3 = {
+		desc = ca_silvan_elite_desc
+		
+		prerequisites = { ca_Swall_1 }
+		upgrades_from = ca_Sslivan_elite_2
+		gold_cost = 125
+		build_time = 570
+		pikemen = 40
+		ai_creation_factor = 104
+		potential = {
+            		has_global_flag = building
+						OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+		}
+	}
+	ca_Sslivan_elite_4 = {
+		desc = ca_silvan_elite_desc
+		
+		prerequisites = { ca_Swall_1 }
+		upgrades_from = ca_Sslivan_elite_3
+		gold_cost = 160
+		build_time = 580
+		pikemen = 40
+		archers = 20
+		ai_creation_factor = 104
+		potential = {
+            		has_global_flag = building
+						OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+		}
+	}
+	ca_Ssilvan_elite_5 = {
+		desc = ca_slivan_elite_desc
+		
+		prerequisites = { ca_Swall_1 }
+		upgrades_from = ca_Sslivan_elite_4
+		gold_cost = 190
+		build_time = 920
+		archers = 40
+		pikemen = 20
+		ai_creation_factor = 104
+		potential = {
+            		has_global_flag = building
+			OR = {
+			culture = culture_silvan
+			culture = culture_nandor
+			culture = culture_laegrim
+			}
+		}
+	}
 ####################### Special buildings #######################
 	ca_telain = {
 		desc = ca_telain_desc
@@ -941,7 +1041,7 @@ castle = {
 		build_time = 1460 #4y
 		fort_level = 4.4
 		garrison_size = 2.00
-		heavy_infantry = 500
+		heavy_infantry = 550
 		pikemen = 500
 		archers = 750
 		ai_creation_factor = 100
@@ -958,6 +1058,7 @@ castle = {
 		ai_creation_factor = 86
 		light_infantry = 250
 		archers = 250
+		pikemen = 250
 		tax_income = 3		
         	potential = {
             		province_id = 310 #Amon Lanc
@@ -977,7 +1078,7 @@ castle = {
 		fort_level = 6.0
 		garrison_size = 2.00
 		heavy_infantry = 1000
-		archers = 1000
+		archers = 1025
 		light_infantry = 500
 		horse_archers = 250
 		ai_creation_factor = 86

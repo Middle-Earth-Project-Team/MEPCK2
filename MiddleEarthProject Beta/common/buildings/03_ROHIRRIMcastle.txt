@@ -167,6 +167,9 @@ castle = {
 		gold_cost = 75
 		build_time = 275
 		levy_size = 0.05
+		light_infantry = -100
+		pikemen = -50
+		heavy_infantry = -50
 		ai_creation_factor = 102
 			potential = {
             		has_global_flag = building
@@ -260,8 +263,8 @@ castle = {
 		
 		gold_cost = 50
 		build_time = 180
-		light_infantry = 40
-		archers = 5
+		light_infantry = 50
+		archers = 25
 		ai_creation_factor = 100
 		potential = {
 	   		has_global_flag = building
@@ -279,7 +282,7 @@ castle = {
 		gold_cost = 60
 		build_time = 270
 		light_infantry = 25
-		archers = 25
+		archers = 35
 		ai_creation_factor = 99
         	potential = {
             		has_global_flag = building
@@ -295,8 +298,8 @@ castle = {
 		upgrades_from = ca_Rmilitia_barracks_2
 		gold_cost = 100
 		build_time = 400
-		light_infantry = 10
-		archers = 45
+		light_infantry = 15
+		archers = 55
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
@@ -312,8 +315,8 @@ castle = {
 		upgrades_from = ca_Rmilitia_barracks_3
 		gold_cost = 150
 		build_time = 745
-		light_infantry = 15
-		archers = 60
+		light_infantry = 20
+		archers = 65
 		ai_creation_factor = 98
         	potential = {
             		has_global_flag = building
@@ -387,6 +390,7 @@ castle = {
 		gold_cost = 45
 		build_time = 160
 		pikemen = 20
+		light_cavalry = 10
 		ai_creation_factor = 105
 		potential = {
 	 		has_global_flag = building
@@ -404,6 +408,7 @@ castle = {
 		gold_cost = 65
 		build_time = 280
 		pikemen = 28
+		light_cavalry = 10
 		ai_creation_factor = 104
 		potential = {
             		has_global_flag = building
@@ -421,6 +426,7 @@ castle = {
 		gold_cost = 105
 		build_time = 470
 		pikemen = 33
+		light_cavalry = 10
 		ai_creation_factor = 103
         	potential = {
             		has_global_flag = building
@@ -437,6 +443,7 @@ castle = {
 		gold_cost = 152
 		build_time = 555
 		pikemen = 38
+		light_cavalry = 10
 		ai_creation_factor = 102
         	potential = {
             		has_global_flag = building
@@ -453,6 +460,7 @@ castle = {
 		gold_cost = 205
 		build_time = 990
 		pikemen = 43
+		light_cavalry = 10
 		ai_creation_factor = 101
         	potential = {
             		has_global_flag = building
@@ -469,6 +477,7 @@ castle = {
 		gold_cost = 255
 		build_time = 1235
 		pikemen = 48
+		light_cavalry = 10
 		ai_creation_factor = 100
         	potential = {
             		has_global_flag = building
@@ -486,6 +495,8 @@ castle = {
 		gold_cost = 145
 		build_time = 550
 		light_cavalry = 53
+		knights = 5
+		horse_archers = 25
 		ai_creation_factor = 89
 		potential = {
 	   		has_global_flag = building
@@ -503,6 +514,8 @@ castle = {
 		gold_cost = 195
 		build_time = 825
 		light_cavalry = 68
+		knights = 5
+		horse_archers = 32
 		ai_creation_factor = 88
         	potential = {
             		has_global_flag = building
@@ -520,6 +533,8 @@ castle = {
 		gold_cost = 290
 		build_time = 1061
 		light_cavalry = 80
+		knights = 12
+		horse_archers = 41
 		ai_creation_factor = 87
         	potential = {
             		has_global_flag = building
@@ -536,7 +551,8 @@ castle = {
 		gold_cost = 455
 		build_time = 1660
 		light_cavalry = 83
-		knights = 8
+		knights = 12
+		horse_archers = 44
 		ai_creation_factor = 86
         	potential = {
             		has_global_flag = building
@@ -552,7 +568,8 @@ castle = {
 		gold_cost = 605
 		build_time = 2860
 		light_cavalry = 83
-		knights = 15
+		knights = 19
+		horse_archers = 32
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
@@ -570,6 +587,7 @@ castle = {
 		build_time = 3805
 		light_cavalry = 83
 		knights = 30
+		horse_archers = 32
 		ai_creation_factor = 85
         	potential = {
             		has_global_flag = building
@@ -747,112 +765,6 @@ castle = {
             	}
 	}
 
-##Rohan special buildings -seems unbalanced-##
-	ca_militia_barracks_1rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		gold_cost = 200
-		build_time = 780
-		light_cavalry = 56
-		knights = 19
-		
-		ai_creation_factor = 100
-		potential = {
-			has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-    		}
-	}
-
-	ca_militia_barracks_2rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		prerequisites = { ca_Rwall_1 }
-		upgrades_from = ca_militia_barracks_1rohan
-		gold_cost = 245
-		build_time = 1030
-		light_cavalry = 64
-		knights = 21
-		
-		ai_creation_factor = 99
-   		potential = {
-			has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-		}
-	}
-
-	ca_militia_barracks_3rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		upgrades_from = ca_militia_barracks_2rohan
-		gold_cost = 345
-		build_time = 1260
-		light_cavalry = 71
-		knights = 24
-		
-		ai_creation_factor = 98
-    		potential = {
-			has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-		}
-	}
-
-	ca_militia_barracks_4rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		upgrades_from = ca_militia_barracks_3rohan
-		gold_cost = 525
-		build_time = 1916
-		light_cavalry = 79
-		knights = 26
-		
-		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-            	}
-	}
-	ca_militia_barracks_5rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		upgrades_from = ca_militia_barracks_4rohan
-		gold_cost = 710
-		build_time = 3358
-		light_cavalry = 86
-		knights = 29
-		
-		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-            	}
-	}
-	ca_militia_barracks_6rohan = {
-		desc = ca_militia_barracks_1rohan_desc
-		upgrades_from = ca_militia_barracks_5rohan
-		gold_cost = 835
-		build_time = 4210
-		light_cavalry = 94
-		knights = 31
-		
-		ai_creation_factor = 98
-        	potential = {
-            		has_global_flag = building
-			OR = {
-				culture = culture_rohirrim
-				culture = culture_eotheod
-			}
-            	}
-	}
 ##Rohan unique buildings##
 	ca_helmsdeep = { #Great Fortress of Helm's Deep#
 		desc = ca_helmsdeep_desc

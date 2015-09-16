@@ -5,8 +5,13 @@ castle = {
 		desc = ca_MT_lair_desc
 		gold_cost = 210
 		build_time = 765
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		light_cavalry = -200
+		knights = -200
 		ai_creation_factor = 105
 		potential = {
 			culture = culture_troll
@@ -17,7 +22,7 @@ castle = {
 		upgrades_from = ca_MT_lair_1
 		gold_cost = 235
 		build_time = 1055
-		heavy_infantry = 20
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -30,7 +35,7 @@ castle = {
 		upgrades_from = ca_MT_lair_2
 		gold_cost = 355
 		build_time = 1445
-		heavy_infantry = 30
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -43,7 +48,7 @@ castle = {
 		upgrades_from = ca_MT_lair_3
 		gold_cost = 500
 		build_time = 1830
-		heavy_infantry = 40
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -56,7 +61,7 @@ castle = {
 		upgrades_from = ca_MT_lair_4
 		gold_cost = 635
 		build_time = 3340
-		heavy_infantry = 50
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -69,7 +74,7 @@ castle = {
 		upgrades_from = ca_MT_lair_5
 		gold_cost = 765
 		build_time = 3475
-		heavy_infantry = 60
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -82,11 +87,26 @@ castle = {
 		desc = ca_dragon_lair_desc
 		gold_cost = 1
 		build_time = 1
-		heavy_infantry = 1
+		dragons = 1
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		light_cavalry = -200
+		knights = -200
 		ai_creation_factor = 120
 		potential = {
 			FROM = { culture = culture_dragons }
             	}
+	}
+	ca_dragon_horde = {
+		desc = ca_dragon_horde_desc
+		gold_cost = 210
+		build_time = 765
+		tax_income = 6
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_dragons
+        }
 	}
 	ca_balrog_lair = {
 		desc = ca_balrog_lair_desc
@@ -99,13 +119,131 @@ castle = {
 			FROMFROM = { title = b_first_hall }
             	}
 	}
+		ca_spider_lair_1 = {
+		desc = ca_spider_lair_desc
+		gold_cost = 210
+		build_time = 765
+		spiderlings = 50
+		tax_income = 2
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		light_cavalry = -200
+		knights = -200
+		ai_creation_factor = 105
+		potential = {
+			culture = culture_spider
+        }
+	}
+	ca_spider_lair_2 = {
+		desc = ca_spider_lair_desc
+		upgrades_from = ca_spider_lair_1
+		gold_cost = 235
+		build_time = 1055
+		spiderlings = 50
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_spider
+            	}
+	}
+	ca_spider_lair_3 = {
+		desc = ca_spider_lair_desc
+		upgrades_from = ca_spider_lair_2
+		gold_cost = 355
+		build_time = 1445
+		spiderlings = 50
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_spider
+            	}
+	}
+	ca_wight_lair_1 = {
+		desc = ca_wight_lair_desc
+		gold_cost = 210
+		build_time = 765
+		wights = 25
+		tax_income = 2
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		light_cavalry = -200
+		knights = -200
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_wight
+        }
+	}
+	ca_wight_lair_2 = {
+		desc = ca_wight_lair_desc
+		upgrades_from = ca_wight_lair_1
+		gold_cost = 235
+		build_time = 1055
+		wights = 25
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_wight
+            	}
+	}
+	ca_wight_lair_3 = {
+		desc = ca_wight_lair_desc
+		upgrades_from = ca_wight_lair_2
+		gold_cost = 355
+		build_time = 1445
+		wights = 25
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_wight
+            	}
+	}
+	ca_entmoot_1 = {
+		desc = ca_entmoot_desc
+		gold_cost = 210
+		build_time = 765
+		ents = 25
+		tax_income = 1
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		light_cavalry = -200
+		knights = -200
+		ai_creation_factor = 105
+		potential = {
+			culture = culture_entish
+			culture = culture_huorn
+        }
+	}
+	ca_entmoot_2 = {
+		desc = ca_entmoot_desc
+		upgrades_from = ca_entmoot_1
+		gold_cost = 235
+		build_time = 1055
+		ents = 25
+		tax_income = 1
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_entish
+					culture = culture_huorn
+            	}
+	}
 }
 city = {
 	ct_MT_lair_1 = {
 		desc = ca_MT_lair_desc
 		gold_cost = 210
 		build_time = 765
-		heavy_infantry = 10
+		trolls = 5
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -117,7 +255,7 @@ city = {
 		upgrades_from = ct_MT_lair_1
 		gold_cost = 235
 		build_time = 1055
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -130,7 +268,7 @@ city = {
 		upgrades_from = ct_MT_lair_2
 		gold_cost = 355
 		build_time = 1445
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -143,7 +281,7 @@ city = {
 		upgrades_from = ct_MT_lair_3
 		gold_cost = 500
 		build_time = 1830
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -156,7 +294,7 @@ city = {
 		upgrades_from = ct_MT_lair_4
 		gold_cost = 635
 		build_time = 3340
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
@@ -169,12 +307,120 @@ city = {
 		upgrades_from = ct_MT_lair_5
 		gold_cost = 765
 		build_time = 3475
-		heavy_infantry = 10
+		trolls = 5
 		tax_income = 2
 		ai_creation_factor = 105
 		potential = {
 	 		has_global_flag = building
             		culture = culture_troll
             	}
+	}
+		ct_dragon_horde = {
+		desc = ca_dragon_horde_desc
+		gold_cost = 210
+		build_time = 765
+		tax_income = 6
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_dragons
+        }
+	}
+		ct_spider_lair_1 = {
+		desc = ca_spider_lair_desc
+		gold_cost = 210
+		build_time = 765
+		spiderlings = 20
+		tax_income = 2
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_spider
+        }
+	}
+	ct_spider_lair_2 = {
+		desc = ca_spider_lair_desc
+		upgrades_from = ct_spider_lair_1
+		gold_cost = 235
+		build_time = 1055
+		spiderlings = 20
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_spider
+            	}
+	}
+	ct_spider_lair_3 = {
+		desc = ca_spider_lair_desc
+		upgrades_from = ct_spider_lair_2
+		gold_cost = 355
+		build_time = 1445
+		spiderlings = 20
+		tax_income = 2
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_spider
+            	}
+	}
+	ct_wight_lair_1 = {
+		desc = ca_wight_lair_desc
+		gold_cost = 210
+		build_time = 765
+		wights = 5
+		tax_income = 1
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_wight
+        }
+	}
+	ct_wight_lair_2 = {
+		desc = ca_wight_lair_desc
+		upgrades_from = ct_wight_lair_1
+		gold_cost = 235
+		build_time = 1055
+		wights = 5
+		tax_income = 1
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_wight
+            	}
+	}
+	ct_wight_lair_3 = {
+		desc = ca_wight_lair_desc
+		upgrades_from = ct_wight_lair_2
+		gold_cost = 355
+		build_time = 1445
+		wights = 5
+		tax_income = 1
+		ai_creation_factor = 105
+		potential = {
+	 		has_global_flag = building
+            		culture = culture_wight
+            	}
+	}
+		ct_ent_grove_1 = {
+		desc = ca_ent_grove_desc
+		gold_cost = 210
+		build_time = 765
+		monthly_piety_gain = 0.5
+		tax_income = 2
+		light_infantry = -200
+		pikemen = -200
+		archers = -200
+		ai_creation_factor = 105
+		potential = {
+            culture = culture_entish
+			culture = culture_huorn
+        }
 	}
 }
