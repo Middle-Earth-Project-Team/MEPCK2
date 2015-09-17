@@ -926,7 +926,7 @@ castle = {
 		desc = ca_silvan_elite_desc
 		
 		prerequisites = { ca_Swall_1 }
-		upgrades_from = ca_Sslivan_elite_3
+		upgrades_from = ca_Ssilvan_elite_3
 		gold_cost = 160
 		build_time = 580
 		pikemen = 40

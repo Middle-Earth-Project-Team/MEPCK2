@@ -298,7 +298,7 @@ castle = {
 		gold_cost = 100
 		build_time = 365
 		pikemen = 45
-		heavy_infantry 15
+		heavy_infantry = 15
 		ai_creation_factor = 105
 		potential = {
 	 		has_global_flag = building

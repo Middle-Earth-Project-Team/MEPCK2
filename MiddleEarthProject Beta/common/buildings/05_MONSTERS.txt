@@ -216,8 +216,10 @@ castle = {
 		knights = -200
 		ai_creation_factor = 105
 		potential = {
+		OR = {
 			culture = culture_entish
 			culture = culture_huorn
+			}
         }
 	}
 	ca_entmoot_2 = {
@@ -230,8 +232,10 @@ castle = {
 		ai_creation_factor = 105
 		potential = {
 	 		has_global_flag = building
+			OR = {
             		culture = culture_entish
 					culture = culture_huorn
+			}
             	}
 	}
 }
@@ -419,8 +423,10 @@ city = {
 		archers = -200
 		ai_creation_factor = 105
 		potential = {
+		OR = {
             culture = culture_entish
 			culture = culture_huorn
+		}
         }
 	}
 }

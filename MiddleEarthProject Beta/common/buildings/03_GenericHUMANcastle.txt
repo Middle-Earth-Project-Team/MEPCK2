@@ -1270,7 +1270,8 @@ castle = {
 			culture_group = culture_group_easterling
 			NOT = { culture = culture_balchoth }
 			NOT = { culture = culture_wainriders }
-	}
+	    }
+    }
 	
 	ca_trollmen_1 = {
 		desc = ca_trollmen_desc
@@ -1730,9 +1731,4 @@ castle = {
 			culture = culture_woodsmen
             	}
 	}
-
-
-
-
-
 }
