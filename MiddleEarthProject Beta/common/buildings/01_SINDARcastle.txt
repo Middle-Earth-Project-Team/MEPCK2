@@ -659,7 +659,7 @@ castle = {
 	ca_Vsindar_elite_1 = {
 		desc = ca_sindar_elite_desc
 		
-		prerequisites = { ca_Awall_1 }
+		prerequisites = { ca_Vwall_1 }
 		gold_cost = 85
 		build_time = 320
 		heavy_infantry = 20
@@ -674,7 +674,7 @@ castle = {
 	ca_Vsindar_elite_2 = {
 		desc = ca_sindar_elite_desc
 		
-		prerequisites = { ca_Awall_1 }
+		prerequisites = { ca_Vwall_1 }
 		upgrades_from = ca_Vsindar_elite_1
 		gold_cost = 90
 		build_time = 395
@@ -690,7 +690,7 @@ castle = {
 	ca_Vsindar_elite_3 = {
 		desc = ca_sindar_elite_desc
 		
-		prerequisites = { ca_Awall_1 }
+		prerequisites = { ca_Vwall_1 }
 		upgrades_from = ca_Vsindar_elite_2
 		gold_cost = 125
 		build_time = 570
@@ -706,7 +706,7 @@ castle = {
 	ca_Vsindar_elite_4 = {
 		desc = ca_sindar_elite_desc
 		
-		prerequisites = { ca_Awall_1 }
+		prerequisites = { ca_Vwall_1 }
 		upgrades_from = ca_Vsindar_elite_3
 		gold_cost = 160
 		build_time = 580
@@ -722,7 +722,7 @@ castle = {
 	ca_Vsindar_elite_5 = {
 		desc = ca_sindar_elite_desc
 		
-		prerequisites = { ca_Awall_1 }
+		prerequisites = { ca_Vwall_1 }
 		upgrades_from = ca_Vsindar_elite_4
 		gold_cost = 190
 		build_time = 920
