@@ -13,9 +13,6 @@ namespace = TOG
 # An ambitious landless claimant begins to plan an adventure for the title
 character_event = {
 	id = TOG.1200
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_war
 	
 	hide_window = yes # Only fires for unplayable landless characters
 	
@@ -29,8 +26,6 @@ character_event = {
 		has_dlc = "The Old Gods"
 		
 		is_ruler = no
-		
-#		year = 867
 		
 		any_claim = {
 			has_holder = yes
@@ -734,8 +729,6 @@ character_event = {
 		
 		is_ruler = no
 		
-#		year = 867
-		
 		diplomacy = 7
 		martial = 9
 		health = 4
@@ -898,14 +891,6 @@ character_event = {
 							}
 						}
 					}
-					NOT = {
-						region = world_europe_north
-					}
-					NOT = {
-						duchy = {
-							title = d_bjarmia
-						}
-					}
 				}
 			}
 			
@@ -1006,11 +991,9 @@ character_event = {
 
 # An ambitious character with no inheritance starts an adventure for a foreign title
 # (Temporary title created and a war declared)
+
 character_event = {
 	id = TOG.1212
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_war
 	
 	hide_window = yes # Only fires for unplayable landless characters
 	
@@ -1237,7 +1220,6 @@ character_event = {
 	}
 	
 	option = {
-		name = OK
 	}
 }
 

@@ -1,0 +1,246 @@
+#Rohan
+5 = { 
+    name="Eorling"
+    culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+6 = { 
+	name="Éomunding"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+7 = { 
+	name="Cenláfing"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+8 = { 
+	name="Griming"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+9 = { 
+	name="Godwarding"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10 = { 
+	name="Wulfhelming"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+11 = { 
+	name="Hámaing"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 22
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+12 = { 
+	name="Swithelming"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+13 = { 
+	name="Harolding"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+14 = { 
+	name="Arngriming"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+15 = { 
+	name="Werestaning"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+16 = { 
+	name="Cytelbearning"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+17 = { 
+	name="Faermeglin"
+	culture = "culture_beorning"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 31
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+18 = { 
+	name="Hengestfeld"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+19 = { 
+	name="Gyldengrene"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+20 = {
+	name="Fen"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 33
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+21 = {
+	name="Slaighreluath"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 5
+			texture_internal = 38
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+22 = {
+	name="Stolesfrydin"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}
+
+23 = {
+	name="Uisgeduin"
+	culture = "culture_rohirrim"
+	religion = "religion_rhovanion"
+}

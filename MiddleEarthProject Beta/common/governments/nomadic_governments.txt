@@ -27,12 +27,11 @@ nomadic_governments = {
 				controls_religion = yes
 				NOT = { religion_group = muslim }
 				NOT = { religion = norse_pagan_reformed }
-			}
-			NOT = { 
-				religion = religion_wilderness
-				religion = religion_dunedain
+				
 			}
 			is_patrician = no
+			NOT = { religion = religion_wilderness }
+			religion = religion_easterlings
 			mercenary = no
 			holy_order = no
 		}
@@ -56,4 +55,5 @@ nomadic_governments = {
 		commander_limit = -4
 		capital_move_delay = 120
 	}
+	
 }

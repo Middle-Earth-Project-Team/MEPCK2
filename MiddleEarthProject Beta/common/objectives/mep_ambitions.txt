@@ -1,4 +1,4 @@
-﻿obj_become_a_rider = {
+obj_become_a_rider = {
 	type = character
 	allow = {
 		OR = {

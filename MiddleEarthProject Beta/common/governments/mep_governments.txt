@@ -1,0 +1,202 @@
+feudal_governments = {
+	#DUNEDAIN
+	dunedain_monarchy = {
+
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+		
+			CASTLE
+			CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			dunedain_stewardship
+		}
+		free_revoke_on_tiers = {
+
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+
+			tribal_government
+		}
+		potential = {
+
+			religion = religion_dunedain
+			NOT = { religion = religion_wilderness }
+			is_patrician = no
+		}
+
+		color = { 255 255 255 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+
+			tribal_government
+		}
+	}
+
+	dunedain_stewardship = {
+
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+
+		CASTLE
+		CITY
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+
+			dunedain_monarchy
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+
+			tribal_government
+		}
+		potential = {
+			
+			NOT = { religion = religion_wilderness }
+			religion = religion_dunedain
+			is_patrician = no
+		}
+
+		color = { 255 255 255 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = yes
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = no
+
+		ignores_de_jure_laws = yes
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+
+			tribal_government
+		}
+	}
+
+	wilderness_government = {
+
+		preferred_holdings = { CASTLE }
+		allowed_holdings = {
+			CASTLE
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+		
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+		
+			wilderness_government
+		}
+		free_revoke_on_tiers = {
+
+			duke
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+
+			tribal_government
+		}
+		potential = {
+
+			religion = religion_wilderness
+			is_patrician = no
+		}
+
+		color = { 50 50 50 }
+
+		uses_piety_for_law_change = no
+
+		dukes_called_kings = no
+		barons_need_dynasty = no
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		allows_matrilineal_marriage = no
+
+		can_build_tribal = no
+		can_build_temple = no
+
+		ignore_in_vassal_limit_calculation = {
+
+			tribal_government
+		}
+	}
+}
+
+feudal_governments = {
+	tribes_of_haradrim = {		
+		preferred_holdings = { TRIBAL }
+		allowed_holdings = { TRIBAL }
+		accepts_liege_governments_culture = { tribes_of_haradrim }
+		vassal_call_to_arms = { tribes_of_haradrim }
+		builds_with_prestige = { TRIBAL }
+		
+		ignore_in_vassal_limit_calculation = { tribes_of_haradrim }
+
+		frame_suffix = "_tribal"
+		title_prefix = "tribal_"	
+		
+		potential = {
+			culture_group = culture_group_southron
+		}
+		
+		color = { 92 31 23 }
+		
+		max_consorts = 3
+		
+		unit_home_modifier = {
+			supply_limit = 5
+			land_morale = 0.3
+			archers_offensive = 0.3
+			archers_defensive = 0.3
+			war_elephants_offensive = 0.3	
+			war_elephants_defensive = 0.3	
+		}
+		
+		allow_title_revokation = yes
+		allows_matrilineal_marriage = no
+		have_gender_laws = no
+		ignores_de_jure_laws = yes
+		can_build_forts = no
+		can_build_castle = no
+		can_build_city = no
+		can_build_temple = no
+		can_build_tribal = yes
+		
+		free_levies_in_offensive_war = yes
+		
+		vassal_limit = -20
+		aggression = 5.0
+	}
+}

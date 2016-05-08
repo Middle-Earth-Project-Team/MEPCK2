@@ -1975,7 +1975,7 @@ culture_group_easterling = {
 culture_group_halfling = { 
        graphical_culture = westerngfx
 	
-       culture_harfoot = {
+	culture_harfoot = {
 		graphical_culture = hobbitsgfx
 		
 		color = { 0.83 0.78 0.54 }
@@ -2143,7 +2143,7 @@ culture_group_dwarves = {
 	graphical_culture = dwarfgfx
 	
 
-        culture_longbeard = {
+	culture_longbeard = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.52 0.32 0.18 }
@@ -2179,7 +2179,7 @@ culture_group_dwarves = {
 
 		modifier = longbeard_culture_modifier
 	}
-        culture_firebeard = {
+	culture_firebeard = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2215,7 +2215,7 @@ culture_group_dwarves = {
 
 		modifier = firebeard_culture_modifier
 	}
-        culture_broadbeam = {
+	culture_broadbeam = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2251,7 +2251,7 @@ culture_group_dwarves = {
 
 		modifier = broadbeam_culture_modifier
 	}
-        culture_ironfist = {
+	culture_ironfist = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2287,7 +2287,7 @@ culture_group_dwarves = {
 
 		modifier = ironfist_culture_modifier
 	}
-		culture_stiffbeard = {
+	culture_stiffbeard = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2323,7 +2323,7 @@ culture_group_dwarves = {
 
 		modifier = stiffbeard_culture_modifier
 	}
-    culture_blacklock = {
+	culture_blacklock = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2359,7 +2359,7 @@ culture_group_dwarves = {
 
 		modifier = blacklock_culture_modifier
 	}
-        culture_stonefoot = {
+	culture_stonefoot = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2395,7 +2395,7 @@ culture_group_dwarves = {
 
 		modifier = stonefoot_culture_modifier
 	}
-    culture_petty_dwarves = {
+	culture_petty_dwarves = {
 		graphical_culture = dwarfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2436,7 +2436,7 @@ culture_group_dwarves = {
 culture_group_quendi = {
        graphical_culture = westerngfx
 
-        culture_minyar = {
+	culture_minyar = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2450,7 +2450,7 @@ culture_group_quendi = {
 
 		modifier = default_culture_modifier
 	}
-        culture_tatyar = {
+	culture_tatyar = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2464,7 +2464,7 @@ culture_group_quendi = {
 
 		modifier = default_culture_modifier
 	}
-        culture_nelyar = {
+	culture_nelyar = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2478,7 +2478,7 @@ culture_group_quendi = {
 
 		modifier = default_culture_modifier
 	}
-        culture_teleri = {
+	culture_teleri = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2497,7 +2497,7 @@ culture_group_quendi = {
 culture_group_amanyar = {
        graphical_culture = westerngfx
 
-        culture_vanyar = {
+	culture_vanyar = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2511,7 +2511,7 @@ culture_group_amanyar = {
 
 		modifier = default_culture_modifier
 	}
-        culture_noldor = {
+	culture_noldor = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2525,7 +2525,7 @@ culture_group_amanyar = {
 
 		modifier = noldor_culture_modifier
 	}
-        culture_falmari = {
+	culture_falmari = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2544,7 +2544,7 @@ culture_group_amanyar = {
 culture_group_umanyar = {
        graphical_culture = westerngfx
 
-       culture_sindar = {
+	culture_sindar = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2558,7 +2558,7 @@ culture_group_umanyar = {
 
 		modifier = sindar_culture_modifier
 	}
-        culture_nandor = {
+	culture_nandor = {
 		graphical_culture = elfgfx
 		
 		color = { 0.53 0.87 0.16 }
@@ -2572,7 +2572,7 @@ culture_group_umanyar = {
 
 		modifier = sindar_culture_modifier
 	}
-        culture_laegrim = {
+	culture_laegrim = {
 		graphical_culture = elfgfx
 		
 		color = { 0.77 0.88 0.38 }
@@ -2586,7 +2586,7 @@ culture_group_umanyar = {
 
 		modifier = default_culture_modifier
 	}
-        culture_silvan = {
+	culture_silvan = {
 		graphical_culture = elfgfx
 		
 		color = { 0.77 0.88 0.38 }
@@ -2605,7 +2605,7 @@ culture_group_umanyar = {
 culture_group_moriquendi = {
        graphical_culture = westerngfx
 
-        culture_avari = {
+	culture_avari = {
 		graphical_culture = elfgfx
 		
 		color = { 0.25 0.5 0.75 }
@@ -2624,7 +2624,7 @@ culture_group_moriquendi = {
 culture_group_onodrim = {
        graphical_culture = westerngfx
 
-        culture_entish = {
+	culture_entish = {
 		graphical_culture = wildernessgfx
 		used_for_random = no
 		color = { 0.29 0.37 0.08 }
@@ -2638,7 +2638,7 @@ culture_group_onodrim = {
 
 		modifier = entish_culture_modifier
 	}
-        culture_huorn = {
+	culture_huorn = {
 		graphical_culture = wildernessgfx
 		
 		color = { 0.36 0.37 0.05 }
@@ -2656,7 +2656,7 @@ culture_group_onodrim = {
 culture_group_eru = {
        graphical_culture = westerngfx
 
-        culture_maiar = {
+	culture_maiar = {
 		graphical_culture = maiargfx
 		used_for_random = no
 		color = { 0.82 0.69 0.39 }
@@ -2699,7 +2699,7 @@ culture_group_eru = {
 
 		modifier = default_culture_modifier
 	}
-        culture_enigma = {
+	culture_enigma = {
 		graphical_culture = westerngfx
 		used_for_random = no
 		color = { 0.25 0.5 0.75 }

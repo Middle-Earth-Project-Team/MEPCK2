@@ -770,7 +770,7 @@ city = {
 		tax_income = 5
 		ai_creation_factor = 86
         	potential = {
-            		FROMFROM = { has_landed_title = b_pelargir }
+            		FROMFROM = { title = b_pelargir }
             	}
 	}		
 	ct_numenorean3 = { #Numenorean Walls#

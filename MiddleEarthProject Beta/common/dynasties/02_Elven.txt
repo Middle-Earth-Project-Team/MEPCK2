@@ -1,0 +1,532 @@
+#Elven 
+3001 = { 
+	name="Perelda"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+} #Half-elven from Tuor
+
+3002 = { 
+	name="Peredhel"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+	
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+		
+	}
+} #Half-elven from Beren
+
+3003 = { 
+	name="Nos Galadhon"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+
+3004 = { 
+	name="Nos Finarfin"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+3005 = { 
+	name="Nos Fingolfin"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}	
+}
+
+3006 = { 
+	name="Nos Finwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}				  
+}
+
+3007 = { 
+	name="Nos Fëanor"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}				  
+}
+
+3008 = { 
+	name="Nos Ingwë"
+	culture = "culture_vanyar"
+	religion = "religion_moriquendi"
+	
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}					  
+}
+
+3009 = { 
+	name="Nos Elwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}					  				  
+}
+
+3010 = { 
+	name="Minyar"
+	culture = "culture_minyar"
+	religion = "religion_moriquendi"
+}
+
+3011 = { 
+	name="Tatyar"
+	culture = "culture_tatyar"
+	religion = "religion_moriquendi"
+}
+
+3012 = { 
+	name="Nelyar"
+	culture = "culture_nelyar"
+	religion = "religion_moriquendi"
+}
+
+3013 = { 
+	name="Nos Olwë"
+	culture = "culture_falmari"
+	religion = "religion_moriquendi"			  
+	
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}					  
+}
+
+3014 = { 
+	name="Nos Urunwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+
+3015 = { 
+	name="Nos Nowë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}				  				  
+}
+
+3016 = { 
+	name="Nos Morwë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3017 = { 
+	name="Nos Nurwë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3018 = { 
+	name="Nos Löwë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3019 = { 
+	name="Nos Elemwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+
+3020 = { 
+	name="Nos Mírwë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3021 = { 
+	name="Nos Lenwë"
+	culture = "culture_nandor"
+	religion = "religion_moriquendi"
+}
+
+3022 = { 
+	name="Nos Celepwë"
+	culture = "culture_sindar"
+}
+
+3023 = { 
+	name="Nos Malawë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+	
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}				  
+}
+
+3024 = { 
+	name="Nos Angawë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+
+3025 = { 
+	name="Nos Aldawë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3026 = { 
+	name="Nos Falawë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+
+3027 = { 
+	name="Nos Istawë"
+	culture = "culture_vanyar"
+	religion = "religion_moriquendi"
+}
+
+3028 = { 
+	name="Nos Fáwë"
+	culture = "culture_falmari"
+	religion = "religion_moriquendi"
+}
+
+3029 = { 
+	name="Nos Rúwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+	
+	coat_of_arms = {
+		template = 5
+		layer = {
+			texture = 10
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}			
+}
+
+3030 = { 
+	name="Nos Ilwë"
+	culture = "culture_vanyar"
+	religion = "religion_moriquendi"
+}
+
+3031 = { 
+	name="Nos Curwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+
+3032 = { 
+	name="Nos Alwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+
+3033 = { 
+	name="Nos Elenwë"
+	culture = "culture_vanyar"
+	religion = "religion_moriquendi"
+}
+
+3034 = { 
+	name="Nos Ailinwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+
+3035 = { 
+	name="Nos Quilwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+
+3036 = { 
+	name="Nos Tanwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+
+3037 = { 
+	name="Nos Fëawë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+3038 = { 
+	name="Nos Isilwë"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}
+3039 = { 
+	name="Nos Arwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+3040 = { 
+	name="Nos Deneroth"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+3041 = { 
+	name="Nos Calengil"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+3042 = { 
+	name="Nos Edhelnir"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+3043 = { 
+	name="Nos Dorongur"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3044 = { 
+	name="Nos Bregar"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3045 = { 
+	name="Nos Penglir"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}	
+3046 = { 
+	name="Nos Lungumaqua"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3047 = { 
+	name="Minyendaialië"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3048 = { 
+	name="Nos Limlor"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3049 = { 
+	name="Nos Belegdir"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3050 = { 
+	name="Nos Felaphor"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3051 = { 
+	name="Nos Penthalion"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+3052 = { 
+	name="Nos Galdir"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}
+3053 = { 
+	name="Nos Aranbor"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3054 = { 
+	name="Nos Amborn"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3055 = { 
+	name="Nos Elemwë"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}	
+3056 = { 
+	name="Nos Galaphor"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}	
+3057 = { 
+	name="Nos Losdir"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3058 = { 
+	name="Nos Vronwë"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3059 = { 
+	name="Nos Merenedhel"
+	culture = "culture_noldor"
+	religion = "religion_moriquendi"
+}	
+3060 = { 
+	name="Nos Langeredir"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}	
+3061 = { 
+	name="Nos Kindi"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}	
+3062 = { 
+	name="Nos Cuind"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}	
+3063 = { 
+	name="Nos Hwenti"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}	
+3064 = { 
+	name="Nos Windan"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}	
+3065 = { 
+	name="Nos Kinn-lai"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}		
+3066 = { 
+	name="Nos Penni"
+	culture = "culture_avari"
+	religion = "religion_moriquendi"
+}	
+3067 = { 
+	name="Nos Gwachaedir"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+
+# Sindar Mariners of Lindon #
+
+19006 = { 
+	name="Nos Aerendil"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+19007 = { 
+	name="Nos Saeros"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+19008 = { 
+	name="Nos Gwachaedir"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+19009 = { 
+	name="Nos Ciryatan"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}
+19010 = { 
+	name="Nos Mírëatan"
+	culture = "culture_sindar"
+	religion = "religion_moriquendi"
+}

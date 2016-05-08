@@ -1,4 +1,4 @@
-﻿namespace = wotr
+namespace = wotr
 
 ####Continued from wotr_Events, easier to find validator errors if smaller files##
 

@@ -4,4 +4,8 @@ spriteTypes = {
 		name = "GFX_icon_wilderness_government"
 		texturefile = "gfx\\interface\\government_icon_wilderness.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_tribes_of_haradrim"
+		texturefile = "gfx\\interface\\government_icon_tribes_of_haradrim.dds"
+	}
 }

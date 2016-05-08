@@ -1,7 +1,7 @@
-﻿#MERCENARIES
+
+#MERCENARIES
 
 #BREE-LAND
-
 d_blackwolds = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
@@ -13,16 +13,18 @@ d_blackwolds = {
 	religion = religion_haldadian
 	landless = yes
 	primary = yes
+	
 	independent = yes
+	
 	allow = {
-	OR = {
-	            any_realm_title = { title = k_angmar }
-				any_realm_title = { title = d_bree-land }
-				any_realm_title = { title = c_mendriyar } 
-				any_realm_title = { title = c_north_bree-land } 
-				any_realm_title = { title = c_west_bree-land }
-				any_realm_title = { title = c_bree-land } 
-	}
+		OR = {
+			any_realm_title = { title = k_angmar }
+			any_realm_title = { title = d_bree-land }
+			any_realm_title = { title = c_mendriyar } 
+			any_realm_title = { title = c_north_bree-land } 
+			any_realm_title = { title = c_west_bree-land }
+			any_realm_title = { title = c_bree-land } 
+		}	
 	}
 	mercenary_type = blackwolds_mercenaries
 }
@@ -41,8 +43,8 @@ d_ruffians = {
 	primary = yes
 	independent = yes
 	allow = {
-	OR = {
-	OR = {
+		OR = {
+			OR = {
 				any_realm_title = { title = d_bree-land }
 				any_realm_title = { title = c_mendriyar } 
 				any_realm_title = { title = c_north_bree-land } 
@@ -53,10 +55,10 @@ d_ruffians = {
 				any_realm_title = { title = d_north_farthing }
 				any_realm_title = { title = d_west_farthing }
 				any_realm_title = { title = d_south_farthing }
-	}		
-	trait = evil_side
-	culture = culture_dunlending
-	}
+			}		
+			trait = evil_side
+			culture = culture_dunlending
+		}
 	}
 	mercenary_type = ruffians_mercenaries
 }
@@ -104,15 +106,15 @@ d_nargubraz = {
 	primary = yes
 	independent = yes
 	allow = {
-	religion = religion_mahal
-	NOT = { trait = evil_side }
+		religion = religion_mahal
+		NOT = { trait = evil_side }
 	}
 	mercenary_type = nargubraz_mercenaries
 }
 d_mornaugrim = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-	capital = 654 # Barad-Dûr
+	capital = 654 # Barad-D?r
 	mercenary = yes
 	title = Captain
 	foa = "mycaptain"
@@ -1025,7 +1027,7 @@ d_umlir_tribes = {
 d_black_serpent = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 533 # Khôrsaj
+    capital = 533 # Kh?rsaj
 	holy_order = yes
 	title = "CAPTAIN"
 	foa = "CAPTAIN_FOA"
@@ -1106,7 +1108,7 @@ d_urdwan_nomads = {
 d_men_bozisha = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 533 # Khôrsaj
+    capital = 533 # Kh?rsaj
 	mercenary = yes
 	title = "Head"
 	foa = "myhead"
@@ -1135,7 +1137,7 @@ d_men_bozisha = {
 d_koanoze_peoples = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 533 # Khôrsaj
+    capital = 533 # Kh?rsaj
 	mercenary = yes
 	title = "Head"
 	foa = "myhead"
@@ -1164,7 +1166,7 @@ d_koanoze_peoples = {
 d_mardruak_men = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 517 # Urezayân
+    capital = 517 # Urezay?n
 	mercenary = yes
 	title = "Head"
 	foa = "myhead"
@@ -1187,7 +1189,7 @@ d_mardruak_men = {
 d_aukuag_clans = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 533 # Khôrsaj
+    capital = 533 # Kh?rsaj
 	mercenary = yes
 	title = "Head"
 	foa = "myhead"
@@ -1216,7 +1218,7 @@ d_aukuag_clans = {
 d_ayten_clans = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-    capital = 533 # Khôrsaj
+    capital = 533 # Kh?rsaj
 	mercenary = yes
 	title = "Head"
 	foa = "myhead"
@@ -1271,7 +1273,7 @@ d_corsairs_of_umbar = {
 d_raiders_of_bellakar = {
 	color = { 102 90 90 }
 	color2 = {  0 0 0 }
-   capital = 517 # Urezayân
+   capital = 517 # Urezay?n
 	culture = culture_black_numenorean
 	religion = religion_black_numenorean
 	mercenary = yes

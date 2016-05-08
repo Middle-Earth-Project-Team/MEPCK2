@@ -734,14 +734,14 @@ castle = {
 		galleys = 100
 		tax_income = 5		
 		ai_creation_factor = 106
-        	potential = {
-            		FROMFROM = { has_landed_title = b_mithlond }
+        potential = {
+        	FROMFROM = { title = b_mithlond }
 			OR = {
 				culture_group = culture_group_moriquendi
 				culture_group = culture_group_umanyar
 				culture_group = culture_group_amanyar
 				culture_group = culture_group_quendi
 			}
-        	}
+        }
 	}
 }

@@ -142,8 +142,8 @@ claim = {
 	}
 
 	on_reverse_demand_title = {
+		remove_claim = ROOT
 		ROOT = {
-			remove_claim = PREV
 			hidden_tooltip = {
 				disband_event_forces = yes
 				clr_character_flag = claimant_adventurer
@@ -460,9 +460,7 @@ other_claim = {
 	}
 
 	on_reverse_demand_title = {
-		ROOT = {
-			remove_claim = PREV
-		}
+		remove_claim = ROOT
 	}
 
 	attacker_ai_victory_worth = {
@@ -1476,9 +1474,7 @@ claim_all = {
 					}
 					ROOT = { has_strong_claim = PREV }
 				}
-				ROOT = {
-					remove_claim = PREV
-				}
+				remove_claim = ROOT
 			}
 		}
 		any_defender = {
@@ -2147,9 +2143,7 @@ invasion = {
 	}
 
 	on_reverse_demand_title = {
-		ROOT = {
-			remove_claim = PREV
-		}
+		remove_claim = ROOT
 	}
 
 	on_attacker_leader_death = {

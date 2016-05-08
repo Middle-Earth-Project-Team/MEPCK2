@@ -14906,7 +14906,7 @@
 		death=yes
 	} #Slain in Sauron's retaking of Mordor
 }
-1822 = {
+1832 = {
 	name="Dírhael"
 	dynasty=183
 	religion="religion_dunedain"
