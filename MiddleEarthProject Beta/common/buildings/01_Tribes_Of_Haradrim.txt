@@ -817,7 +817,7 @@ tribal = {
 		build_time = 125
 		ai_creation_factor = 200
 		
-		tax_income = 2
+		tax_income = 0.5
 	}
 	tb_market2 = {
 		desc = tb_market_desc
@@ -835,7 +835,7 @@ tribal = {
 		build_time = 150
 		ai_creation_factor = 200
 		
-		tax_income = 2.25
+		tax_income = 1
 	}
 	tb_market3 = {
 		desc = tb_market_desc
@@ -853,7 +853,7 @@ tribal = {
 		build_time = 175
 		ai_creation_factor = 200
 		
-		tax_income = 2.75
+		tax_income = 1.5
 	}
 	tb_market4 = {
 		desc = tb_market_desc
@@ -871,7 +871,8 @@ tribal = {
 		build_time = 200
 		ai_creation_factor = 200
 		
-		tax_income = 3.5
+		tax_income = 2
+		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	tb_market5 = {
 		desc = tb_market_desc
@@ -889,7 +890,7 @@ tribal = {
 		build_time = 250
 		ai_creation_factor = 200
 		
-		tax_income = 4.5
+		tax_income = 3
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
@@ -909,7 +910,7 @@ tribal = {
 		build_time = 300
 		ai_creation_factor = 200
 		
-		tax_income = 6
+		tax_income = 4
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
@@ -929,7 +930,7 @@ tribal = {
 		build_time = 350
 		ai_creation_factor = 200
 		
-		tax_income = 8
+		tax_income = 5
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
@@ -949,7 +950,7 @@ tribal = {
 		build_time = 450
 		ai_creation_factor = 200
 		
-		tax_income = 10.5
+		tax_income = 7
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
@@ -969,7 +970,7 @@ tribal = {
 		build_time = 550
 		ai_creation_factor = 200
 		
-		tax_income = 13.5
+		tax_income = 9
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
@@ -981,17 +982,382 @@ tribal = {
 			FROM = { culture_group = culture_group_southron }
 		}
 		
-		gold_cost = 750
+		gold_cost = 650
 		#prestige_cost = 125
 		
 		upgrades_from = tb_market9
 		
-		build_time = 750
+		build_time = 650
 		ai_creation_factor = 200
 		
-		tax_income = 17
+		tax_income = 11
 		
 		#extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
+	tb_great_bazar1 = {
+		desc = tb_great_bazar_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+			location = { trade_post_has_building = tr_silk_road_1 }
+		}
+		
+		prerequisites = { tb_market2 }
+		
+		trigger = {
+			location = { has_trade_post = yes }
+		}
+		
+		is_trigger_active = { 
+			location = { has_trade_post = yes } 
+		}
+		
+		gold_cost = 300
+		#prestige_cost = 125
+		
+		upgrades_from = tb_great_bazar2
+		
+		build_time = 300
+		ai_creation_factor = 200
+		
+		tax_income = 10	
+		
+		global_trade_route_wealth = 4
+		global_trade_route_value = 1
+		global_tradevalue = 10	
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tb_great_bazar2 = {
+		desc = tb_great_bazar_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+			location = { trade_post_has_building = tr_silk_road_2 }
+		}
+		
+		prerequisites = { tb_market6 }
+		
+		trigger = {
+			location = { has_trade_post = yes }
+		}
+		
+		is_trigger_active = { 
+			location = { has_trade_post = yes } 
+		}
+		
+		gold_cost = 400
+		#prestige_cost = 125
+		
+		upgrades_from = tb_great_bazar1
+		
+		build_time = 400
+		ai_creation_factor = 200
+		
+		tax_income = 15
+		
+		global_trade_route_wealth = 8
+		global_trade_route_value = 2
+		global_tradevalue = 15
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tb_great_bazar3 = {
+		desc = tb_great_bazar_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+			location = { trade_post_has_building = tr_silk_road_3 }
+		}
+		
+		prerequisites = { tb_market10 }
+		
+		trigger = {
+			location = { has_trade_post = yes }
+		}
+		
+		is_trigger_active = { 
+			location = { has_trade_post = yes } 
+		}
+		
+		gold_cost = 500
+		#prestige_cost = 125
+		
+		upgrades_from = tb_great_bazar2
+		
+		build_time = 500
+		ai_creation_factor = 200
+		
+		tax_income = 20
+		
+		global_trade_route_wealth = 12
+		global_trade_route_value = 3
+		global_tradevalue = 20
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	tb_camel_dairy_farm1 = {
+		desc = tb_camel_dairy_farm_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+		}
+		
+		prerequisites = { tb_camel_pens1 }
+		
+		gold_cost = 250
+		#prestige_cost = 125
+		
+		build_time = 250
+		ai_creation_factor = 200
+		
+		tax_income = 3
+		
+		levy_reinforce_rate = 0.05
+		land_morale = 0.05
+	}
+	tb_camel_dairy_farm2 = {
+		desc = tb_camel_dairy_farm_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+		}
+		
+		prerequisites = { tb_camel_pens2 }
+		
+		gold_cost = 300
+		#prestige_cost = 125
+		
+		upgrades_from = tb_camel_dairy_farm1
+		
+		build_time = 300
+		ai_creation_factor = 200
+		
+		tax_income = 5
+		
+		levy_reinforce_rate = 0.05
+		land_morale = 0.05
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tb_camel_dairy_farm3 = {
+		desc = tb_camel_dairy_farm_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+		}
+		
+		prerequisites = { tb_camel_pens3 }
+		
+		gold_cost = 350
+		#prestige_cost = 125
+		
+		upgrades_from = tb_camel_dairy_farm2
+		
+		build_time = 350
+		ai_creation_factor = 200
+		
+		tax_income = 8
+		
+		levy_reinforce_rate = 0.05
+		land_morale = 0.05
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	tb_camel_dairy_farm4 = {
+		desc = tb_camel_dairy_farm_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+		}
+		
+		prerequisites = { tb_camel_pens4 }
+		
+		gold_cost = 400
+		#prestige_cost = 125
+		
+		upgrades_from = tb_camel_dairy_farm3
+		
+		build_time = 400
+		ai_creation_factor = 200
+		
+		tax_income = 12
+		
+		levy_reinforce_rate = 0.05
+		land_morale = 0.05
+		
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+
+	tb_bamboo_gatherer1 = {
+		desc = tb_camel_dairy_farm_desc
+		add_number_to_name = yes
+		
+		potential = {			
+			FROM = { culture_group = culture_group_southron }
+		}
+		
+		gold_cost = 400
+		#prestige_cost = 125
+		
+		upgrades_from = tb_camel_dairy_farm3
+		
+		build_time = 400
+		ai_creation_factor = 200
+		tax_income = 12
+	}
+	tb_bamboo_gatherer2 = {
+	}
+	tb_bamboo_gatherer3 = {
+	}
+	tb_bamboo_gatherer4 = {
+	}
+	
+	tb_clay_mine1 = {
+	}
+	tb_clay_mine2 = {
+	}
+	tb_clay_mine3 = {
+	}
+	tb_clay_mine4 = {
+	}
+
+	tb_iron_traders1 = {
+	}
+	tb_iron_traders1 = {
+	}
+	tb_iron_traders1 = {
+	}
+	tb_iron_traders1 = {
+	}
+	
+#Animal housing, storage , weapons & armor
+	tb_camel_pens1 = {
+	}
+	tb_camel_pens2 = {
+	}
+	tb_camel_pens3 = {
+	}
+	tb_camel_pens4 = {
+	}
+	
+	tb_horse_pens1 = {
+	}
+	tb_horse_pens2 = {
+	}
+	tb_horse_pens3 = {
+	}
+	tb_horse_pens4 = {
+	}
+	
+	tb_mumakil_pens1 = {
+	}
+	tb_mumakil_pens2 = {
+	}
+	tb_mumakil_pens3 = {
+	}
+	tb_mumakil_pens4 = {
+	}
+	
+	tb_food_storage1 = {
+	}
+	tb_food_storage2 = {
+	}
+	
+	tb_mumakil_pens1 = {
+	}
+	tb_mumakil_pens2 = {
+	}
+	tb_mumakil_pens3 = {
+	}
+	tb_mumakil_pens4 = {
+	}
+	
+	tb_composite_bow_crafter1 = {
+	}
+	tb_composite_bow_crafter2 = {
+	}
+	tb_composite_bow_crafter3 = {
+	}
+	tb_composite_bow_crafter4 = {
+	}
+	
+	tb_lamellar_armor_crafter1 = {
+	}
+	tb_lamellar_armor_crafter2 = {
+	}
+	tb_lamellar_armor_crafter3 = {
+	}
+	tb_lamellar_armor_crafter4 = {
+	}	
+
+	tb_weapons_crafter1 = {
+	}
+	tb_weapons_crafter2 = {
+	}
+	tb_weapons_crafter3 = {
+	}
+	tb_weapons_crafter4 = {
+	}
+	
+#Soldiers & defenses
+	tb_watchtowers1 = {
+	}
+	tb_watchtowers2 = {
+	}
+	tb_watchtowers3 = {
+	}
+	tb_watchtowers4 = {
+	}
+	tb_watchtowers5 = {
+	}
+	tb_watchtowers6 = {
+	}
+	tb_watchtowers7 = {
+	}
+	tb_watchtowers8 = {
+	}
+	tb_watchtowers9 = {
+	}
+	tb_watchtowers10 = {
+	}
+	
+	tb_fortifications1 = {
+	}
+	tb_fortifications2 = {
+	}
+	tb_fortifications3 = {
+	}
+	tb_fortifications4 = {
+	}
+	tb_fortifications5 = {
+	}
+	tb_fortifications6 = {
+	}
+	tb_fortifications7 = {
+	}
+	tb_fortifications8 = {
+	}
+	tb_fortifications9 = {
+	}
+	tb_fortifications10 = {
+	}
+	
+	tb_garrison1 = {
+	}
+	tb_garrison2 = {
+	}
+	tb_garrison3 = {
+	}
+	tb_garrison4 = {
+	}
 }

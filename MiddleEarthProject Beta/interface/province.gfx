@@ -2716,7 +2716,12 @@ spriteTypes = {
 		norefcount = yes
 	}	
 	
-
+	spriteType = {
+		name = "GFX_settlement_tribal_haradrimgfx"
+		texturefile = "gfx\\interface\\placeholder_tribe_haradrim.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}	
 
 	spriteType = {
 		name = "GFX_settlement_castle_rohirricgfx"
