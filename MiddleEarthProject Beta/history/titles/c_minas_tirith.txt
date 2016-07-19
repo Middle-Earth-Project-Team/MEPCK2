@@ -242,3 +242,7 @@ holder = 1942 # Ecthelion II
 {
 holder = 1943 # Denethor II
 }
+11362.5.1=
+{
+holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+}

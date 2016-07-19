@@ -4,9 +4,10 @@
 	law = centralization_3
 	law = investiture_law_1
 }
-8343.1.1=
+8300.1.1=
 {
 liege=d_rhun
+holder = 23100 # Arkhai the Strong
 }
 8343.1.1=
 {
@@ -263,4 +264,16 @@ holder = 5126 # Harghasun
 11413.1.1=
 {
 holder = 5127 # Uighurtai
+}
+11439.1.1=
+{
+holder = 5500 # Okhotur II
+}
+11460.1.1=
+{
+holder = 5501 #  Tokhtaman V
+}
+11492.1.1=
+{
+holder = 5502 # Bulughan II
 }

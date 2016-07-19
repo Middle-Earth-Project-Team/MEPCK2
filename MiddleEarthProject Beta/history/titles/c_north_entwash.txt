@@ -241,3 +241,11 @@ holder = 314
 11361.1.1= {
 holder = 317
 }
+11423.1.1=
+{
+holder =  600 # Elfmund
+}
+11449.1.1=
+{
+holder =  601 # Elfbrand
+}

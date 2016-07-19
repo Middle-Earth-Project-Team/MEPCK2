@@ -9,17 +9,14 @@ character_event = {
 	
 	hide_window = yes
 	
+	is_triggered_only = yes
+	
 	trigger = {
 			religion = religion_dunedain
 			NOT = { num_of_traits = 5 }
-			NOT = { year = 11363 }
-			NOT = { has_global_flag = randomtraits }
-			age = 16
+			age = 12
 	}
 	
-	mean_time_to_happen = {
-		days = 14
-	}
 		
 	option = {
 		name = "OK"
@@ -75,7 +72,6 @@ character_event = {
 			chance = 10
 			add_trait = zealous
 		}
-		character_event = { id = randomtraits.1000 days = 15 }
 	}
 }
 	
@@ -87,18 +83,14 @@ character_event = {
 	age = 16
 	
 	hide_window = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		religion = religion_moriquendi
 		NOT = { num_of_traits = 5 } 
-		NOT = { year = 11363 }
-		NOT = { has_global_flag = randomtraits }
-		age = 16
+		age = 12
 	}
 	
-	mean_time_to_happen = {
-		days = 14
-	}
 		
 	option = {
 		name = "OK"
@@ -170,17 +162,14 @@ character_event = {
 	
 	hide_window = yes
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		religion = religion_mahal
 		NOT = { num_of_traits = 5 } 
-		NOT = { year = 11363 }
-		NOT = { has_global_flag = randomtraits }
-		age = 16
+		age = 12
 	}
 		
-	mean_time_to_happen = {
-		days = 14
-	}
 		
 	option = {
 		name = "OK"
@@ -256,17 +245,14 @@ character_event = {
 	
 	hide_window = yes
 	
+	is_triggered_only = yes
+	
 	trigger = {
 	    religion_group = religion_group_melkor
 		NOT = { num_of_traits = 5 }
-		age = 16
-		NOT = { year = 11363 }
-		NOT = { has_global_flag = randomtraits }
+		age = 12
 	}
 
-	mean_time_to_happen = {
-		days = 14
-	}		
 	
 	option = {
 		name = "OK"
@@ -334,21 +320,17 @@ character_event = {
 	id = randomtraits.4
 	desc = OK
 	picture = "GFX_evt_coronation"
-	age = 16
 	
 	hide_window = yes
+	
+	is_triggered_only = yes
 	
 	trigger = {
 		religion = religion_black_numenorean
 		NOT = { num_of_traits = 5 }
-		NOT = { has_global_flag = randomtraits }
-		age = 16
-		NOT = { year = 11363 }
+		age = 12
 	}
 	
-	mean_time_to_happen = {
-		days = 14
-	}	
 	
 	option = {
 		name = "OK"
@@ -415,18 +397,14 @@ character_event = {
 	age = 16
 	
 	hide_window = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		religion = religion_perian
 		NOT = { num_of_traits = 5 }
-		NOT = { has_global_flag = randomtraits }
-		age = 16
-		NOT = { year = 11363 }
+		age = 12
 	}
 		  
-	mean_time_to_happen = {
-		days = 14
-	}
 		
 	option = {
 		name = "OK"
@@ -513,6 +491,7 @@ character_event = {
 	age = 16
 	
 	hide_window = yes
+	is_triggered_only = yes
 	
 	trigger = {
 		OR = {
@@ -523,14 +502,9 @@ character_event = {
 		religion = religion_nurning
 		}
 		NOT = { num_of_traits = 5 }
-		NOT = { has_global_flag = randomtraits }
-		age = 16
-		NOT = { year = 11363 }
+		age = 12
 	 }
 		 
-	mean_time_to_happen = {
-		days = 14
-	}
 		  
 	option = {
 		name = "OK"
@@ -598,20 +572,18 @@ character_event = {
 	
 	hide_window = yes
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		OR = {
 			religion = religion_haldadian
 			religion = religion_rhovanion
 		}
 		NOT = { num_of_traits = 5 }
-		age = 16
-		NOT = { year = 11363 }
+		age = 12
 		NOT = { has_global_flag = randomtraits }
 	}
 		 
-	mean_time_to_happen = {
-		days = 14
-	}
 		  
 	option = {
 		name = "OK"
@@ -675,24 +647,6 @@ character_event = {
 
 
 
-
-##No more random traits ingame##
-character_event = {
-	id = randomtraits.1000
-	desc = OK
-	picture = "GFX_evt_coronation"
-	age = 16
-	
-	hide_window = yes
-	is_triggered_only = yes
-		
-	option = {
-		name = "OK"
-		set_global_flag = randomtraits
-	}
-}
-
-
 ## Removing incapacity for immortal characters ##
 character_event = {
 	id = randomtraits.1001
@@ -701,6 +655,8 @@ character_event = {
 	age = 16
 	
 	hide_window = yes	
+	
+	is_triggered_only = yes
 	
 	trigger = {
 		trait = incapable
@@ -713,9 +669,6 @@ character_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
 		
 	option = {
 		name = "OK"

@@ -358,8 +358,22 @@ holder =  6154 # Irgen
 {
 holder =  6155 # Sekla
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11363.1.1=
 {
-holder =  6155 # Iher
+holder =  6156 # Iher
 liege=0
+}
+11420.1.1=
+{
+holder =  30068 # Adergazuz
+}
+11461.12.12=
+{
+holder =  30069 # Sayyid
 }

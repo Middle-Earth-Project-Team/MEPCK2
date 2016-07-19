@@ -150,3 +150,7 @@ liege = k_arthedain
 {
 holder =  7331 # Timothy
 }
+11460.1.1=
+{
+	holder =  30201 # Humbert
+}

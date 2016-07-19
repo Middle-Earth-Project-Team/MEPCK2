@@ -1,6 +1,17 @@
-8221.1.1={
+8218.1.1={
 liege="d_gilrain"
 }
+
+8300.1.1=
+{
+holder =  23350 # Orrostur
+}
+8455.1.1=
+{
+holder =  23351 # Ostoher
+}
+
+
 9318.1.1=
 {
 holder =  1519 # Minadir

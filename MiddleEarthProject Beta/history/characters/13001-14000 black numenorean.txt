@@ -906,7 +906,7 @@
 
 13019 = {
 	name="Balkuthôr"
-	dynasty=1304
+	dynasty=13004
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	father=13018
@@ -1206,7 +1206,7 @@
 
 13049 = {
 	name="Azruzûr"
-	dynasty=13004
+	dynasty=13006
 	religion="religion_black_numenorean"
 	culture="culture_numenorean"
 	father=12433
@@ -3169,7 +3169,6 @@
 
 13231 = {
 	name="Abrazôr"
-	dynasty=12005
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	add_trait=blood_of_numenor
@@ -3178,7 +3177,6 @@
 	add_trait=cruel
 	add_trait=rude
 	add_trait=authoritative
-	father=12223
 	11310.1.1={
 		birth="11310.1.1"
 	}

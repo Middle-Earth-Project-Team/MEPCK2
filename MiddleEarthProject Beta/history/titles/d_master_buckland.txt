@@ -5,6 +5,7 @@ liege="k_cardolan"
 10675.1.1=
 {
 holder =  8231 # Gorhendad - Fondator of the Brandybuck Line and Buckland
+liege="k_shire"
 }
 10683.1.1=
 {
@@ -69,4 +70,8 @@ holder =  8040 # Saradoc
 11375.1.1=
 {
 holder =  8041 # Meriadoc the Magnificent
+}
+11428.1.1=
+{
+holder =  30300 # Gorbadoc II
 }

@@ -231,7 +231,19 @@ holder =  24120
 {
 holder =  24121
 }
-8220.1.1=
+8244.1.1=
+{
+holder =  24122
+}
+8297.1.1=
+{
+holder =  24123
+}
+8342.1.1=
+{
+holder =  24124
+}
+8344.1.1=
 {
 liege="k_pinnath_gelin"
 holder =  0

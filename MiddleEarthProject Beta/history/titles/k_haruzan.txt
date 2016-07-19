@@ -344,8 +344,26 @@ holder =  6193 # Hiempsal
 {
 holder =  6194 # Mastanabal III
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11363.1.1=
 {
 holder =  6195 # Misagenes
 liege=0
+}
+11420.1.1=
+{
+holder =  30059 # Immelzir
+}
+11433.1.1=
+{
+holder =  30060 # Abbas
+}
+11440.1.1=
+{
+holder =  30061 # Sifmer III
 }

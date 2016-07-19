@@ -1,7 +1,15 @@
-8221.1.1={
+8218.1.1={
 
 liege="k_lebennin"
 }
+
+8250.1.1={
+holder = 23300 # Mindacil
+}
+8401.1.1={
+holder = 23301 # Mirlong
+}
+
 9318.1.1=
 {
 holder =  1519 # Minadir

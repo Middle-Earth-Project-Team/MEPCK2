@@ -177,3 +177,12 @@ holder = 5235 # Nandor
 {
 holder = 5236 # Géza
 }
+
+11419.1.1=
+{
+holder = 30001 # Vazul
+}
+11457.1.1=
+{
+holder = 30003 # Boldizsár III
+}

@@ -3,36 +3,36 @@ BM_WAR_OF_THE_RING_ERA;The War of the Ring;La Guerre de l'Anneau;;;;;;;;;;;;x
 BM_WAR_OF_THE_RING_ERA_INFO;Middle-Earth, 3018th Year of the Third Age. I amar prestar aen, The world is changed. Han mathon ne nen, I feel it in the water. Han mathon ne chae, I feel it in the earth.  A han noston ned 'wilith, I smell it in the air. Much that once was is lost, for none now live who remember it. These are dark times for Middle-Earth, large shadows spread in the East. Sauron, the Dark Lord, desperately looks for his Ring and is gathering all evil to him. Soon he will be ready to strike the Free Peoples. The kingdoms of Men are weak and in decline. Gondor seems to be the last realm with any chance of defending Middle-Earth. The Dwarves hide in the depths of their mountains, while the Elves flee to West. While Mordor prepares in the east, the traitor Saruman expands his domain into a weak Rohan, the Land of Horses. In these dark times the fates of all Middle-Earth lie with a single Hobbit, charged with a very dangerous mission.;Terre du Milieu, 1 Narwain 3018 du Tiers Âge.;;;;;;;;;;;;x
 BM_WAR_OF_THE_RING;The War of the Ring;La Guerre de l'Anneau;;;;;;;;;;;;x
 BM_WAR_OF_THE_RING_DESC;Middle-Earth, 3018th Year of the Third Age. I amar prestar aen, The world is changed. Han mathon ne nen, I feel it in the water. Han mathon ne chae, I feel it in the earth.  A han noston ned 'wilith, I smell it in the air. Much that once was is lost, for none now live who remember it. These are dark times for Middle-Earth, large shadows spread in the East. Sauron, the Dark Lord, desperately looks for his Ring and is gathering all evil to him. Soon he will be ready to strike the Free Peoples. The kingdoms of Men are weak and in decline. Gondor seems to be the last realm with any chance of defending Middle-Earth. The Dwarves hide in the depths of their mountains, while the Elves flee to West. While Mordor prepares in the east, the traitor Saruman expands his domain into a weak Rohan, the Land of Horses. In these dark times the fates of all Middle-Earth lie with a single Hobbit, charged with a very dangerous mission.;Terre du Milieu, 1 Narwain 3018 du Tiers Âge.;;;;;;;;;;;;x
-ERA_THEODEN;Althane Théoden of Rohan;;;;;;;;;;x
-ERA_DENETHOR;Steward Denethor II of Gondor;;;;;;;;;;x
-ERA_SAURON;Dark Lord Sauron of Mordor;;;;;;;;;;x
-ERA_ARAGORN;Aragorn of the Northern Dunedain;;;;;;;;;;x
-ERA_ELROND;Lord Elrond of Rivendell;;;;;;;;;;x
-ERA_DAIN;King Dáin II of Durin's Folk;;;;;;;;;;x
+ERA_THEODEN;Althane Théoden of Rohan;Althane Théoden of Rohan;;;;;;;;;;;;x
+ERA_DENETHOR;Steward Denethor II of Gondor;Steward Denethor II of Gondor;;;;;;;;;;;;x
+ERA_SAURON;Dark Lord Sauron of Mordor;Dark Lord Sauron of Mordor;;;;;;;;;;;;x
+ERA_ARAGORN;Aragorn of the Northern Dunedain;Aragorn of the Northern Dunedain;;;;;;;;;;;;x
+ERA_ELROND;Lord Elrond of Rivendell;Lord Elrond of Rivendell;;;;;;;;;;;;x
+ERA_DAIN;King Dáin II of Durin's Folk;King Dáin II of Durin's Folk;;;;;;;;;;;;x
 BM_KIN_STRIFE;The Kin-Strife;La Guerre Fratricide;;;;;;;;;;;;x
 BM_KIN_STRIFE_DESC;Middle-Earth, 1427th Year of the Third Age. The peaceful kingdom of Gondor is approaching a perilous time in it's history. Valacar, son of Romendacil II of Gondor, married a non-Numenorean wife. Despite her being daughter of the mighty King of Rhovanion, Vidugavia, most of the lords of Gondor think that her son, Eldacar, is not a true Numenorean, and so cannot be king. Civil war threatens to tear apart the great Southern kingdom of men. In Eriador, both Rhudaur and Cardolan have been defeated by Angmar, and Arthedain seems the only realm that can stop a full invasion of Eriador. Will you play as the Witch-King, and complete the conquest of the North? Or will you play as Araphor of Arthedain, and try to save the last remnants of the Kingdom of Arnor from darkness?;Terre du Milieu, 1 Narwain 1427 du Tiers Âge.;;;;;;;;;;;;x
 BM_KIN_STRIFE_ERA;The Kin-Strife;La Guerre Fratricide;;;;;;;;;;;;x
 BM_KIN_STRIFE_ERA_INFO;Middle-Earth, 1427th Year of the Third Age. The peaceful kingdom of Gondor is approaching a perilous time in it's history. Valacar, son of Romendacil II of Gondor, married a non-Numenorean wife. Despite her being daughter of the mighty King of Rhovanion, Vidugavia, most of the lords of Gondor think that her son, Eldacar, is not a true Numenorean, and so cannot be king. Civil war threatens to tear apart the great Southern kingdom of men. In Eriador, both Rhudaur and Cardolan have been defeated by Angmar, and Arthedain seems the only realm that can stop a full invasion of Eriador. Will you play as the Witch-King, and complete the conquest of the North? Or will you play as Araphor of Arthedain, and try to save the last remnants of the Kingdom of Arnor from darkness?;Terre du Milieu, 1 Narwain 1427 du Tiers Âge.;;;;;;;;;;;;x
-ERA_ARAPHOR;King Araphor of Arthedain;;;;;;;;;;x
-ERA_VALACAR;King Valacar of Gondor;;;;;;;;;;x
-ERA_CASTAMIR;Lord Castamir of Pelargir;;;;;;;;;;x
-ERA_LIUBAGILDS;Emperor Liubagilds of Rhovanion;;;;;;;;;;x
+ERA_ARAPHOR;King Araphor of Arthedain;King Araphor of Arthedain;;;;;;;;;;;;x
+ERA_VALACAR;King Valacar of Gondor;King Valacar of Gondor;;;;;;;;;;;;x
+ERA_CASTAMIR;Lord Castamir of Pelargir;Lord Castamir of Pelargir;;;;;;;;;;;;x
+ERA_LIUBAGILDS;Emperor Liubagilds of Rhovanion;Emperor Liubagilds of Rhovanion;;;;;;;;;;;;x
 BM_FALL_OF_ARNOR;The Fall of Arnor;La Chute d'Arnor;;;;;;;;;;;;x
 BM_FALL_OF_ARNOR_DESC;Middle-Earth, 1308th Year of the Third Age. This bookmark takes place roughly 1700 years before the events of the Lord of the Rings trilogy. It is a turbulent time for the successor kingdoms of Arnor, and the last light of the Dúnedain seems near to being extinguished. The three kingdoms of Arthedain, Cardolan and Rhudaur, split from Arnor upon the death Eärendur have had a relatively peaceful period, but this is set to change with the rise of the Witch-King of Angmar in the north. His strength is growing and soon he will be ready to strike at Rhudaur, the weakest of the three kingdoms and, if successful, perhaps begin to bring the age of the Dúnedain to a close.;Terre du Milieu, 1 Narwain 1308 du Tiers Age.;;;;;;;;;;;;x
 BM_FALL_OF_ARNOR_ERA;The Fall of Arnor;La Chute d'Arnor;;;;;;;;;;;;x
 BM_FALL_OF_ARNOR_ERA_INFO;Middle-Earth, 1308th Year of the Third Age. This bookmark takes place roughly 1700 years before the events of the Lord of the Rings trilogy. It is a turbulent time for the successor kingdoms of Arnor, and the last light of the Dúnedain seems near to being extinguished. The three kingdoms of Arthedain, Cardolan and Rhudaur, split from Arnor upon the death Eärendur have had a relatively peaceful period, but this is set to change with the rise of the Witch-King of Angmar in the north. His strength is growing and soon he will be ready to strike at Rhudaur, the weakest of the three kingdoms and, if successful, perhaps begin to bring the age of the Dúnedain to a close.;Terre du Milieu, 1 Narwain 1308 du Tiers Age.;;;;;;;;;;;;x
-ERA_MALVEGIL;King Malvegil of Arthedain;;;;;;;;;;x
-ERA_ROMENDACIL;King Romendacil II of Gondor;;;;;;;;;;x
-ERA_WITCH_KING;The Witch-King of Angmar;;;;;;;;;;x
-ERA_FULKAHARI;Fulkahari of Rhovanion;;;;;;;;;;x
-ERA_DOR;King Dor of Durin's Folk;;;;;;;;;;x
-ERA_THRANDUIL;King Thranduil of Eryn Galen;;;;;;;;;;x
-ERA_MINALCAR;King Minalcar of Cardolan;;;;;;;;;;x
-ERA_FORODACIL;King Forodacil of Rhudaur;;;;;;;;;;x
+ERA_MALVEGIL;King Malvegil of Arthedain;King Malvegil of Arthedain;;;;;;;;;;;;x
+ERA_ROMENDACIL;King Romendacil II of Gondor;King Romendacil II of Gondor;;;;;;;;;;;;x
+ERA_WITCH_KING;The Witch-King of Angmar;The Witch-King of Angmar;;;;;;;;;;;;x
+ERA_FULKAHARI;Fulkahari of Rhovanion;Fulkahari of Rhovanion;;;;;;;;;;;;x
+ERA_DOR;King Dor of Durin's Folk;King Dor of Durin's Folk;;;;;;;;;;;;x
+ERA_THRANDUIL;King Thranduil of Eryn Galen;King Thranduil of Eryn Galen;;;;;;;;;;;;x
+ERA_MINALCAR;King Minalcar of Cardolan;King Minalcar of Cardolan;;;;;;;;;;;;x
+ERA_FORODACIL;King Forodacil of Rhudaur;King Forodacil of Rhudaur;;;;;;;;;;;;x
 BM_WAINRIDERS_INVASION;The Wainriders Invasion;L'invasion des Wainriders;;;;;;;;;;;;x
 BM_WAINRIDERS_INVASION_DESC;Middle Earth, 1 Narwain 1847, the Third Age of this world.;Terre du Milieu, 1 Narwain 1847 du Tiers Age.;;;;;;;;;;;;x
 BM_NEW_SHADOW;A New Shadow;Une Nouvelle Ombre;;;;;;;;;;;;x
-BM_NEW_SHADOW_DESC;Middle Earth, 1 Narwain 36, the Fourth Age of this world.;Terre du Milieu, 1 Narwain 36 du Quatrième Âge.;;;;;;;;;;;;x
+BM_NEW_SHADOW_DESC;Middle Earth, 1 Narwain 36, the Fourth Age of this world. After the defeat of Sauron, Aragorn, the last heir of the house of Isildur reforged the United Kingdom of the Dunedain, as the King Elessar Telcontar.;Terre du Milieu, 1 Narwain 36 du Quatrième Âge.;;;;;;;;;;;;x
 BM_LAST_ALLIANCE;The Last Alliance;La Dernière Alliance;;;;;;;;;;;;x
 BM_LAST_ALLIANCE_DESC;Middle-Earth, 1 Narwain 3418, the Second Age of this World.;Terre du Milieu, 1 Narwain 3418 du Second Âge.;;;;;;;;;;;;x
 ERA_CHAR_INFO_4097;The Dwarves of Khazad-Dum are the most glorious and most powerful of their race. With their mines of Mithrils, they acquired an huge wealth and unrivaled prestige. But since the fall of Eregion in the Second Age, they are locked in their powerful city and dig ever and ever deeper.;Les Nains de Khazad-Dum sont les plus glorieux et les plus puissants de toute leur race. Grâce à leurs mines de Mithrils, ils ont acquis une richesse et un prestige sans égal. Mais depuis la chute de l'Eregion au Second-Âge, ils se sont enfermés dans leur puissante cité et creusent toujours plus profondément. ;;;;;;;;;;;;x
@@ -71,3 +71,48 @@ BM_RISE_OF_THE_HANSA_DESC;Coming soon…;Bientôt…;;;;;;;;;;;;x
 BM_100_YEARS_WAR;Coming soon…;Bientôt…;;;;;;;;;;;;x
 BM_100_YEARS_WAR_DESC;Coming soon…;Bientôt…;;;;;;;;;;;;x
 ERA_CHAR_INFO_4043;Dain II Ironfoot is one of the most powerful warriors of Middle-Earth. He fought in the Battles of Azanulbizar and Five Armies. After the death of Thorin Oakenshield, he became the King Under the Mountain, and the true heir of the House of Durin. His kingdom is exceedingly rich and his people very prosperous. He is a true friend of the Men of Dale.;Dain II Ironfoot est l'un des combattants les plus puissants de la Terre-du-Milieu. Il participa aux batailles d'Azanulbizar et des Cinq Armées. Après la mort de Thorin Ecu-de-Chêne, il devint le nouveau Roi sous la Montagne, et le véritable héritier de la Maison de Durin. Son Royaume est incroyablement riche, et son peuple est prospère. Il est également un ami et allié fidèle des Hommes de Dale.;;;;;;;;;;;;x
+ERA_CHAR_INFO_23100;Arkhai the Strong is the first ruler of the unificated tribes of Rhûn. He's clearly a powerful character, and a strong ally of Sauron. With his two sons, Daritai the Black and Alchagai the Kind, he's a true threat in the east. [NON CANON CHARACTERS];Arkhai le Fort est le premier souverain à unifier les tribus de Rhûn. Puissant personnage, il est un allié fidèle de Sauron… Accompagné de ses deux fils, Daritai le Noir et Achigai le Bon, il est une véritable menace pour l'Est. [PERSONNAGES NON CANONS];;;;;;;;;;;;x
+ERA_CHAR_NAME_23100;Arkhai the Strong;Arkhai le Fort;;;;;;;;;;;;x
+ERA_CHAR_NAME_4091;King Durin IV;Roi Durin IV;;;;;;;;;;;;x
+BM_NEW_SHADOW_ERA;A New Shadow;Une Nouvelle Ombre;;;;;;;;;;;;x
+BM_LAST_ALLIANCE_ERA;The Last Alliance;La Dernière Alliance;;;;;;;;;;;;x
+ERA_CHAR_NAME_10016;Sauron the Great;Sauron le Grand;;;;;;;;;;;;x
+ERA_CHAR_NAME_ELESSAR;High King Elessar Telcontar;Haut-Roi Elessar Telcontar;;;;;;;;;;;;x
+BM_WAR_OF_THE_RING_ERA_INFO;Middle-Earth, 3018th Year of the Third Age. I amar prestar aen, The world is changed. Han mathon ne nen, I feel it in the water. Han mathon ne chae, I feel it in the earth.  A han noston ned 'wilith, I smell it in the air. Much that once was is lost, for none now live who remember it. These are dark times for Middle-Earth, large shadows spread in the East. Sauron, the Dark Lord, desperately looks for his Ring and is gathering all evil to him. Soon he will be ready to strike the Free Peoples. The kingdoms of Men are weak and in decline. Gondor seems to be the last realm with any chance of defending Middle-Earth. The Dwarves hide in the depths of their mountains, while the Elves flee to West. While Mordor prepares in the east, the traitor Saruman expands his domain into a weak Rohan, the Land of Horses. In these dark times the fates of all Middle-Earth lie with a single Hobbit, charged with a very dangerous mission.;Terre du Milieu, 1 Narwain 3018 du Tiers Âge.;;;;;;;;;;;;x
+BM_KIN_STRIFE_ERA_INFO;Middle-Earth, 1427th Year of the Third Age. The peaceful kingdom of Gondor is approaching a perilous time in it's history. Valacar, son of Romendacil II of Gondor, married a non-Numenorean wife. Despite her being daughter of the mighty King of Rhovanion, Vidugavia, most of the lords of Gondor think that her son, Eldacar, is not a true Numenorean, and so cannot be king. Civil war threatens to tear apart the great Southern kingdom of men. In Eriador, both Rhudaur and Cardolan have been defeated by Angmar, and Arthedain seems the only realm that can stop a full invasion of Eriador. Will you play as the Witch-King, and complete the conquest of the North? Or will you play as Araphor of Arthedain, and try to save the last remnants of the Kingdom of Arnor from darkness?;Terre du Milieu, 1 Narwain 1427 du Tiers Âge.;;;;;;;;;;;;x
+BM_FALL_OF_ARNOR_ERA_INFO;Middle-Earth, 1308th Year of the Third Age. This bookmark takes place roughly 1700 years before the events of the Lord of the Rings trilogy. It is a turbulent time for the successor kingdoms of Arnor, and the last light of the Dúnedain seems near to being extinguished. The three kingdoms of Arthedain, Cardolan and Rhudaur, split from Arnor upon the death Eärendur have had a relatively peaceful period, but this is set to change with the rise of the Witch-King of Angmar in the north. His strength is growing and soon he will be ready to strike at Rhudaur, the weakest of the three kingdoms and, if successful, perhaps begin to bring the age of the Dúnedain to a close.;Terre du Milieu, 1 Narwain 1308 du Tiers Age.;;;;;;;;;;;;x
+BM_LAST_ALLIANCE_ERA_INFO;Middle-Earth, 1 Narwain 3418, the Second Age of this World.;Terre du Milieu, 1 Narwain 3418 du Second Âge.;;;;;;;;;;;;x
+ERA_CHAR_NAME_12135;Elendil the Tall, King of the Numenoreans;Elendil the Tall, Roi des Numénoréens;;;;;;;;;;;;x
+ERA_CHAR_INFO_12135;Elendil the Tall, founder of the Numenorean Kingdoms in Exile.;Elendil the Tall, founder of the Numenorean Kingdoms in Exile.;;;;;;;;;;;;x
+ERA_CHAR_NAME_4097;King Dor of Durin's Folk;Roi Dor du Peuple de Durin;;;;;;;;;;;;x
+ERA_CHAR_NAME_3104;King Thranduil of Mirkwood;Roi Thranduil de la Forêt Noire;;;;;;;;;;;;x
+ERA_CHAR_NAME_2013;King Malvegil of Arthedain;Roi Malvegil d'Arthedain;;;;;;;;;;;;x
+ERA_CHAR_NAME_2089;King Minalcar of Cardolan;Roi Minalcar de Cardolan;;;;;;;;;;;;x
+ERA_CHAR_NAE_2097;King Forodacil of Rhudaur;Roi Forodacil du Rhudaur;;;;;;;;;;;;x
+ERA_CHAR_NAME_1668;King Romendacil II of Gondor;Roi Romendacil II du Gondor;;;;;;;;;;;;x
+ERA_CHAR_NAME_12223;The Witch-King of Angmar;Le Roi-Sorcier d'Angmar;;;;;;;;;;;;x
+ERA_CHAR_NAME_9010;King Fulkahari of Rhovanion;Roi Fulkahari du Rhovanion;;;;;;;;;;;;x
+ERA_CHAR_NAME_2016;King Araphor of Arthedain;Roi Araphor d'Arthedain;;;;;;;;;;;;x
+ERA_CHAR_NAME_1670;King Valacar of Gondor;Roi Valacar du Gondor;;;;;;;;;;;;x
+ERA_CHAR_NAME_1739;Castamir of Anarion's House;Castamir de la maison d'Anarion;;;;;;;;;;;;x
+ERA_CHAR_NAME_9013;King Liubagilds of Rhovanion;Roi Liubagilds du Rhovanion;;;;;;;;;;;;x
+ERA_CHAR_NAME_24;King Theoden of Rohan;Roi Théoden du Rohan;;;;;;;;;;;;x
+ERA_CHAR_NAME_1943;Denethor II, Steward of Gondor;Denethor II, Intendant du Gondor;;;;;;;;;;;;x
+ERA_CHAR_NAME_10016;Sauron;Sauron;;;;;;;;;;;;x
+ERA_CHAR_NAME_2038;Aragorn II, chief of the Dunedain of the North;Aragorn II, chef des Dunedains du Nord;;;;;;;;;;;;x
+ERA_CHAR_NAME_3003;Elrond, Lord of Rivendell;Elrond, Seigneur de Fondcombe;;;;;;;;;;;;x
+ERA_CHAR_NAME_8079;Frodo Baggins of Bag's End;Frodon Sacquet, de Cul de Sac;;;;;;;;;;;;x
+ERA_CHAR_NAME_2039;King Eldarion of Gondor and Arnor;Roi Eldarion du Gondor et d'Arnor;;;;;;;;;;;;x
+ERA_CHAR_NAME_368;King Elfara of Rohan;Roi Elfara du Rohan;;;;;;;;;;;;x
+ERA_CHAR_NAME_9277;King Brand II of Dale;Roi Brand II de Dale;;;;;;;;;;;;x
+ERA_CHAR_NAME_5502;King Bulughan II of Rhûn;Roi Bulughan II de Rhûn;;;;;;;;;;;;x
+ERA_CHAR_NAME_3139;King Gil-Galad of the Noldor;Roi Gil-Galad des Noldor;;;;;;;;;;;;x
+ERA_CHAR_NAME_3102;King Oropher of the Silvan Elves;Roi Oropher des Elfes Sylvains;;;;;;;;;;;;x
+ERA_CHAR_NAME_5501;King Tokhtaman V of Rhûn;Roi Tokhtaman V de Rhûn;;;;;;;;;;;;x
+ERA_CHAR_NAME_9276;King Bain II of Dale;Roi Bain II de Dale;;;;;;;;;;;;x
+ERA_CHAR_NAME_29;King Elfwine the Fair of Rohan;Roi Elfwine du Rohan;;;;;;;;;;;;x
+BM_NEW_SHADOW_ERA_INFO;Middle-Earth, 1 Narwain 3418, the Second Age of this World.;Terre du Milieu, 1 Narwain 3418 du Second Âge.;;;;;;;;;;;;x
+ERA_CHAR_INFO_30450;Lord Kotrigur of the Wainriders;Seigneur Kutrigur des Wainriders;;;;;;;;;;;;x
+ERA_CHAR_NAME_30450;Lord Kotrigur of the Wainriders;Seigneur Kutrigur des Wainriders;;;;;;;;;;;;x
+ERA_CHAR_INFO_4056;King Thorin III Stonehelm;Roi Thorin III Heaume-de-Pierre;;;;;;;;;;;;x
+ERA_CHAR_NAME_4056;King Thorin III Stonehelm;Roi Thorin III Heaume-de-Pierre;;;;;;;;;;;;x

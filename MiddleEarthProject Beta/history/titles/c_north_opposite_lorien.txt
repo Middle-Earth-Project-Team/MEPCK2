@@ -4,11 +4,13 @@
 }
 4992.1.1=
 {
-holder =  3102 # Oropher
+holder =  3456 # Círdánó
+liege = k_mirkwood
 }
 8336.1.1=
 {
 holder =  0
+liege=0
 }
 10199.1.1=
 {
@@ -152,16 +154,8 @@ holder = 9194 # Autbert
 {
 holder = 9200 # Andica
 }
-11373.1.1=
-{
-holder = 9201 # Adalgrim
-}
 
-11322.1.1=
+11365.1.1=
 {
-holder =  340 # Grimbeorn the Old
-}
-11385.1.1=
-{
-holder =  341 # Sterkist
+holder = 3005 # Celeborn
 }

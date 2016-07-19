@@ -86,6 +86,6 @@ liege  = 0
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
-liege=d_dol_tiinereb
+holder = 2577 # Calengir
+liege=d_faerdor
 }

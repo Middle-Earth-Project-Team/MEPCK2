@@ -203,5 +203,10 @@ holder = 14225 # Rimantas
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 30350 # Boron
+liege=d_eldenaryar
+}
+11467.1.1=
+{
+holder = 30351 # Araphor
 }

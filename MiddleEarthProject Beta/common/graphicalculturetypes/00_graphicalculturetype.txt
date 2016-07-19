@@ -75,7 +75,9 @@ entgfx = {
 sindargfx = {
                   skin_tone = 0
 }
-
+silvangfx = {
+                  skin_tone = 0
+}
 # Melkor
 
 orkgfx = {

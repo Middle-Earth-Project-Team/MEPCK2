@@ -1,7 +1,7 @@
 4992.1.1=
 {
 liege="d_emyn_guldur"
-holder =  3102 # Oropher
+holder =  3453 # Danirotho
 }
 8336.1.1=
 {
@@ -29,4 +29,8 @@ liege = 0
 11294.1.1 = {
 holder = 17123 # Khamul the Easterling 
 liege = d_emyn_guldur
+}
+
+11367.1.1={
+holder = 3005 # Celeborn
 }

@@ -404,6 +404,12 @@ holder =  7330 # Euroswydd
 {
 holder =  7324 # Bran
 }
+11361.1.1={
+set_tribute_suzerain = { who = e_isengard percentage = 0.30 }
+}
+11362.5.1={
+clear_tribute_suzerain = e_isengard
+}
 11379.1.1=
 {
 holder =  7326 # Efnysien

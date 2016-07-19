@@ -124,5 +124,13 @@ holder =  6155 # Sekla
 }
 11363.1.1=
 {
-holder =  6155 # Iher
+holder =  6156 # Iher
+}
+11420.1.1=
+{
+holder =  30068 # Adergazuz
+}
+11461.12.12=
+{
+holder =  30069 # Sayyid
 }

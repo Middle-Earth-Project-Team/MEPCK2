@@ -243,3 +243,11 @@ holder =  85 # Éoláf
 {
 holder = 387 #Mansig
 }
+11423.1.1=
+{
+holder =  600 # Elfmund
+}
+11449.1.1=
+{
+holder =  601 # Elfbrand
+}

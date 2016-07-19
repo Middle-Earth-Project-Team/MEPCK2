@@ -537,7 +537,7 @@
 }
 23036 = {
 	name="Aredhel"
-	dynasty=2101
+	dynasty=2102
 	religion="religion_numenorean"
 	culture="culture_dunedain"
 	add_trait=blood_of_numenor	
@@ -977,5 +977,395 @@
 	}
 	8599.1.1={
 		death="8599.1.1"
+	}
+}
+
+
+### Rhun characters ###
+
+23100 = {
+	name="Arkhai" # Arkhai the Strong
+	dynasty=5042
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	add_trait=cruel
+	add_trait=strong
+	add_trait=imposing
+	add_trait=brave
+	add_trait=briliant_strategist
+	dna="ckmci0hiac0"
+	properties="aj0ebbbebbba"	
+	8275.1.1={
+		birth=yes
+		effect = {
+			give_nickname = nick_the_strong
+		}
+	}
+	8346.1.1={
+		death=yes
+	}
+}
+23101 = {
+	name="Alchidai" ## Alchidai the Kind
+	dynasty=5042
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=23100
+	add_trait=strong
+	add_trait = kind
+	add_trait=just
+	add_trait=fair
+	add_trait=patient
+	add_trait=charitable
+	8304.1.1={
+		birth=yes
+		effect={
+			give_nickname =  nick_the_kind 
+		}
+	}
+	8384.1.1={
+		death=yes
+	}
+}
+23102 = {
+	name="Daritai" ## Daritai the Black
+	dynasty=5042
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=23100
+	add_trait=strong
+	add_trait=cruel
+	add_trait=wroth
+	add_trait=lustful
+	add_trait=arbitrary
+	add_trait=briliant_strategist
+	8301.1.1={
+		birth=yes
+		effect = {
+			give_nickname = nick_the_black
+		}
+	}
+	8384.1.1={
+		death=yes
+	}
+}
+23103 = {
+	name="Ebegei"
+	dynasty=5042
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=23100
+	add_trait=strong
+	female=yes
+	8305.1.1={
+		birth=yes
+	}
+	8384.1.1={
+		death=yes
+	}
+}
+
+### First Lords of Arnach ###
+
+23200 = {
+	name="Belegund"
+	dynasty=12011
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	8233.1.1={
+		birth="8233.1.1"
+	}
+	8408.1.1={
+		death="8408.1.1"
+	}
+}
+23201 = {
+	name="Bereg"
+	dynasty=12011
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	father=23200
+	8298.1.1={
+		birth="8298.1.1"
+	}
+	8485.1.1={
+		death="8485.1.1"
+	}
+}
+23202 = {
+	name="Gilmith"
+	dynasty=12011
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	father=23200
+	female=yes
+	8299.1.1={
+		birth=yes
+	}
+	8485.1.1={
+		death=yes
+	}
+}
+
+### First lords of Celosien ###
+
+23250 = {
+	name="Galador"
+	dynasty=12012
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	8247.1.1={
+		birth=yes
+	}
+	8428.1.1={
+		death=yes
+	}
+}
+23251 = {
+	name="Gelmir"
+	dynasty=12012
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	father=23250
+	8297.1.1={
+		birth=yes
+	}
+	8503.1.1={
+		death=yes
+	}
+}
+23252 = {
+	name="Yávaniel"
+	dynasty=12012
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	female=yes
+	father=23250
+	8299.1.1={
+		birth=yes
+	}
+	8501.1.1={
+		death=yes
+	}
+}
+
+### First lords of Lebennivet ###
+
+23300 = {
+	name="Mindacil"
+	dynasty=12013
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	8199.1.1={
+		birth=yes
+	}
+	8401.1.1={
+		death=yes
+	}
+}
+23301 = {
+	name="Mírlong"
+	dynasty=12013
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor
+	father=23300	
+	8268.1.1={
+		birth=yes
+	}
+	8551.1.1={
+		death=yes
+	}
+}
+23302 = {
+	name="Melabrían"
+	dynasty=12013
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	female=yes
+	father=23301
+	8304.1.1={
+		birth=yes
+	}
+	8501.1.1={
+		death=yes
+	}
+}
+23303 = {
+	name="Corintur"
+	dynasty=12013
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor
+	father=23300	
+	8288.1.1={
+		birth=yes
+	}
+	8495.1.1={
+		death=yes
+	}
+}
+
+### First Lords of Gilraen ###
+
+23350 = {
+	name="Orrostur"
+	dynasty=12014
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	8278.1.1={
+		birth=yes
+	}
+	8455.1.1={
+		death=yes
+	}
+}
+23351 = {
+	name="Ostoher"
+	dynasty=12014
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor
+	father=23350	
+	8307.1.1={
+		birth=yes
+	}
+	8520.1.1={
+		death=yes
+	}
+}
+23352 = {
+	name="Nárimë"
+	dynasty=12014
+	religion="religion_numenorean"
+	culture="culture_numenorean"
+	add_trait=blood_of_numenor	
+	female=yes
+	father=23350
+	8310.1.1={
+		birth=yes
+	}
+	8509.1.1={
+		death=yes
+	}
+}
+
+
+#### NORTHERN ARNOR PLACEHOLDERS ####
+
+## West Formenyar ##
+23400 = {
+	name="Girdenis"
+	dynasty=14024
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	8289.1.1={
+		birth=yes
+	}
+	8354.1.1={
+		death=yes
+	}
+}
+23401 = {
+	name="Borut"
+	dynasty=14024
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	father=23400
+	8311.1.1={
+		birth=yes
+	}
+	8394.1.1={
+		death=yes
+	}
+}
+
+## East Formenyar ##
+23402 = {
+	name="Aras"
+	dynasty=14025
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	8284.1.1={
+		birth=yes
+	}
+	8357.1.1={
+		death=yes
+	}
+}
+23403 = {
+	name="Svarnas"
+	dynasty=14025
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	father=23402
+	8304.1.1={
+		birth=yes
+	}
+	8394.1.1={
+		death=yes
+	}
+}
+
+## Frontier3 ##
+23404 = {
+	name="Ringaudas"
+	dynasty=14026
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	8284.1.1={
+		birth=yes
+	}
+	8357.1.1={
+		death=yes
+	}
+}
+23405= {
+	name="Bukantas"
+	dynasty=14026
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	father=23404
+	8304.1.1={
+		birth=yes
+	}
+	8394.1.1={
+		death=yes
+	}
+}
+
+## Frontier4 ##
+23406 = {
+	name="Vingoldas"
+	dynasty=14027
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	8284.1.1={
+		birth=yes
+	}
+	8357.1.1={
+		death=yes
+	}
+}
+23407 = {
+	name="Butovit"
+	dynasty=14027
+	religion="religion_angmarim"
+	culture="culture_hillmen"
+	father=23406
+	8304.1.1={
+		birth=yes
+	}
+	8394.1.1={
+		death=yes
 	}
 }

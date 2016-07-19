@@ -3244,6 +3244,9 @@
 	11373.1.1={
 		birth="11373.1.1"
 	}
+	11415.1.1={
+		add_spouse=8159
+	}
 	11487.1.1={
 		death="11487.1.1"
 	}
@@ -5951,8 +5954,8 @@
 	11398.1.1={
 		birth="11398.1.1"
 	}
-	11500.1.1={
-		death="11500.1.1"
+	11504.1.1={
+		death="11504.1.1"
 	}
 }
 8164 = {
@@ -9171,6 +9174,132 @@
 		birth=yes
 	}
 	11437.1.1={
+		death=yes
+	}
+}
+
+### Line of Faramir Took ###
+
+8700 = {
+	name="Boromir"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8030
+	mother = 8159
+	add_trait = hobbit
+	11420.1.1={
+		birth=yes
+	}
+	11507.1.1={
+		death=yes
+	}
+}
+
+8701 = {
+	name="Aragorn"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8030
+	mother = 8159
+	add_trait = hobbit
+	11424.1.1={
+		birth=yes
+	}
+	11513.1.1={
+		death=yes
+	}
+}
+
+8702 = {
+	name="Peregrin"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8700
+	add_trait = hobbit
+	11467.1.1={
+		birth=yes
+	}
+	11555.1.1={
+		death=yes
+	}
+}
+
+8703 = {
+	name="Meriadoc"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8700
+	add_trait = hobbit
+	11472.1.1={
+		birth=yes
+	}
+	11563.1.1={
+		death=yes
+	}
+}
+
+8704 = {
+	name="Fredegar"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8700
+	add_trait = hobbit
+	11474.1.1={
+		birth=yes
+	}
+	11559.1.1={
+		death=yes
+	}
+}
+
+8705 = {
+	name="Eomer"
+	dynasty=801
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father = 8702
+	add_trait = hobbit
+	11500.1.1={
+		birth=yes
+	}
+	11594.1.1={
+		death=yes
+	}
+}
+
+## House of Elfstan fairbairn ##
+
+8710 = {
+	name="Samwise" 
+	dynasty=817
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father=8163
+	add_trait = hobbit
+	11453.1.1={
+		birth=yes
+	}
+	11556.1.1={
+		death=yes
+	}
+}
+
+8711 = {
+	name="Fastred" 
+	dynasty=817
+	religion="religion_perian"
+	culture="culture_hobbit"
+	father=8710
+	add_trait = hobbit
+	11489.1.1={
+		birth=yes
+	}
+	11591.1.1={
 		death=yes
 	}
 }

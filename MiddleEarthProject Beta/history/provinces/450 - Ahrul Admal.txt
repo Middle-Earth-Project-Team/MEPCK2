@@ -6,9 +6,9 @@ title = c_nurad
 # Settlements
 max_settlements = 6
 
-#b_ahrul_admal = castle
-#b_kas_admal = city
-#b_khrulash  = castle
+b_ahrul_admal = castle
+b_kas_admal = city
+b_khrulash  = castle
 #b_lamadeh = city
 #b_kameridh = city
 #b_ushkarisha = city

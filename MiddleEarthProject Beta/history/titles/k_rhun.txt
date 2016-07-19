@@ -1,4 +1,4 @@
-8220.1.1={
+500.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_3
@@ -8,7 +8,9 @@
     law = city_contract_2
     law = city_tax_1
 	liege=0
-	historical_nomad = yes
+}
+8300.1.1={
+	holder=23100 # Arkhai the Strong
 }
 8343.1.1=
 {
@@ -92,7 +94,7 @@ holder = 17058 # Bartan
 }
 9553.1.1=
 {
-holder = 17059 # Okhotur
+holder = 17059 # Okhotur I
 }
 9618.1.1=
 {
@@ -184,7 +186,7 @@ holder = 5109 # Tokhtaman II
 }
 10817.1.1=
 {
-holder = 5110 # Bulughan
+holder = 5110 # Bulughan I
 }
 10855.1.1=
 {
@@ -242,11 +244,13 @@ holder = 5123 # Shiraghul II
 {
 holder = 5124 # Bolkhadar III
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11365.1.1=
 {
-holder = 5126 # Harghasun
-}
-11413.1.1=
-{
-holder = 5127 # Uighurtai
+holder = 0
 }

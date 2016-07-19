@@ -8,7 +8,47 @@
     law = city_contract_2
     law = city_tax_1
 }
-8343.1.1=
+7700.1.1=
+{
+holder = 15021 # Baghân
+}
+7799.1.1=
+{
+holder = 15022 # Daghân
+}
+7916.1.1=
+{
+holder = 15023 # Êrghân
+}
+8031.1.1=
+{
+holder = 15024 # Ghâmi
+}
+8150.1.1=
+{
+holder = 15025 # Brâghor
+}
+8255.1.1=
+{
+holder = 15026 # Grîga
+}
+8366.1.1=
+{
+holder = 15027 # Grûghu
+}
+8475.1.1=
+{
+holder = 15028 # Rûbêr
+}
+8574.1.1=
+{
+holder = 15029 # Dî
+}
+8650.1.1=
+{
+holder = 0
+}
+9318.1.1=
 {
 liege="e_gondor"
 }
@@ -182,7 +222,7 @@ holder =  1563 # Mablung
 }
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
 }
 11427.1.1=
 {

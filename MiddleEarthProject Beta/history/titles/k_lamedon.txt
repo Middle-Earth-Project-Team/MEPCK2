@@ -10,6 +10,9 @@
 	
 }
 8221.1.1={
+	liege=e_reunited_kingdom
+}
+8343.1.1={
 	liege=e_gondor
 }
 10372.1.1=
@@ -278,7 +281,7 @@ holder =  1474 # Angbor
 }
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
 }
 11407.1.1=
 {

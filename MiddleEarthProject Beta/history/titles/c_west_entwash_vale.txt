@@ -90,3 +90,11 @@ holder =  309
 {
 holder =  311
 }
+11422.1.1=
+{
+holder =  550 # Grimhere
+}
+11462.1.1=
+{
+holder =  550 # Grimhold
+}

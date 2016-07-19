@@ -4,11 +4,13 @@
 }
 4992.1.1=
 {
-holder =  3102 # Oropher
+holder =  3455 # Alphalir
+liege=k_mirkwood
 }
 8336.1.1=
 {
 holder =  0
+liege=0
 }
 10199.1.1=
 {
@@ -144,23 +146,11 @@ holder = 9096 # Charibert
 {
 holder = 9097 # Ragenard
 }
-11325.1.1=
-{
-holder = 9203 # Ambrus
-}
-11375.1.1=
-{
-holder = 9204 # Tacsony
-}
-11396.1.1=
-{
-holder = 9205 # Orban
-}
 11322.1.1=
 {
 holder =  340 # Grimbeorn the Old
 }
-11385.1.1=
+11365.1.1=
 {
-holder =  341 # Sterkist
+holder = 3005 # Celeborn
 }

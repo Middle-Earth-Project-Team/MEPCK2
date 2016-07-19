@@ -2,13 +2,15 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-800.1.1={
-	liege=d_sagathavuld
+8300.1.1=
+{
+liege=d_rhun
+holder = 17140 # Odchigin
 }
-
 8343.1.1=
 {
 holder = 17141 # Aguchu
+liege=d_sagathavuld
 }
 8477.1.1=
 {
@@ -165,4 +167,16 @@ holder = 5222 # Kadan
 11351.1.1=
 {
 holder = 5221 
+}
+11393.1.1=
+{
+holder = 5220 # Okhutur
+}
+11412.1.1=
+{
+holder = 30420 # Daritai
+}
+11441.1.1=
+{
+holder = 30422 # Toghoril
 }

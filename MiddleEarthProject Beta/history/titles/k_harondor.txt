@@ -312,9 +312,9 @@ holder =  6375
 {
 liege="e_barad_dur"
 } # Sauron begins gathering an army
-11362.3.25=
+11362.5.1=
 {
-liege="e_gondor"
+liege = e_reunited_kingdom
 }
 11375.1.1=
 {

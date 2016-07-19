@@ -4,22 +4,9 @@
 }
 1.1.1=
 {
-holder =  0
-}
-8221.1.1=
-{
-liege=k_cardolan
-}
-9752.1.1=
-{
-liege=0
-}
-10500.1.1=
-{
 holder =  10045 # Bombadil
 }
-
-11362.5.1=
+2.1.1=
 {
-liege=k_cardolan
+liege=0
 }

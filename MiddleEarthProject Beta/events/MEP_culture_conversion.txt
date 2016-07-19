@@ -1,7 +1,0 @@
-#################################################
-#
-# CULTURAL CONVERSION EVENTS
-#
-#################################################
-
-#BR NOTE - Removed, I dont think the province changing automatically after 100 years is necesarily a good thing. I prefer the vanilla mechanics, where it can take longer, and seems more dynamic, based on the stewardship of the ruler, the cultures of adjacent provinces, etc.

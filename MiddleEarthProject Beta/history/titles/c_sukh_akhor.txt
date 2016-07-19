@@ -210,3 +210,11 @@ holder =  6026 # Lacumaces III
 {
 holder =  6027 # Micipsa
 }
+11429.1.1=
+{
+holder =  30071 # Ajdir
+}
+11460.1.1=
+{
+holder =  30072 # Akhôrahil IV
+}

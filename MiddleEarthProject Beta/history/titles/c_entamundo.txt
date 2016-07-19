@@ -88,6 +88,14 @@ holder = 25002
 
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 2148 # Hador of the House of Ecthelion
 liege=d_dol_caladir
+}
+11380.1.1=
+{
+holder = 30120 # Tarcil
+}
+11457.1.1=
+{
+holder = 30122 # Dirhael
 }

@@ -181,7 +181,7 @@
 	dynasty=12001
 	religion="religion_numenorean"
 	culture="culture_numenorean"
-	add_trait=blood_of_numenor	
+	add_trait=numenorean
 	father=12006
 	mother=12007
 	5252.1.1={
@@ -861,7 +861,7 @@
 
 12049 = {
 	name="Edhelwen"
-	dynasty=12002
+	dynasty=12003
 	female=yes
 	religion="religion_numenorean"
 	culture="culture_numenorean"
@@ -1353,6 +1353,7 @@
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=blood_of_numenor	
+	father=12270
 	7715.1.1={
 		birth="7715.1.1"
 	}
@@ -2304,7 +2305,6 @@
 12134 = {
 	name="Amanya" #Line of Eldalondë
 	female=yes
-	dynasty=12009
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=blood_of_numenor	
@@ -2324,13 +2324,25 @@
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
-	add_trait=blood_of_numenor	
+	
+	add_trait=blood_of_numenor
 	add_trait=barahir
 	add_trait=annunimas
-	add_trait = tall
-	add_trait = imposing
+	add_trait=tall
+	add_trait=imposing
+	add_trait=brilliant_strategist
+	add_trait=kind
+	add_trait=just
+	add_trait=proud
+	add_trait=brave
+	add_trait=heavy_infantry_leader	
+	
 	father=12122
 	mother=12123
+	
+	dna="cglhb0jiaa0"
+	properties="ab0ocobebbba"	
+	
 	8021.1.1={
 		birth="8021.1.1"
 		effect = {
@@ -2344,7 +2356,7 @@
 	8212.1.1={
 		add_trait=narsil
 	}
-	8221.1.1={
+	8321.1.1={
 		culture="culture_arnorian"
 		add_trait=palantir_annuminas
 		add_trait=palantir_osgiliath
@@ -2359,9 +2371,23 @@
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
-	add_trait=blood_of_numenor	
+	
+	add_trait=blood_of_numenor
+	add_trait=brilliant_strategist
+	add_trait=ambitious
+	add_trait=just
+	add_trait=proud	
+	add_trait=imposing
+	add_trait=deceitful
+	add_trait=brave
+	add_trait=heavy_infantry_leader
+	
 	father=12135
 	mother=12134
+	
+	dna="bfmhh0mbcc0"
+	properties="aa0hgbbebbba"	
+	
 	8111.1.1={
 		birth="8111.1.1"
 		effect = {
@@ -2371,7 +2397,7 @@
 	8192.1.1={
 		add_spouse=12133
 	}
-	8221.1.1={
+	8321.1.1={
 		culture="culture_gondorian"
 		add_trait = palantir_ithil
 		effect = {
@@ -2382,6 +2408,9 @@
 		culture="culture_arnorian"
 		remove_trait=palantir_ithil
 		add_trait=palantir_annuminas
+	}
+	8343.1.1={
+		dynasty=2001
 	}
 	8345.1.1={
 		death="8345.1.1"
@@ -2394,8 +2423,20 @@
 	religion="religion_numenorean"
 	culture="culture_numenorean"
 	add_trait=blood_of_numenor	
+	add_trait=brilliant_strategist
+	add_trait=patient
+	add_trait=just
+	add_trait=proud	
+	add_trait=strong
+	add_trait=brave
+	add_trait=heavy_infantry_leader
+	
 	father=12135
 	mother=12134
+	
+	dna="dkcli0iegc0"
+	properties="ak0hebbebbba"	
+	
 	8121.1.1={
 		birth="8121.1.1"
 		effect = {
@@ -2405,7 +2446,7 @@
 	8197.1.1={
 		add_spouse=12128
 	}
-	8221.1.1={
+	8321.1.1={
 		culture="culture_gondorian"
 		add_trait=palantir
 		effect = {
@@ -2422,14 +2463,27 @@
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
+	
 	add_trait=blood_of_numenor
 	add_trait=blood_of_isildur	
+	add_trait=brave
+	add_trait=charitable
+	add_trait=skilled_tactician
+	add_trait=patient
+	add_trait=honest
+	add_trait=proud
+	add_trait=cavalry_leader
+	
 	father=12136
 	mother=12133
+	
+	dna="bacbd0ggea0"
+	properties="el0fcibebbba"	
+	
 	8201.1.1={
 		birth="8201.1.1"
 	}
-	8221.1.1={
+	8321.1.1={
 		culture="culture_gondorian"
 	}
 	8331.1.1={
@@ -2447,11 +2501,23 @@
 	name="Aratan"
 	dynasty=12003
 	religion="religion_numenorean"
-	culture="culture_gondorian"
+	culture="culture_numenorean"
+	
 	add_trait=blood_of_numenor
-	add_trait=blood_of_isildur	
+	add_trait=blood_of_isildur
+	add_trait=brave
+	add_trait=strong
+	add_trait=fortune_builder
+	add_trait=diligent
+	add_trait=gregarious
+	add_trait=proud	
+	
 	father=12136
 	mother=12133
+	
+	dna="bbjje0egaa0"
+	properties="sl0gbcbebbba"	
+	
 	8241.1.1={
 		birth="8241.1.1"
 	}
@@ -2470,11 +2536,23 @@
 	name="Ciryon"
 	dynasty=12003
 	religion="religion_numenorean"
-	culture="culture_gondorian"
+	culture="culture_numenorean"
+	
 	add_trait=blood_of_numenor
-	add_trait=blood_of_isildur	
+	add_trait=blood_of_isildur
+	add_trait=brave
+	add_trait=heavy_infantry_leader
+	add_trait=charismatic_negotiator
+	add_trait=trusting
+	add_trait=ambitious
+	add_trait=proud		
+	
 	father=12136
 	mother=12133
+	
+	dna="djmja0kgbc0"
+	properties="ok0aeibebbba"	
+	
 	8281.1.1={
 		birth="8281.1.1"
 	}
@@ -2493,14 +2571,32 @@
 	name="Valandil"
 	dynasty=12003
 	religion="religion_numenorean"
-	culture="culture_arnorian"
+	culture="culture_numenorean"
+	
 	add_trait=blood_of_numenor
 	add_trait=blood_of_isildur	
+	add_trait=fair
+	add_trait=proud
+	add_trait=brave
+	add_trait=strong
+	add_trait=brilliant_strategist
+	add_trait=patient
+	add_trait=just
+	add_trait=kind
+	add_trait=diligent
+	
 	father=12136
 	mother=12133
-	8332.1.1={
-		birth="8332.1.1"
+	
+	dna="calfk0mefc0"
+	properties="ck0hhebebbba"	
+	
+	8300.1.1={
+		birth=yes
 	}
+	8331.1.1={
+		culture="culture_arnorian"
+	}	
 	8343.1.1={
 		dynasty=2001
 	}
@@ -2522,11 +2618,8 @@
 	8201.1.1={
 		birth="8201.1.1"
 	}
-	8221.1.1={
+	8321.1.1={
 		culture="culture_gondorian"
-	}
-	8342.1.1={
-		dynasty=102
 	}
 	8346.1.1={
 		add_trait=at_east
@@ -2541,19 +2634,29 @@
 	dynasty=12003
 	religion="religion_numenorean"
 	culture="culture_numenorean"
+	
 	add_trait=blood_of_numenor
 	add_trait=blood_of_anarion	
+	add_trait=brave
+	add_trait=proud
+	add_trait=just
+	add_trait=strong
+	add_trait=ambitious
+	add_trait=brilliant_strategist
+	add_trait=charitable
+	
 	mother=12128
 	father=12137
+	
 	8220.1.1={
 		birth="8220.1.1"
-	}
-	8221.1.1={
-		culture="culture_gondorian"
 	}
 	8292.1.1={
 		add_spouse=1407
 	}
+	8321.1.1={
+		culture="culture_gondorian"
+	}	
 	8343.1.1={
 		dynasty=102
 	}
@@ -2575,9 +2678,6 @@
 	8257.1.1={
 		birth="8257.1.1"
 	}
-	8342.1.1={
-		dynasty=102
-	}
 	8552.1.1={
 		death="8552.1.1"
 	}
@@ -2595,9 +2695,6 @@
 	father=12137
 	8282.1.1={
 		birth="8282.1.1"
-	}
-	8342.1.1={
-		dynasty=102
 	}
 	8556.1.1={
 		death="8556.1.1"

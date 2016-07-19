@@ -236,3 +236,7 @@ holder =  13133 # Zimradun
 {
 holder =  13134 # Ârukhûrân
 }
+11457.1.1=
+{
+holder =  30500 # Abattârik V
+}

@@ -87,5 +87,5 @@ liege=d_dunedain_of_north
 }
 11362.5.1=
 {
-liege=d_weather_hills
+liege=e_reunited_kingdom
 }

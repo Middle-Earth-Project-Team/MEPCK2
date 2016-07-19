@@ -286,3 +286,11 @@ holder =  1014 # Herion
 {
 holder =  16140
 }
+11418.1.1=
+{
+holder =  30320 # Herion of the Keys
+}
+11483.1.1=
+{
+holder =  30321 # Hirgon of the Keys
+}

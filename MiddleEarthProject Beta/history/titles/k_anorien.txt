@@ -177,7 +177,7 @@ holder =  12352 # Hostandil
 }
 8220.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 }
 8221.1.1=
 {
@@ -186,6 +186,7 @@ holder =  12137 # Anarion
 8343.1.1=
 {
 holder =  1160 # Haldar
+liege = "e_gondor"
 }
 8471.1.1=
 {
@@ -461,5 +462,13 @@ holder =  2000 # Hurin IV of the Keys
 }
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
+}
+11418.1.1=
+{
+holder =  30320 # Herion II of the Keys
+}
+11483.1.1=
+{
+holder =  30321 # Hirgon of the Keys
 }

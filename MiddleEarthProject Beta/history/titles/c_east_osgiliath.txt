@@ -1,6 +1,7 @@
-8331.1.1=
+8300.1.1=
 {
 liege="d_royal_demesne"
+holder =  12136 # Isildur
 }
 9979.1.1=
 {

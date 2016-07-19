@@ -6,7 +6,7 @@ title = c_nuruvan
 # Settlements
 max_settlements = 5
 
-#b_nuruvan = castle
+b_nuruvan = castle
 #b_arentsavan = city
 #b_asis = city
 #b_mtarak = city

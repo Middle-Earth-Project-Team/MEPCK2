@@ -84,5 +84,9 @@ liege = 0
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 30180 # Saeradan
+}
+11463.1.1=
+{
+holder = 30181 # Hostamir
 }

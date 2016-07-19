@@ -27,7 +27,7 @@ holder =  12415 # Elemmacil
 }
 8221.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 }
 8275.1.1=
 {
@@ -36,6 +36,11 @@ holder =  12416 # Aulendil
 8338.1.1=
 {
 holder =  12417 # Eärtur
+}
+8343.1.1=
+{
+holder =  1160 # Haldar
+liege = "e_gondor"
 }
 8401.1.1=
 {
@@ -250,7 +255,7 @@ holder = 1906 # Imrahil
 }
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
 }
 11398.1.1=
 {

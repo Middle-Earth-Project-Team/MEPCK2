@@ -235,11 +235,8 @@ holder =  6345
 {
 holder = 1945 # Faramir
 }
-11446.1.1=
-{
-holder = 1946 # Elboron
-}
-11472.1.1=
-{
-holder = 1947 # Barahir
+
+
+11370.1.1={
+holder = 3106 # Legolas - Kingdom of Silvan Ithilien
 }

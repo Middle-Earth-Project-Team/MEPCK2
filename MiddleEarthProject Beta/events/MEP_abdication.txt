@@ -951,6 +951,7 @@ character_event = {
 	option = {
 		name = "EVTOPTBhumaninfertility.1" # I won't leave this world!
 		trigger = { ai = no }
+		health = -5
 		random_list = {
 			22 = {
 				add_trait = stressed

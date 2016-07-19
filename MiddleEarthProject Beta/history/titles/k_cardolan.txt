@@ -91,5 +91,5 @@ holder = 0
 11362.5.1=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
-liege=e_arnor
+liege=e_reunited_kingdom
 }

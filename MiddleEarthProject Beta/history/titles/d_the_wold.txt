@@ -2,38 +2,10 @@
 	law = agnatic_succession
 	law = succ_gavelkind
 }
-7575.1.1=
-{
-liege="k_rohan"
-holder =  12342 # Calmacil
-}
-7799.1.1=
-{
-holder =  12343 # Cirion
-}
-7888.1.1=
-{
-holder =  12344 # Éruaryon
-}
-7986.1.1=
-{
-holder =  12345 # Telemacil
-}
-8097.1.1=
-{
-holder =  12346 # Almaryon
-}
-8190.1.1=
-{
-holder =  12347 # Mámandil
-}
-8259.1.1=
-{
-holder =  12348 # Aerennel
-}
 8331.1.1=
 {
 holder =  1262 # Fëantur
+liege="k_rohan"
 }
 8477.1.1=
 {
@@ -259,4 +231,15 @@ holder =  178 # Harding
 {
 holder =  181 # Wídfara
 }
-
+11401.1.1=
+{
+holder =  650 # Dúnbrand
+}
+11438.1.1=
+{
+holder =  651 # Dúnhelm
+}
+11460.1.1=
+{
+holder = 367 # Eolaf of the house of Eomer
+}

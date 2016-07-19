@@ -195,5 +195,17 @@ holder = 9135 # Visuwalds II
 }
 11362.2.1=
 {
-holder = 9136 # Vinitharya
+holder = 9136 # Vinitharya II
+}
+11405.1.1=
+{
+holder = 9139 # Adalmar III
+}
+11438.1.1=
+{
+holder = 30014 # Gibahardus
+}
+11464.4.3=
+{
+holder = 30015 # Brandawulfs
 }

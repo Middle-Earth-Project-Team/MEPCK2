@@ -3797,3 +3797,153 @@
 		death="11361.1.1"
 	}
 }
+
+
+### Descendants of Bard II of Dale ##
+
+9275 = {
+	name="Baldr" ## Son of Bard II
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9908
+	11371.1.1={
+		birth="11371.1.1"
+	}
+	11444.1.1={
+		death="11444.1.1"
+	}
+}
+
+9276 = {
+	name="Bain" ## Bain II
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9275
+	
+  dna="almgg0mfac0"
+  properties="bj0dcabeaaba"	
+	
+	11407.1.1={
+		birth=yes
+	}
+	11488.1.1={
+		death=yes
+	}
+}
+
+9277 = {
+	name="Brand" ## Brand II
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9276
+	dna="nxjsfumcrzo"
+	properties="fo0bdb000000"	
+	11436.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+
+9278 = {
+	name="Bard" ## Bard III
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9277
+	11473.1.1={
+		birth=yes
+	}
+	11551.1.1={
+		death=yes
+	}
+}
+
+9279 = {
+	name="Thorin" ## son of Bain II
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9276	
+	11443.1.1={
+		birth=yes
+	}
+	11528.1.1={
+		death=yes
+	}
+}
+
+9280 = {
+	name="Dain" ## brother of Bain II - Master of Esgaroth
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9275
+	11411.1.1={
+		birth=yes
+	}
+	11495.1.1={
+		death=yes
+	}
+}
+
+9281 = {
+	name="Bengt" ## brother of Bain II -  Lord of South Celduin
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9275
+	11417.1.1={
+		birth=yes
+	}
+	11503.1.1={
+		death=yes
+	}
+}
+
+9282 = {
+	name="Baldr"
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9281
+	11438.1.1={
+		birth=yes
+	}
+	11512.1.1={
+		death=yes
+	}
+}
+
+9283 = {
+	name="Bertil"
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9280
+	11432.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+
+9284 = {
+	name="Bothildr"
+	dynasty=901
+	religion="religion_rhovanion"
+	culture="culture_barding"
+	father=9280
+	female=yes
+	11442.1.1={
+		birth=yes
+	}
+	11531.1.1={
+		death=yes
+	}
+}

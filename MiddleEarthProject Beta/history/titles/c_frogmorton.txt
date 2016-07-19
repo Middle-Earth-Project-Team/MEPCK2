@@ -214,3 +214,11 @@ holder = 8268 #Drogo Banks
 {
 holder = 8267 #Bungo Banks
 }
+11375.1.1=
+{
+holder =  8041 # Meriadoc the Magnificent
+}
+11428.1.1=
+{
+holder =  30300 # Gorbadoc II
+}

@@ -5,16 +5,11 @@ Our special thanks will be for :
 
 --TEAM--
 
-Redit
 Lonhaldar
-Chris93
-Athoen
-Moridin
-Skullever
-DevilSauron
 BloodRoyal
-SaphireSeas
-cziken20
+Moridin
+DevilSauron
+Tapscott
 
 
 --FORMER MEMBERS & CONTRIBUTORS--
@@ -37,6 +32,12 @@ SuperTechmarine
 Pharotic
 Frostschaden
 King Conor
+SaphireSeas
+cziken20
+Skullever
+Chris93
+Athoen
+Redit
 
 --EXTERNAL CONTRIBUTORS--
 

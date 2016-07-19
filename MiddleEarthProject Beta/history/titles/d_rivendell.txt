@@ -12,3 +12,7 @@ liege = e_noldor
 8343.1.1 ={
 liege = 0
 }
+11364.5.1=
+{
+holder = 3008 ## Elladan
+}

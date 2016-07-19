@@ -7,6 +7,8 @@ character_event = {
     desc = "EVTDESCkinggondor.1"
     picture = "GFX_evt_gondor_kingdom"
 
+	is_triggered_only = yes
+	
 	trigger = {
 		age = 20
 		OR = {
@@ -31,9 +33,6 @@ character_event = {
 		NOT = { has_character_flag = regnal_name_gondor }
 	}
 	
-	mean_time_to_happen = {
-		days = 0
-	}
 	
 	immediate = {
 		set_character_flag = regnal_name_gondor

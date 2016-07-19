@@ -64,9 +64,8 @@ torturer = {
 	ai_rationality = -10
 	
 	potential = {
-		NOT = {
-			trait = good_side
-		}		
+		culture_group = culture_group_melkor	
+		culture = culture_black_numenorean
 	}	
 	opposites =  {
 		good_side
@@ -92,9 +91,8 @@ blood_thirsty = {
 	ai_rationality = -20
 	
 	potential = {
-		NOT = {
-			trait = good_side
-		}		
+		culture_group = culture_group_melkor	
+		culture = culture_black_numenorean
 	}	
 	opposites =  {
 		good_side

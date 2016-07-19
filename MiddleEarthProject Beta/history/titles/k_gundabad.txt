@@ -88,3 +88,9 @@ holder = 11020 # Bolg
 {
 holder = 11021 # Golg
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}

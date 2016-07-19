@@ -1,6 +1,17 @@
-8221.1.1={
+8218.1.1={
 liege="d_arnach"
 }
+
+8285.1.1=
+{
+holder =  23200 # Belegund
+}
+8408.1.1=
+{
+holder =  23201 # Bereg
+}
+
+
 9318.1.1=
 {
 holder =  1519 # Minadir

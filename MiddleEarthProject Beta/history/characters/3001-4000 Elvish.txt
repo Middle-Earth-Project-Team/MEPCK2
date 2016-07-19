@@ -146,6 +146,7 @@
 		remove_trait=elf
 		add_trait=blood_of_numenor
 		add_spouse=15266
+		dynasty=12001
 	}
 	4934.1.1 = {
 		name="Minyatur"
@@ -677,7 +678,6 @@
 
 3030 = {
 	name="Cainen"
-	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
@@ -694,7 +694,6 @@
 3031 = {
 	name="Cainië"
 	female=yes
-	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
@@ -857,7 +856,6 @@
 
 3042 = {
 	name="Enen"
-	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
@@ -874,7 +872,6 @@
 3043 = {
 	name="Enenyë"
 	female=yes
-	dynasty=3010
 	religion="religion_moriquendi"
 	culture="culture_minyar"
 	add_trait=elf
@@ -1177,7 +1174,7 @@
 
 3058 = {
 	name="Nurwë"
-	dynasty=3012
+	dynasty=3011
 	religion="religion_moriquendi"
 	culture="culture_nelyar"
 	add_trait=elf
@@ -1952,7 +1949,6 @@
 	}
 	527.1.1 = {
 		culture="culture_teleri"
-		dynasty=3017
 	}
 	977.1.1 = {
 		culture="culture_sindar"
@@ -7370,4 +7366,89 @@
 	6599.1.1 = {
 		death="6599.1.1"
 	} #Slain in the War of the Elves and Sauron
+}
+
+
+
+### Silvan Elves of Mirkwood - Placeholders ###
+3450 = {
+	name="Amdér"
+	dynasty=3068
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=strong
+	4780.1.1 = {
+		birth="4780.1.1"
+	}
+}
+
+3451 = {
+	name="Mírdánó"
+	dynasty=3069
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=just
+	4342.1.1 = {
+		birth=yes
+	}
+}
+
+3452 = {
+	name="Thilbáró"
+	dynasty=3070
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=fair
+	6587.1.1 = {
+		birth=yes
+	}
+}
+
+3453 = {
+	name="Danirothó"
+	dynasty=3071
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=proud
+	6587.1.1 = {
+		birth=yes
+	}
+}
+
+3454 = {
+	name="Daol"
+	dynasty=3071
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	6587.1.1 = {
+		birth=yes
+	}
+}
+
+3455 = {
+	name="Alphalír"
+	dynasty=3071
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	6587.1.1 = {
+		birth=yes
+	}
+}
+
+3456 = {
+	name="Círdánó"
+	dynasty=3071
+	religion="religion_moriquendi"
+	culture="culture_silvan"
+	add_trait=elf
+	add_trait=proud
+	6587.1.1 = {
+		birth=yes
+	}
 }

@@ -141,7 +141,22 @@ holder = 5184 # Mänär
 {
 holder = 5185 # Irkhan
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+
 11359.1.1=
 {
 holder = 5186 # Timërpälat
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
+11406.1.1=
+{
+holder = 5187 # Paval
+}
+11442.1.1=
+{
+holder = 30450 # Kutrigur
 }

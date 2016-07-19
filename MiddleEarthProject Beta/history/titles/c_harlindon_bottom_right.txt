@@ -8,15 +8,15 @@ liege=d_laerglinn
 }
 8221.1.1=
 {
-holder = 3276
+holder = 3276 # Lubathred
 }
-9145.1.1=
+9689.1.1=
 {
-holder = 3284
+holder = 3277 # Lonhaldar
 }
-9857.1.1=
+9978.1.1=
 {
-holder = 3285
+holder = 3280 # Limorian
 }
 9978.1.1=
 {

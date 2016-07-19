@@ -17,5 +17,11 @@ holder = 10016 # Sauron
 11362.3.25=
 {
 holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
-liege="e_gondor"
+liege=k_mordor
+}
+11362.5.2={
+holder = 30150 # Golodir
+}
+11468.1.1={
+holder = 30151 # Rómëmir
 }

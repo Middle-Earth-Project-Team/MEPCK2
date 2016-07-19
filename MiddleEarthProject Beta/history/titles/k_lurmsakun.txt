@@ -325,3 +325,11 @@ holder =  6279 # Dankaran VI
 {
 holder =  6280 # Gebereal
 }
+11420.1.1=
+{
+holder =  30075 # Soundiata
+}
+11455.1.21=
+{
+holder =  30076 # Malla
+}

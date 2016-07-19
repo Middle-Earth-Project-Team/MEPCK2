@@ -172,9 +172,20 @@ ent = {
 	cached = yes
 }
 elf = {
-    opposites = { dwarven }
-    opposite_opinion = -15
+    opposites = { 
+		half_orc
+		spider
+		balrog
+		nazgul
+		orkish
+		wight
+		long_worms
+		cold_drake
+		uruloke
+	}
+    opposite_opinion = -200
     same_opinion = 20	
+	sex_appeal_opinion = 10
 	diplomacy = 2
 	stewardship = 2
     fertility = -0.2
@@ -308,7 +319,7 @@ numenorean = {
 	customizer = yes
 	same_opinion = 25
 	opposite_opinion = 20
-	vassal_opinion = 10	
+	vassal_opinion = 15
 	agnatic = yes
 	fertility = -0.1
 	opposites =  {
@@ -334,6 +345,7 @@ prince_numenor = {
 	vassal_opinion = 30	
 	agnatic = yes
 	fertility = -0.1
+	over_vassal_limit = 15	
 	opposites =  {
 		blood_of_numenor2
 		blood_of_numenor
@@ -374,7 +386,8 @@ blood_of_isildur = {
 	agnatic = yes
 	customizer = no
 	same_opinion = 20
-	vassal_opinion = 10	
+	vassal_opinion = 50	
+	over_vassal_limit = 15
 	cached = yes
 }
 blood_of_anarion = {
@@ -385,7 +398,8 @@ blood_of_anarion = {
 	agnatic = yes
 	customizer = no
 	same_opinion = 20
-	vassal_opinion = 10
+	vassal_opinion = 50	
+	over_vassal_limit = 15	
 	cached = yes	
 }
 heir_of_durin = {
@@ -394,7 +408,7 @@ heir_of_durin = {
 	martial = 5
 	diplomacy = 2
 	customizer = no
-	vassal_opinion = 20	
+	vassal_opinion = 50	
 	cached = yes
 }
 nazgul = {

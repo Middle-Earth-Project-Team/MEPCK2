@@ -88,6 +88,12 @@ holder = 14092 # Balthair
 {
 holder = 14093 # Firingul
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11371.1.1=
 {
 holder = 14094 # Dravenis

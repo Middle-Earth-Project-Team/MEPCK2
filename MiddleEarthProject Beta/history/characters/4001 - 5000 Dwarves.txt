@@ -166,6 +166,87 @@
 		death="7159.1.1"
 	}
 }
+4506 = {
+	name="Dalwin"
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=dragon_slayer
+	father=4090
+	6104.1.1 = {
+		birth=yes
+	}
+	7159.1.1 = {
+		add_trait=heir_of_durin
+		add_trait=durin_ring		
+	}	
+	7340.1.1 = {
+		death=yes
+	}
+}
+4507 = {
+	name="Dari"
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=dragon_slayer
+	father=4506
+	6750.1.1 = {
+		birth=yes
+	}
+	7340.1.1 = {
+		add_trait=heir_of_durin
+		add_trait=durin_ring		
+	}	
+	7504.1.1 = {
+		death=yes
+	}
+}
+4508 = {
+	name="Dómár"
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=dragon_slayer
+	father=4507
+	7312.1.1 = {
+		birth=yes
+	}
+	7504.1.1 = {
+		add_trait=heir_of_durin
+		add_trait=durin_ring		
+	}	
+	7754.1.1 = {
+		death=yes
+	}
+}
+4509 = {
+	name="Dúin"
+	dynasty=4001
+	religion="religion_mahal"
+	culture="culture_longbeard"
+	add_trait=dwarven
+	add_trait=strong
+	add_trait=dragon_slayer
+	father=4507
+	7513.1.1 = {
+		birth=yes
+	}
+	7754.1.1 = {
+		add_trait=heir_of_durin
+		add_trait=durin_ring		
+	}	
+	7985.1.1 = {
+		death=yes
+	}
+}
+
 4091 = {
 	name="Durin" # IV
 	dynasty=4001
@@ -175,16 +256,19 @@
 	add_trait=strong
 	add_trait=dragon_slayer
 	add_trait=durin_reincarnation	
-	father=4090
-	6954.1.1 = {
-		birth="6954.1.1"
+	
+	dna="ccficvabccc"
+	properties="ah0ag0000000"	
+	father=4509
+	7711.1.1 = {
+		birth=yes
 	}
 	7159.1.1 = {
 		add_trait=heir_of_durin
 		add_trait=durin_ring
 	}	
 	8343.1.1 = {
-		death="8343.1.1"
+		death=yes
 	}
 }
 4092 = {
@@ -1509,8 +1593,8 @@ add_friend=4086 #Bombur
 	add_trait=mountain_terrain_leader
 	add_trait=trained_dwarf
 
-	dna="dmglb0hmac0"
-	properties="ki0afobabbb"
+	dna="dmglb0h0ac0"
+	properties="bf0akabebbba"
 	
 	father=4043
 	11209.1.1 = {
@@ -1808,7 +1892,7 @@ add_friend=4086 #Bombur
 		death="11050.1.1"
 	}
 }
-4400 = {
+4900 = {
 	name="Halgir"
 	dynasty=4001
 	religion="religion_mahal"
@@ -1830,7 +1914,7 @@ add_friend=4086 #Bombur
 	culture="culture_longbeard"
 	add_trait=dwarven
 	add_trait=strong
-	father=4400
+	father=4900
 	11032.1.1 = {
 		birth="11032.1.1"
 	}

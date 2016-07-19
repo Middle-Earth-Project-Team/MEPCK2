@@ -20,3 +20,7 @@ holder =  8075 # Olo Proudfoot
 {
 holder =  8076 # Sancho Proudfoot
 }
+11428.1.1=
+{
+holder =  30300 # Gorbadoc II
+}

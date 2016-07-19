@@ -137,5 +137,10 @@ liege=0
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 30340 # Hirgon
+liege=d_magillos
+}
+11435.1.1=
+{
+holder = 30342 # Maratar
 }

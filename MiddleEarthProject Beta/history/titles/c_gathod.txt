@@ -4,9 +4,10 @@
 	law = centralization_3
 	law = investiture_law_1
 }
-8322.1.1=
+8315.1.1=
 {
 liege=d_gathod
+holder=23102 # Daritai the Black
 }
 8343.1.1=
 {
@@ -175,4 +176,8 @@ holder = 17181 # Arkhai
 11363.1.1=
 {
 holder = 17185 # Khamûl IV
+}
+11440.1.1=
+{
+holder = 30400 # Khaidu II
 }

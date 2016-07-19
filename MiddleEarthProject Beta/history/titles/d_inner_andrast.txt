@@ -1,12 +1,76 @@
-8220.1.1={
+500.1.1={
 	law = agnatic_succession
 	law = succ_primogeniture
 	law = centralization_2
 	law = investiture_law_1
 }
-8343.1.1=
+1000.1.1=
 {
 liege=k_andrast
+}
+
+#### ANDRASTING CHARACTERS BEFORE NUMENOREANS ####
+7588.1.1={
+holder = 26001 # Cison I
+}
+7603.1.1={
+holder = 26002 # Ubeltso
+}
+7642.1.1={
+holder = 26003 # Urdin I
+}
+7689.1.1={
+holder = 26004 # Erramon
+}
+7719.1.1={
+holder = 26005 # Belas I
+}
+7781.1.1={
+holder = 26006 # Cigor I
+}
+7832.1.1={
+holder = 26007 # Urdin II
+}
+7869.1.1={
+holder = 26008 # Nabar I
+}
+7911.1.1={
+holder = 26009 # Beila
+}
+7962.1.1={
+holder = 26010 # Abain
+}
+8011.1.1={
+holder = 26011 # Iaunti
+}
+8054.1.1={
+holder = 26012 # Lohis
+}
+8101.1.1={
+holder = 26013 # Cison II
+}
+8139.1.1={
+holder = 26014 # Apalo
+}
+8185.1.1={
+holder = 26015 # Balcoe
+}
+8217.1.1={
+holder = 26016 # Ilurde
+}
+8272.1.1={
+holder = 26017 # Aio
+}
+8302.1.1={
+holder = 26019 # Leheren
+}
+8341.1.1={
+holder = 26021 # Cison III
+}
+
+#### GONDOR ####
+8364.1.1={
+holder = 26029 # Cigor II - Last of the peoples of Andrast who rules the land, after, numenoreans.
 }
 8411.1.1=
 {
@@ -271,4 +335,16 @@ holder = 16231
 11400.1.1=
 {
 holder = 16233
+}
+11419.1.1=
+{
+holder =  1368 # Andaranel
+}
+11447.1.1=
+{
+holder =  16273 # Nabar
+}
+11461.1.1=
+{
+holder =  16274 # Govran
 }

@@ -15,3 +15,9 @@ holder =  12223 # Mordor taken by the Nazgul
 {
 holder = 6555
 }
+11362.5.2={
+holder = 30150 # Golodir
+}
+11468.1.1={
+holder = 30152 # Rómendur
+}

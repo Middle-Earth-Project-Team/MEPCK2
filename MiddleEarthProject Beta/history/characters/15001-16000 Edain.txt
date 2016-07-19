@@ -2920,7 +2920,7 @@
 
 15202 = {
 	name="Haldir" #son of Dírhavel
-	dynasty=12009
+	dynasty=15006
 	religion="religion_edain"
 	culture="culture_maradin"
 	father=15194

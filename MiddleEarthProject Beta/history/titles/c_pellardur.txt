@@ -132,3 +132,11 @@ holder =  18004 # Abrazir
 {
 holder =  18006 # Zimrazul
 }
+11420.1.1=
+{
+holder =  18010 # Îbnaru
+}
+11450.1.1=
+{
+holder =  18011 # Înzur
+}

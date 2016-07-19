@@ -10,8 +10,11 @@
 }
 8220.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 holder = 12137 # Anarion
+}
+8343.1.1={
+liege="e_gondor"
 }
 9318.1.1=
 {
@@ -179,9 +182,13 @@ holder =  1558 # Arciryas
 }
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
 }
 11381.1.1=
 {
 holder =  1561 # Romendil
+}
+11462.1.1=
+{
+holder =  16252 # Herucar
 }

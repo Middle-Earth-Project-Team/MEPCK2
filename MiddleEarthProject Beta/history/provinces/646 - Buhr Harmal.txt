@@ -7,8 +7,8 @@ title = c_buhr_harmal
 # Settlements
 max_settlements = 5
 
-#b_burh_harmal = castle
-#b_harmitour = city
+b_burh_harmal = castle
+b_harmitour = city
 #b_burhaz = city
 #b_huramakla = castle
 #b_bashra =castle

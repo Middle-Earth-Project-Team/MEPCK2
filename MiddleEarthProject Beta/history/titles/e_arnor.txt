@@ -8,10 +8,6 @@
     law = city_contract_2
     law = city_tax_1
 }
-8221.1.1=
-{
-holder = 12135 # Elendil
-}
 8343.1.1=
 {
 holder = 12136 # Isildur
@@ -51,16 +47,4 @@ holder = 2007 # Eärendur
 9204.1.1=
 {
 holder = 0
-}
-11362.5.1=
-{
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
-law = agnatic_succession
-law = succ_primogeniture
-law = centralization_3
-law = crown_authority_3
-law = feudal_contract_2
-law = feudal_tax_1
-law = city_contract_2
-law = city_tax_1
 }

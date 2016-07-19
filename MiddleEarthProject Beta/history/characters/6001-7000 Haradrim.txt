@@ -2745,7 +2745,7 @@
 	dynasty=6019
 	religion="religion_southron"
 	culture="culture_haradrim"
-	father=6202
+	father=6201
 	add_trait=mumakil_rider
 	11324.1.1={
 		birth="11324.1.1"

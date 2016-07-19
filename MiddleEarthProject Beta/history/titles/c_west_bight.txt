@@ -4,11 +4,13 @@
 }
 4992.1.1=
 {
-holder =  3102 # Oropher
+holder =  3454 # Daol
+liege=k_mirkwood
 }
 8336.1.1=
 {
 holder =  0
+liege=0
 }
 10276.1.1=
 {
@@ -127,11 +129,7 @@ holder = 9097 # Ragenard
 {
 holder = 9098 # Gedalca
 }
-11372.1.1=
+11365.1.1=
 {
-holder = 9099 # Guadulf
-}
-11396.1.1=
-{
-holder = 9101 # Imnachar
+holder = 3005 # Celeborn
 }

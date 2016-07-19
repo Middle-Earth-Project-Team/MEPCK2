@@ -91,3 +91,13 @@ liege  = 0
 holder = 7550
 liege=0
 }
+
+11362.5.1=
+{
+holder = 30130 # Corunir
+liege=d_minhiriath
+}
+11438.1.1=
+{
+holder = 30131 # Cirion
+}

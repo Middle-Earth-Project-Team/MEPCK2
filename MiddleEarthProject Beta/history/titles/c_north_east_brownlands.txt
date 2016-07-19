@@ -173,3 +173,12 @@ holder = 5147 # Dömötör
 {
 holder = 5149 # Kornel
 }
+
+11419.1.1=
+{
+holder = 30001 # Vazul
+}
+11457.1.1=
+{
+holder = 30003 # Boldizsár III
+}

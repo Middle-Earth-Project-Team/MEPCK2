@@ -93,6 +93,10 @@ holder = 25007
 
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 2132 # Halberen son of Halbarad
 liege=d_dol_tiinereb
+}
+11497.5.1=
+{
+holder = 30100 # Halbarad, grandson of THE Halbarad
 }

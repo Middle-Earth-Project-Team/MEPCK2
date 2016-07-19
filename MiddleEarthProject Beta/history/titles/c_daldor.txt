@@ -1,6 +1,15 @@
-8221.1.1={
+8218.1.1={
 liege="d_lebennivet"
 }
+
+8250.1.1={
+holder = 23300 # Mindacil
+}
+8319.1.1={
+holder = 23303 # Corintur
+}
+
+
 9318.1.1=
 {
 holder =  1519 # Minadir

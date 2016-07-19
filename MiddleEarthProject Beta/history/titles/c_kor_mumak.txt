@@ -126,3 +126,11 @@ holder =  6157 # Menzu
 {
 holder =  6158 # Adrir
 }
+11420.1.1=
+{
+holder =  30068 # Adergazuz
+}
+11461.12.12=
+{
+holder =  30069 # Sayyid
+}

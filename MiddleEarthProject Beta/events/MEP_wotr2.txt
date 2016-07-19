@@ -1,4 +1,4 @@
-Ôªønamespace = wotr
+namespace = wotr
 
 ####Continued from wotr_Events, easier to find validator errors if smaller files##
 
@@ -2159,7 +2159,7 @@ character_event = {
 		}
 			new_character = {
 			spawn_unit = {
-				province = 614 # Kas Rh√ªn
+				province = 614 # Kas Rh˚n
 				disband_on_peace = no
 				troops =
 				{
@@ -2210,7 +2210,7 @@ character_event = {
 		}
 			new_character = {
 			spawn_unit = {
-				province = 533 # Kh√¥rsaj
+				province = 533 # KhÙrsaj
 				disband_on_peace = no
 				troops =
 				{
@@ -3364,7 +3364,7 @@ character_event = {
 	}
 }
 
-## Fourth Child of Arwen and Aragorn - Alt√°riel ##
+## Fourth Child of Arwen and Aragorn - Alt·riel ##
 
 character_event = {
    	id = wotr.104
@@ -3376,7 +3376,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTAwotr.104" # Her name will be Alt√°riel!
+		name = "EVTOPTAwotr.104" # Her name will be Alt·riel!
 		any_spouse = {
 			limit = { has_character_flag = arwen }
 			create_character = {

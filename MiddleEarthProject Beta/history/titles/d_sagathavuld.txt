@@ -1,14 +1,12 @@
-8220.1.1={
-	historical_nomad = yes
-}
-8322.1.1=
+
+8300.1.1=
 {
-liege=e_barad_dur
+holder = 17140 # Odchigin
+liege = k_rhun
 }
 8343.1.1=
 {
 holder = 17141 # Aguchu
-liege = k_rhun
 }
 8477.1.1=
 {
@@ -166,7 +164,19 @@ holder = 5218 # Nakhu
 {
 holder = 5219 # Bolkhadar
 }
+11363.1.1=
+{
+liege=0
+}
 11393.1.1=
 {
 holder = 5220 # Okhutur
+}
+11412.1.1=
+{
+holder = 30420 # Daritai
+}
+11441.1.1=
+{
+holder = 30421 # Toghoril
 }

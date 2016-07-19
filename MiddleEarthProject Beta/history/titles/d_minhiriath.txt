@@ -80,6 +80,10 @@ liege=0
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+holder = 30130 # Corunir
 liege=k_cardolan
+}
+11438.1.1=
+{
+holder = 30131 # Cirion
 }

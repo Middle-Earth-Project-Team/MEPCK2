@@ -2114,7 +2114,7 @@
 	culture="culture_dunedain"
 	add_trait=blood_of_numenor
 	add_trait=grey_member	
-	father=2126
+	father=2125
 	11239.1.1={
 		birth="11239.1.1"
 	}
@@ -2482,6 +2482,7 @@
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	add_trait=blood_of_numenor
+	add_trait=grey_member
 	father=2143
 	mother=2142
 	11241.1.1={
@@ -6138,7 +6139,7 @@
 }
 2401 = {
 	name="Elentir"
-	dynasty=2023
+	dynasty=2024
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	add_trait=blood_of_numenor2
@@ -6152,7 +6153,7 @@
 }
 2402 = {
 	name="Elentur"
-	dynasty=2023
+	dynasty=2024
 	religion="religion_dunedain"
 	culture="culture_dunedain"
 	add_trait=blood_of_numenor2

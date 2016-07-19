@@ -254,3 +254,15 @@ holder = 204 # Isennoth
 {
 holder = 205 # Isenmund
 }
+11388.1.1=
+{
+holder = 450 # Isenhere
+}
+11418.1.1=
+{
+holder = 451 # Isenhold
+}
+11454.1.1=
+{
+holder = 452 # Isenhir
+}

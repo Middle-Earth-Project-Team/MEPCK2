@@ -82,3 +82,12 @@ holder = 0 # Rhudaur is now part of Angmar
 holder=25022
 liege=0
 }
+11362.5.1=
+{
+holder = 30360 # Anardur
+liege=d_eredoriath
+}
+11473.1.1=
+{
+holder = 30361 # Anduchil
+}

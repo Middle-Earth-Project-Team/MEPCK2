@@ -26,3 +26,15 @@ holder =  153 # Gálmód
 {
 holder =  154 # Gríma Wormtongue
 }
+11362.3.15=
+{
+holder =  146 # Elfgrim
+}
+11422.1.1=
+{
+holder =  550 # Grimhere
+}
+11462.1.1=
+{
+holder =  550 # Grimhold
+}

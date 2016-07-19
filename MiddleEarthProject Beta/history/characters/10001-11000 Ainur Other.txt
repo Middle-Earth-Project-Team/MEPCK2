@@ -442,6 +442,7 @@
 		name="Sauron"
 		dynasty = 10012
 		give_nickname = nick_the_dark_lord
+		prestige=-700
 	} #Sauron come back to Mordor after the attack of the White Council on Dol Guldur
 	11362.3.25={
 		death= "11362.3.25"
@@ -871,6 +872,9 @@
 	
 	11362.3.14 = {
 		give_nickname = "nick_the_white"
+		effect = {
+			set_character_flag=gandalf_the_white
+		}			
 	} #Gandalf the White
 	
 	11366.1.1 ={
@@ -1099,6 +1103,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10048
 	4500.1.1={
 		birth="4500.1.1"
 	}
@@ -1113,6 +1118,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10048
 	1410.1.1={
 		birth="1410.1.1"
 	}
@@ -1127,6 +1133,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10048
 	1400.1.1={
 		birth="1400.1.1"
 	}
@@ -1141,6 +1148,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	2500.1.1={
 		birth="2500.1.1"
 	}
@@ -1155,6 +1163,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10052
 	3500.1.1={
 		birth="3500.1.1"
 	}
@@ -1169,6 +1178,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10053
 	4518.1.1={
 		birth="4518.1.1"
 	}
@@ -1183,6 +1193,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10050
 	4509.1.1={
 		birth="4509.1.1"
 	}
@@ -1197,6 +1208,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10050
 	4501.1.1={
 		birth="4501.1.1"
 	}
@@ -1211,6 +1223,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10050
 	4506.1.1={
 		birth="4506.1.1"
 	}
@@ -1225,6 +1238,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	4502.1.1={
 		birth="4502.1.1"
 	}
@@ -1239,6 +1253,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	4520.1.1={
 		birth="4520.1.1"
 	}
@@ -1253,6 +1268,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	4510.1.1={
 		birth="4510.1.1"
 	}
@@ -1267,6 +1283,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	4530.1.1={
 		birth="4530.1.1"
 	}
@@ -1281,6 +1298,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10050
 	4550.1.1={
 		birth="4550.1.1"
 	}
@@ -1295,6 +1313,7 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
+	father=10051
 	4580.1.1={
 		birth="4580.1.1"
 	}
@@ -1309,8 +1328,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4580.1.1={
-		birth="4580.1.1"
+	father=10091
+	5580.1.1={
+		birth="5580.1.1"
 	}
 }
 10095 = {
@@ -1323,8 +1343,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4588.1.1={
-		birth="4588.1.1"
+	father=10091
+	5588.1.1={
+		birth="5588.1.1"
 	}
 }
 10096 = {
@@ -1337,8 +1358,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4590.1.1={
-		birth="4590.1.1"
+	father=10091
+	5590.1.1={
+		birth="5590.1.1"
 	}
 }
 10097 = {
@@ -1351,8 +1373,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4520.1.1={
-		birth="4520.1.1"
+	father=10096
+	6520.1.1={
+		birth="6520.1.1"
 	}
 }
 10098 = {
@@ -1365,8 +1388,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4510.1.1={
-		birth="4510.1.1"
+	father=10096
+	6510.1.1={
+		birth="6510.1.1"
 	}
 }
 10099 = {
@@ -1379,8 +1403,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4512.1.1={
-		birth="4512.1.1"
+	father=10096
+	6512.1.1={
+		birth="6512.1.1"
 	}
 }
 10100 = {
@@ -1393,8 +1418,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4511.1.1={
-		birth="4511.1.1"
+	father=10099
+	6911.1.1={
+		birth=yes
 	}
 }
 10101 = {
@@ -1407,8 +1433,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4518.1.1={
-		birth="4518.1.1"
+	father=10099
+	6918.1.1={
+		birth=yes
 	}
 }
 10102 = {
@@ -1421,8 +1448,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4518.1.1={
-		birth="4518.1.1"
+	father=10099
+	6928.1.1={
+		birth=yes
 	}
 }
 10103 = {
@@ -1435,8 +1463,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4528.1.1={
-		birth="4528.1.1"
+	father=10098
+	6928.1.1={
+		birth=yes
 	}
 }
 10104 = {
@@ -1449,8 +1478,9 @@
 	add_trait = temperate
 	add_trait = gardener
 	add_trait = patient
-	4533.1.1={
-		birth="4533.1.1"
+	father=10098
+	6933.1.1={
+		birth=yes
 	}
 }
 #Spawn of Shelob
@@ -1614,7 +1644,7 @@
 	religion="religion_dragons"
 	culture="culture_dragons"
 	10890.1.1={
-		birth="10890.1.1"
+		birth=yes
 		add_trait = uruloke
 		add_trait = envious
 		add_trait = zealous
@@ -1627,7 +1657,7 @@
 		}
 	}
 	11284.1.1={
-		death="11284.1.1"
+		death=yes
 	}
 }
 
@@ -1838,7 +1868,6 @@
 
 10080 = {
 	name="Alagroval"
-	dynasty=10032
 	religion="religion_eruhini"
 	culture="culture_eagles"
 	add_trait = eagle
@@ -1849,7 +1878,6 @@
 
 10081 = {
 	name="Thoronroval"
-	dynasty=10032
 	religion="religion_eruhini"
 	culture="culture_eagles"
 	add_trait = eagle
@@ -1860,7 +1888,6 @@
 
 10082 = {
 	name="Maethoroval"
-	dynasty=10032
 	religion="religion_eruhini"
 	culture="culture_eagles"
 	add_trait = eagle

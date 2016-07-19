@@ -7,7 +7,6 @@
     law = feudal_tax_1
     law = city_contract_2
     law = city_tax_1
-	historical_nomad = yes
 }
 10924.1.1=
 {
@@ -53,11 +52,25 @@ holder =  5082 # Xiamphôkanos
 {
 holder =  5083 # Thuloganos
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
 11358.1.1=
 {
 holder =  5084 # Iôdesmagos
 }
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11375.1.1=
 {
 holder =  5085 # Hamazasp
+}
+11399.1.3=
+{
+holder =  30600 # Sasôn
+}
+11454.1.3=
+{
+holder =  30601 # Artashir
 }

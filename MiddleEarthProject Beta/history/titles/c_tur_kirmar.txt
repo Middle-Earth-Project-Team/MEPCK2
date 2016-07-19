@@ -93,3 +93,11 @@ holder =  5084 # Iôdesmagos
 {
 holder =  5085 # Hamazasp
 }
+11399.1.3=
+{
+holder =  30600 # Sasôn
+}
+11454.1.3=
+{
+holder =  30601 # Artashir
+}

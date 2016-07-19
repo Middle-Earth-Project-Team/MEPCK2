@@ -4,6 +4,11 @@
 	law = centralization_3
 	law = investiture_law_1
 }
+8300.1.1=
+{
+liege=d_rhun
+holder = 23100 # Arkhai the Strong
+}
 9924.1.1={
 liege=k_wainriders
 }
@@ -150,4 +155,16 @@ holder = 5185 # Irkhan
 11359.1.1=
 {
 holder = 5186 # Timërpälat
+}
+11439.1.1=
+{
+holder = 5500 # Okhotur II
+}
+11460.1.1=
+{
+holder = 5501 #  Tokhtaman V
+}
+11492.1.1=
+{
+holder = 5502 # Bulughan II
 }

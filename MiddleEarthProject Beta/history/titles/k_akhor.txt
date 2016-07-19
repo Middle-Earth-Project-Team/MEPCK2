@@ -211,7 +211,22 @@ holder =  6025 # Aghecher
 {
 holder =  6026 # Lacumaces III
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
 11363.1.1=
 {
 holder =  6027 # Micipsa
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+liege=e_reunited_kingdom
+}
+11429.1.1=
+{
+holder =  30071 # Ajdir
+}
+11460.1.1=
+{
+holder =  30072 # Akhôrahil IV
 }

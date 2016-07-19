@@ -6,7 +6,7 @@ title = c_khurvasagh
 # Settlements
 max_settlements = 5
 
-#b_khurvasagh = castle
+b_khurvasagh = castle
 #b_khorvaligha = city
 #b_ghorashola = city
 #b_tukhurrut = city

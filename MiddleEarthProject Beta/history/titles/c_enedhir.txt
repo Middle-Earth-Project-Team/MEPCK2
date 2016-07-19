@@ -1,6 +1,15 @@
-8221.1.1={
+8218.1.1={
 liege="d_celosien"
 }
+
+8280.1.1={
+holder=23250 # Galador
+}
+8428.1.1={
+holder=23251 # Gelmir
+}
+
+
 9318.1.1=
 {
 holder =  1519 # Minadir

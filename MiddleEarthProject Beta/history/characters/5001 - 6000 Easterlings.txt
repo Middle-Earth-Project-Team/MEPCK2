@@ -1732,6 +1732,116 @@
 		death="11439.1.1"
 	}
 }
+5500 = {
+	name="Okhotur"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5127
+	11394.1.1={
+		birth="11394.1.1"
+	}
+	11460.1.1={
+		death="11460.1.1"
+	}
+}
+5501 = {
+	name="Tokhtaman"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5500
+	
+  dna="ckllj0lfac0"
+  properties="gj0ohabebbba"
+	11437.1.1={
+		birth="11437.1.1"
+	}
+	11492.1.1={
+		death="11492.1.1"
+	}
+}
+5502 = {
+	name="Bulughan"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5501
+	dna="oukvkmypnpu"
+	properties="fjn00b000000"	
+	11461.1.1={
+		birth="11461.1.1"
+	}
+	11534.1.1={
+		death="11534.1.1"
+	}
+}
+5503 = {
+	name="Alchidai"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5501
+	11464.1.1={
+		birth="11464.1.1"
+	}
+	11541.1.1={
+		death="11541.1.1"
+	}
+}
+5504 = {
+	name="Ukhuna"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5502
+	11490.1.1={
+		birth="11490.1.1"
+	}
+	11575.1.1={
+		death="11575.1.1"
+	}
+}
+5505 = {
+	name="Borjigidai"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5502
+	11493.1.1={
+		birth="11493.1.1"
+	}
+	11575.1.1={
+		death="11575.1.1"
+	}
+}
+5506 = {
+	name="Khagatai"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5503
+	11488.1.1={
+		birth="11488.1.1"
+	}
+	11558.1.1={
+		death="11558.1.1"
+	}
+}
+5507 = {
+	name="Chakha"
+	dynasty=5010
+	religion="religion_easterlings"
+	culture="culture_easterling"
+	father=5503
+	female=yes
+	11490.1.1={
+		birth="11490.1.1"
+	}
+	11558.1.1={
+		death="11558.1.1"
+	}
+}
 
 
 
@@ -5277,3 +5387,5 @@
 		death=yes
 	}	
 }
+
+

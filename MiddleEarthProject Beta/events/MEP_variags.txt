@@ -1,8 +1,0 @@
-namespace = variags
-## EVENTS FOR THE VARIAGS OF KHAND ##
-### variags.1 to variags.8 : Tax of Mordor events
-### Mordor ask the King of Khand to give him more horses ###
-
-
-
-#BR NOTE - Deleted, because getting 1000 gold every few months while at war is very overpowering and doesnt make economic sense. Variags cannot be that rich.

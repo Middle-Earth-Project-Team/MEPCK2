@@ -70,6 +70,10 @@ liege=0
 }
 11362.5.1=
 {
-holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
-liege=k_cardolan
+holder = 30170 # Mincham
+liege=k_arthedain
+}
+11463.1.1=
+{
+holder = 30171 # Elphir
 }

@@ -385,3 +385,15 @@ holder =  395
 {
 holder =  397
 }
+11427.1.1=
+{
+holder =  29 # Elfwine the Fair
+}
+11447.1.1=
+{
+holder =  405 # Eofara son of Elfwine
+}
+11464.1.1=
+{
+holder =  406 # Eobrand son of Eofara
+}

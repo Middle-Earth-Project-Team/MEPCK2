@@ -395,3 +395,11 @@ holder =  65 # Éomund
 {
 holder =  27 # Éomer
 }
+11427.1.1=
+{
+holder =  29 # Elfwine the Fair
+}
+11447.1.1=
+{
+holder =  405 # Eofara son of Elfwine
+}

@@ -6,8 +6,8 @@ title = c_laorki
 # Settlements
 max_settlements = 5
 
-#b_laorki = castle
-#b_laorkicastle = castle
+b_laorki = castle
+b_laorkicastle = castle
 #b_laorkicity = city
 #b_laorkitemple = city
 #b_laormel = city

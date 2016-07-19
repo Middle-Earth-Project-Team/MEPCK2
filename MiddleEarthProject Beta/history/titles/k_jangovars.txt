@@ -8,7 +8,6 @@
     law = city_contract_2
     law = city_tax_1
 	holder = 5386
-	historical_nomad = yes
 }
 11260.1.1={
 	holder = 5388
@@ -22,6 +21,18 @@
 11355.1.1={
 	holder = 5394
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
+11364.1.1={
+set_tribute_suzerain = { who = e_reunited_kingdom percentage = 0.30 }
+}
 11402.1.1={
 	holder = 5396
+}
+11442.1.1={
+	holder = 30010 # Sauaiôsos
 }

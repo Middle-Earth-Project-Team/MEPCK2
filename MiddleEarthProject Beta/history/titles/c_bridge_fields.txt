@@ -36,3 +36,11 @@ holder = 8024
 liege=k_shire
 }
 
+11375.1.1=
+{
+holder =  8041 # Meriadoc the Magnificent
+}
+11428.1.1=
+{
+holder =  30300 # Gorbadoc II
+}

@@ -5,6 +5,9 @@
 1080.1.1={
 	liege=d_khand
 }
+8300.1.1={
+	holder=23100 # Arkhai the Strong
+}
 9550.1.1=
 {
 holder =  20058 # Abaziôn
@@ -148,4 +151,12 @@ holder =  5066 # Oxardôzis
 11380.1.1=
 {
 holder =  5067 # Abirad II
+}
+11436.1.1=
+{
+holder =  30018 # Saraxazos
+}
+11464.10.1=
+{
+holder =  30021 # Arsêouachos III
 }

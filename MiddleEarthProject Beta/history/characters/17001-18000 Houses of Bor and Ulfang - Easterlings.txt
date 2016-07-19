@@ -253,8 +253,11 @@
 	religion="religion_easterlings"
 	culture="culture_easterling"
 	father=17038
-	8196.1.1={
-		birth="8196.1.1"
+	8288.1.1={
+		birth="8288.1.1"
+	}
+	8320.1.1={
+		add_spouse = 23103
 	}
 	8374.1.1={
 		death="8374.1.1"
@@ -266,8 +269,8 @@
 	religion="religion_easterlings"
 	culture="culture_easterling"
 	father=17039
-	8269.1.1={
-		birth="8269.1.1"
+	8334.1.1={
+		birth=yes
 	}
 	8427.1.1={
 		death="8427.1.1"
@@ -279,7 +282,7 @@
 	religion="religion_easterlings"
 	culture="culture_easterling"
 	father=17040
-	8337.1.1={
+	8388.1.1={
 		birth="8337.1.1"
 	}
 	8486.1.1={

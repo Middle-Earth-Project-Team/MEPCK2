@@ -4,9 +4,10 @@
 	law = centralization_3
 	law = investiture_law_1
 }
-8322.1.1=
+8300.1.1=
 {
-liege=k_rhun
+liege=d_rhun
+holder = 17140 # Odchigin
 }
 8343.1.1=
 {
@@ -171,4 +172,12 @@ holder = 5219 # Bolkhadar
 11393.1.1=
 {
 holder = 5220 # Okhutur
+}
+11412.1.1=
+{
+holder = 30420 # Daritai
+}
+11441.1.1=
+{
+holder = 30421 # Toghoril
 }

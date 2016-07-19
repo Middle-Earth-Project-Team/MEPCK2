@@ -89,3 +89,12 @@ holder =  5091 # Maisês
 {
 holder =  5092 # Chôdarzos
 }
+11406.1.1=
+{
+holder = 5187 # Paval
+liege=k_wainriders
+}
+11442.1.1=
+{
+holder = 30450 # Kutrigur
+}

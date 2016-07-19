@@ -126,3 +126,15 @@ holder =  6194 # Mastanabal III
 {
 holder =  6195 # Misagenes
 }
+11420.1.1=
+{
+holder =  30059 # Immelzir
+}
+11433.1.1=
+{
+holder =  30060 # Abbas
+}
+11440.1.1=
+{
+holder =  30061 # Sifmer III
+}

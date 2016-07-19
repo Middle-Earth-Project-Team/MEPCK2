@@ -29,7 +29,7 @@ holder =  12347 # Mámandil
 }
 8221.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 de_jure_liege="e_gondor"
 }
 8259.1.1=
@@ -39,6 +39,10 @@ holder =  12348 # Aerennel
 8331.1.1=
 {
 holder =  1262 # Fëantur
+}
+8343.1.1=
+{
+liege = "e_gondor"
 }
 8477.1.1=
 {
@@ -282,3 +286,12 @@ law = crown_authority_3
 {
 holder =  29 # Elfwine
 }
+11469.1.1=
+{
+holder =  366 # Elfbrand
+}
+11486.1.1=
+{
+holder =  368 # Elfara
+}
+

@@ -4,14 +4,13 @@
 	law = centralization_3
 	law = investiture_law_1
 }
-8221.1.1=
-{
-holder = 2254 # Halmir
-liege = d_formenyar
+8300.1.1={
+	holder=23400
 }
 8411.1.1=
 {
 holder = 2255 # Harathor
+liege = d_formenyar
 }
 8539.1.1=
 {

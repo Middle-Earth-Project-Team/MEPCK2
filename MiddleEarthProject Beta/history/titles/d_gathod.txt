@@ -3,11 +3,11 @@
 	law = succ_primogeniture
 	law = centralization_3
 	law = investiture_law_1
-	historical_nomad = yes
 }
-8322.1.1=
+8315.1.1=
 {
 liege=k_rhun
+holder=23102 # Daritai the Black
 }
 8343.1.1=
 {
@@ -176,4 +176,9 @@ holder = 17181 # Arkhai
 11363.1.1=
 {
 holder = 17185 # Khamûl IV
+liege=0
+}
+11440.1.1=
+{
+holder = 30400 # Khaidu II
 }

@@ -1,5 +1,23 @@
 ﻿-------MIDDLE-EARTH PROJECT----------
 
+#### 0.5.5b Changelog ####
+- Compatibility to CKII 2.5.2
+- Added two new bookmarks
+- Expanded several lines to new bookmarks
+- Added some new portraits
+- Numenorean characters of medium blood now should die at around 120ish, those of high blood at around 150ish. This is modified by things like date (earlier bookmarks the Dunedain have not waned so much), health, whether you have elven blood or are of the royal lines, etc.
+- NOT FIXED: War of the Ring event chain. It probably needs to be redone entirely. Sometimes it works brilliantly, sometimes it half works, sometimes it doesn't work at all. If you find it doesn't work and you want it to, just start over, it's only the first 5-6 years we're talking about anyways.
+- Army sizes are all off, and I can't find the old settings. Increased orc levy size from 100% to 200%, gave them a bit more combat maluses. Removed combat bonuses for black numenoreans for light infantry, pikemen, archers, and light cavalry - they would use slave troops, not black numenoreans for these ranks.
+- Feudal governments can now call vassals during wars. It doesn't make sense that in the wars of Middle-Earth, which tend to be quite conclusive, powerful vassals will just sit by and only give a small percentage of their troops due to some realm law or another. Wars in Middle-Earth tend to be epic all-in affairs.
+- Removed elven childhood restriction for councillors. Was causing a lot of lag as AI kept appointing and then removing endlessly.
+- Code optimizations, moved a lot of events to on_actions. Also deleted many not-used events from on_actions, such as the RoI ones and such. The mod still runs a bit slower than I would expect, but it's faster than Warhammer and the other big ones, though not as fast as Birthright (which is odd, since Birthright and the MEP are roughly the same size).
+
+- A lot of the old slightly modded vanilla files were still in the mod, from several patches ago some of them. These were removed, and now the mod uses a lot more unmodded vanilla files.
+- This means that until an MEP team goes through them all again with more recent versions of the files, many of the restrictions have been removed that were there previously. Sauron can take up gardening, Elrond can (probably) try to seduce Arwen, and whatever other kind of silliness that might arise. Yeah, it's not ideal, but updating all files to the more recent versions is better than having old and potentially buggy files in the mod.
+- The mod now uses vanilla CBs, only slightly modded (in that holy wars cost piety and have a faster cooldown period). This means that things like subjugations etc are in.
+- Generally, the mod should - hopefully - be more stable now and play more like vanilla in some areas. Restrictions we had in place that prevented dunedain vassals etc from rebelling are also removed, so you may very well now see Imrahil plotting to overthrow Denethor or have a bloody civil war in the Shire as the Tooks wage ruthless war on the Bagginses. Rivenell, Lindon, and the dwarves of the Blue Mountains also tend to expand into the wilderness duchies. Again, it's not ideal, but fixing all those old files would simply take longer than I was willing to commit to.
+
+
 ##### 0.5.1b Patch Changelog ##### 
 
 - Fixed game breaking bugs after 2.4.3 

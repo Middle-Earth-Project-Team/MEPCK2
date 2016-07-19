@@ -70,3 +70,15 @@ holder =  6248 # Ghaysan
 {
 holder =  6249 # Mu'Izz
 }
+11420.1.1=
+{
+holder =  30030 # Zalelsan
+}
+11442.12.12=
+{
+holder =  30031 # Beddis
+}
+11459.2.1=
+{
+holder =  30032 # Nazar
+}

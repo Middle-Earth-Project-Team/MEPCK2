@@ -31,13 +31,16 @@ holder =  12440 # Astandil
 {
 holder =  12441 # Halmir
 }
-8221.1.1=
+8218.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 }
 8227.1.1=
 {
 holder =  12442 # Ivrindur
+}
+8343.1.1={
+liege="e_gondor"
 }
 8347.1.1=
 {
@@ -247,7 +250,7 @@ holder=19005 # Eämbar II Eämbarionath
 }
 11363.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 }
 11403.1.1={
 holder=19006 # Eärnil Eämbarionath

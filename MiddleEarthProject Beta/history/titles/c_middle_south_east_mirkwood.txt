@@ -1,7 +1,7 @@
 4992.1.1=
 {
 liege="d_cell_angol"
-holder =  3102 # Oropher
+holder =  3450 # Amder
 }
 8336.1.1=
 {

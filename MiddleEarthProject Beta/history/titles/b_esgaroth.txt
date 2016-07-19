@@ -43,3 +43,7 @@ holder = 19047 ## Volhard the Master
 11350.1.1={
 	holder=19051
 }
+
+11440.1.1={
+holder=9280 # Dain of the House of Girion
+}

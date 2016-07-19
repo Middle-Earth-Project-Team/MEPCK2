@@ -130,9 +130,8 @@ holder =  8010 # Ferumbras III
 {
 holder =  8024 # Paladin II
 }
-11362.5.1=
-{
-liege = e_arnor
+11364.1.1={
+set_tribute_suzerain = { who = e_reunited_kingdom percentage = 0.01 }
 }
 11377.1.1=
 {
@@ -141,4 +140,8 @@ holder =  8028 # Peregrin II
 11447.1.1=
 {
 holder =  8030 # Faramir I
+}
+11487.1.1=
+{
+holder =  8700 # Boromir Took
 }

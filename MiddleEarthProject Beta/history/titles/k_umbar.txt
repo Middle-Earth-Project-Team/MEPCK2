@@ -146,9 +146,15 @@ holder =  18080 # Ulbâr II
 {
 holder =  18003 # Îbal
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11362.5.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11362.5.1=
 {
-liege = e_gondor
+liege = e_reunited_kingdom
 }
 11420.1.1=
 {

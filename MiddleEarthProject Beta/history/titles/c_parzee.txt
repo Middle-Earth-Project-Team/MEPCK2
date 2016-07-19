@@ -66,3 +66,19 @@ holder =  6246 # Masgaba
 {
 holder =  6247 # Alyamas II
 }
+11363.1.1=
+{
+holder =  6230 # Nizamaddin
+}
+11420.1.1=
+{
+holder =  30030 # Zalelsan
+}
+11442.12.12=
+{
+holder =  30031 # Beddis
+}
+11459.2.1=
+{
+holder =  30032 # Nazar
+}

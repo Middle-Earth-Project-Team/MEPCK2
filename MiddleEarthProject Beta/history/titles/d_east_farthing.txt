@@ -70,5 +70,13 @@ holder = 2444 # Galador
 9943.1.1=
 {
 holder=no
-liege=no
+}
+11375.1.1=
+{
+holder =  8041 # Meriadoc the Magnificent
+liege="k_shire"
+}
+11428.1.1=
+{
+holder =  30300 # Gorbadoc II
 }

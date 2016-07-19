@@ -416,6 +416,7 @@
 	dynasty=18006
 	religion="religion_southron"
 	culture="culture_haradrim"
+	father=18220
 	11318.1.1={
 		birth="11318.1.1"
 	}
@@ -719,7 +720,6 @@
 }
 18054 = {
 	name="Anîzil" #wife of Castamaitë
-	dynasty=18005
 	culture="culture_black_numenorean"
 	religion="religion_black_numenorean"
 	add_trait=blood_of_numenor
@@ -1198,7 +1198,7 @@
 }
 18100 = {
 	name="Serindë"
-	dynasty=18008
+	dynasty=18007
 	culture="culture_black_numenorean"
 	religion="religion_black_numenorean"
 	add_trait=blood_of_numenor
@@ -2440,7 +2440,7 @@
 }
 18091 = {
 	name="Mûrabêth"
-	dynasty=174
+	dynasty=102
 	religion="religion_black_numenorean"
 	culture="culture_black_numenorean"
 	add_trait=blood_of_numenor2
@@ -2484,5 +2484,298 @@
 	}
 	10035.1.1={
 		death="10035.1.1"
+	}
+}
+18200 = {
+	name="Aranezûr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18090
+	9872.1.1={
+		birth=yes
+	}
+	9996.1.1={
+		death=yes
+	}
+}
+18201 = {
+	name="Anezôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18200
+	9940.1.1={
+		birth=yes
+	}
+	10083.1.1={
+		death=yes
+	}
+}
+18202 = {
+	name="Anezôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18201
+	10009.1.1={
+		birth=yes
+	}
+	10141.1.1={
+		death=yes
+	}
+}
+18203 = {
+	name="Herumazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18202
+	10082.1.1={
+		birth=yes
+	}
+	10217.1.1={
+		death=yes
+	}
+}
+18204 = {
+	name="Adûnamazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18203
+	10158.1.1={
+		birth=yes
+	}
+	10292.1.1={
+		death=yes
+	}
+}
+18205 = {
+	name="Adephîr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18204
+	10241.1.1={
+		birth=yes
+	}
+	10379.1.1={
+		death=yes
+	}
+}
+18206 = {
+	name="Adephîr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18205
+	10325.1.1={
+		birth=yes
+	}
+	10463.1.1={
+		death=yes
+	}
+}
+18207 = {
+	name="Zûmrezîr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18206
+	10413.1.1={
+		birth=yes
+	}
+	10548.1.1={
+		death=yes
+	}
+}
+18208 = {
+	name="Zûmanazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18207
+	10500.1.1={
+		birth=yes
+	}
+	10639.1.1={
+		death=yes
+	}
+}
+18209 = {
+	name="Vimezôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18208
+	10589.1.1={
+		birth=yes
+	}
+	10722.1.1={
+		death=yes
+	}
+}
+18210 = {
+	name="Mirezôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18209
+	10672.1.1={
+		birth=yes
+	}
+	10803.1.1={
+		death=yes
+	}
+}
+18211 = {
+	name="Mazêzûr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18210
+	10740.1.1={
+		birth=yes
+	}
+	10865.1.1={
+		death=yes
+	}
+}
+18212 = {
+	name="Alphezîr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18211
+	10808.1.1={
+		birth=yes
+	}
+	10929.1.1={
+		death=yes
+	}
+}
+18213 = {
+	name="Andunazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18212
+	10871.1.1={
+		birth=yes
+	}
+	10989.1.1={
+		death=yes
+	}
+}
+18214 = {
+	name="Romêzîr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18213
+	10931.1.1={
+		birth=yes
+	}
+	11044.1.1={
+		death=yes
+	}
+}
+18215 = {
+	name="Unenzôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18214
+	10988.1.1={
+		birth=yes
+	}
+	11096.1.1={
+		death=yes
+	}
+}
+18216 = {
+	name="Mireazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18215
+	11043.1.1={
+		birth=yes
+	}
+	11149.1.1={
+		death=yes
+	}
+}
+18217 = {
+	name="Haldazôr"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18216
+	11094.1.1={
+		birth=yes
+	}
+	11201.1.1={
+		death=yes
+	}
+}
+18218 = {
+	name="Herumor"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18217
+	11137.1.1={
+		birth=yes
+	}
+	11240.1.1={
+		death=yes
+	}
+}
+18219 = {
+	name="Fuinur"
+	dynasty=18006
+	religion="religion_black_numenorean"
+	culture="culture_black_numenorean"
+	add_trait=blood_of_numenor2
+	father=18218
+	11186.1.1={
+		birth=yes
+	}
+	11291.1.1={
+		death=yes
+	}
+}
+18220 = {
+	name="Haderbal"
+	dynasty=18006
+	religion="religion_southron"
+	culture="culture_haradrim"
+	father=18219
+	11239.1.1={
+		birth=yes
+	}
+	11328.1.1={
+		death=yes
 	}
 }

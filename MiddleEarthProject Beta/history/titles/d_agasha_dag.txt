@@ -1,9 +1,10 @@
 8220.1.1={
 	historical_nomad = yes
 }
-8343.1.1=
+8315.1.1=
 {
 liege=k_rhun
+holder=23101 # Alchidai the Kind
 }
 8343.1.1=
 {
@@ -220,4 +221,5 @@ holder = 17093 # Arasen
 11382.1.1=
 {
 holder = 17095 # Gaeraglan
+liege=0
 }

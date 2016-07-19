@@ -1,3 +1,0 @@
-namespace = calendar
-
-##DWARVES - Durin Day

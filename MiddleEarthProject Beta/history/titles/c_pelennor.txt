@@ -1,4 +1,4 @@
-8331.1.1=
+8300.1.1=
 {
 liege="d_royal_demesne"
 holder = 12136 # Anárion
@@ -239,4 +239,12 @@ holder = 1942 # Ecthelion II
 11327.1.1=
 {
 holder = 1943 # Denethor II
+}
+11362.5.1=
+{
+holder = 2038 # Aragorn II ## First King of the Reunited Kingdom
+}
+11484.1.1=
+{
+holder = 2039 # Eldarion
 }

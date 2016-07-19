@@ -8,15 +8,15 @@ liege=d_harlond
 }
 8221.1.1=
 {
-holder = 3308
+holder = 3276 # Lubathred
 }
-9688.1.1=
+9689.1.1=
 {
-holder = 3309
+holder = 3277 # Lonhaldar
 }
 9978.1.1=
 {
-holder = 3310
+holder = 3280 # Limorian
 }
 11115.1.1=
 {

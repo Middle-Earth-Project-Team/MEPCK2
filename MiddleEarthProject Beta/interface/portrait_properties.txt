@@ -257,6 +257,10 @@
 			}
 		}
 		modifier = {
+			factor = 1000
+			trait = balrog
+		}		
+		modifier = {
 			factor = 0.1
 			is_female = yes
 		}
@@ -586,29 +590,26 @@
 			}
 		}
 		modifier = {
+			factor = 20000
+			OR = {
+				character=10015 #Morgoth
+				character=10033 #Gandalf Olorin
+				character = 10002 # Varda
+			}
+		}				
+		modifier = {
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { character = 10033 }
 		}
 		modifier = {
 			factor = 200
 			has_character_flag = sauron
-		}
-		modifier = {
-			factor = 200
-			has_landed_title = e_valinor
-		}		
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+		}			
 	}
 	
 	1 = { # Royal clothes 2
@@ -621,25 +622,27 @@
 			}
 		}
 		modifier = {
+			factor = 3000
+			OR = {
+				character= 10001 # Manwë			
+				character = 10004 # Yavanna
+				AND = {
+					character=10033 #Gandalf Olorin	
+					has_character_flag=gandalf_the_white
+				}
+			}
+		}			
+		modifier = {
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
 			NOT = { has_minor_title = title_prince }
-		}
-		modifier = {
-			factor = 200
-			has_landed_title = k_ulmo
-		}		
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+			NOT = { character = 10001 }
+			NOT = { character = 10004 }		
+			NOT = { character = 10033 }					
+		}			
 	}
 	
 	2 = { # Royal clothes 3
@@ -657,19 +660,21 @@
 			NOT = { real_tier = emperor }
 			NOT = { spouse = { real_tier = king } }
 			NOT = { spouse = { real_tier = emperor } }
-			NOT = { has_minor_title = title_prince }
+			NOT = { has_minor_title = title_prince }	
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_aule
+			factor = 0
+			culture = culture_valar
+			NOT = { character = 10007 }
+			NOT = { character = 10006 }		
 		}		
 		modifier = {
-			factor = 0
+			factor = 20000
 			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
+				character = 10007 # Mandos
+				character = 10032 # Saruman Curumo			
+				character = 10006 # Nienna 
+			}			
 		}		
 	}
 	
@@ -691,22 +696,17 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { character = 10005 }
+			NOT = { character = 10010 }			
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_orome
-		}	
-		modifier = {
-			factor = 500
-			trait = staff_of_saruman
-		}	
-		modifier = {
-			factor = 0
+			factor = 20000
 			OR = {
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+				character= 10005 # Ulmo
+				character = 10010 # Estë 
+				character = 10031 # Radagast Aiwendil
+			}				
+		}			
 	}
 	
 	4 = { # Noble clothes 2
@@ -727,21 +727,16 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { character = 10003 }
+			NOT = { character = 10008 }			
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_orome
-		}		
-		modifier = {
-			factor = 500
-			trait = staff_of_gandalf
-		}			
-		modifier = {
-			factor = 0
+			factor = 20000
 			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-			}
+				character= 10003 # Aulë Mahal
+				character = 10008 # Vairë
+				character = 10030 # Alatar
+			}				
 		}		
 	}
 	
@@ -763,22 +758,17 @@
 			NOT = { spouse = { real_tier = count } }
 			NOT = { spouse = { real_tier = baron } }
 			NOT = { has_minor_title = title_prince }
+			NOT = { character = 10013 }
+			NOT = { character = 10012 }			
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_mandos
-		}			
-		modifier = {
-			factor = 500
-			trait = staff_of_radagast
-		}		
-		modifier = {
-			factor = 0
+			factor = 20000
 			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_gandalf
-			}
-		}		
+				character= 10013 # Tulkas Astaldo
+				character = 10012 # Vana the Ever-Young 
+				character = 10029 # Pallando
+			}				
+		}				
 	}
 	
 	6 = { # Modest clothes 1
@@ -794,6 +784,8 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 			}
+			NOT = { character = 10011 }
+			NOT = { character = 10014 }		
 		}
 		modifier = {
 			factor = 10
@@ -802,24 +794,24 @@
 			religion_group = pagan_group
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_lorien_valinor
-		}		
-		modifier = {
-			factor = 0
+			factor = 20000
 			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+				character= 10011 # Oromë
+				character = 10014 # Nessa the Dancer
+			}				
+		}				
 	}
 	7 = { # Modest clothes 2
 		factor = 1
 		modifier = {
+			factor = 20000
+			character = 10009 # Irmo Lorien
+		}			
+		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { character = 10009 }			
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -827,15 +819,7 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+		}	
 	}
 	
 	8 = { # Modest clothes 3
@@ -844,6 +828,7 @@
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
+			NOT = { character = 10001 }
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -853,17 +838,9 @@
 			}
 		}
 		modifier = {
-			factor = 200
-			has_landed_title = k_tulkas
-		}	
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+			factor = 20000
+			character = 10001 # Manwë Sulimo
+		}			
 	}
 	9 = { # Shady clothes
 		factor = 3
@@ -881,15 +858,7 @@
 				spouse = { real_tier = king }
 				spouse = { real_tier = emperor }
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}			
+		}		
 		modifier = {
 			factor = 0
 			NOT = { has_job_title = job_spymaster }
@@ -901,15 +870,7 @@
 		modifier = {
 			factor = 200
 			trait = angainor
-		}		
-		modifier = {
-			factor = 0
-			OR = {
-				trait = staff_of_saruman
-				trait = staff_of_radagast
-				trait = staff_of_gandalf
-			}
-		}		
+		}			
 	}
 	
 	# Martial
@@ -1838,7 +1799,7 @@
 # p8 "elvish beards"
 8 = {
 	0 = { # blank
-		factor = 100
+		factor = 1000
 		modifier = {
 			factor = 0
 			trait = elf
@@ -1849,9 +1810,9 @@
  	}
 
 	1 = { # red dots
-		factor = 100
+		factor = 1
 		modifier = {
-			factor = 0
+			factor = 10000
 			trait = elf
 			trait = beard_elf
 		}

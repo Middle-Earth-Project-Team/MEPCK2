@@ -4,9 +4,10 @@
 	law = centralization_3
 	law = investiture_law_1
 }
-8343.1.1=
+8315.1.1=
 {
 liege=d_agasha_dag
+holder=23101 # Alchidai the Kind
 }
 8343.1.1=
 {

@@ -2658,7 +2658,7 @@ e_gondor = {
 	    culture_group_moriquendi = "Angrenost"
 		culture_gondorian = "Angrenost"
 		culture_dunedain = "Angrenost"
-		culture_entish = "Isentaur"
+		culture_entish = "Orthanc"
 		culture_istari = "Isengard"
 			
 		capital = 225 # Orthanc	
@@ -2675,7 +2675,7 @@ e_gondor = {
 	        culture_group_moriquendi = "Angrenost"
 			culture_gondorian = "Angrenost"
 			culture_dunedain = "Angrenost"
-			culture_entish = "Isentaur"
+			culture_entish = "Orthanc"
 			
 			capital = 225 # Orthanc
 			
@@ -2690,7 +2690,7 @@ e_gondor = {
 				culture_group_umanyar = "Angrenost"
 				culture_group_moriquendi = "Angrenost"
 				culture_group_numenorean = "Angrenost"
-				culture_entish = "Isentaur"
+				culture_entish = "Orthanc"
 				
 				holy_site = religion_eruhini
 				holy_site = religion_uruk	
@@ -8656,7 +8656,7 @@ e_rhovanion = {
 			capital = 539 # Dale
 			
 			c_dale = {
-				color={ 11 154 115 }
+				color={ 10 87 101 }
 				color2={ 255 255 255 }
 		
 				culture_wilderness = "Desolation of Smaug"
@@ -8680,7 +8680,7 @@ e_rhovanion = {
 				}
 			}
 			c_withibord = {
-				color={ 11 154 115 }
+				color={ 100 123 127 }
 				color2={ 255 255 255 }
 		
 				b_withibord = {
@@ -8721,7 +8721,7 @@ e_rhovanion = {
 				}
 			}
 			c_celduin = {
-				color={ 11 154 115 }
+				color={ 164 182 185 }
 				color2={ 255 255 255 }
 		
 				b_celduinim = {
@@ -8745,7 +8745,7 @@ e_rhovanion = {
 			capital = 546 # Grasgard	
 			
 			c_grasgard = {
-				color={ 11 154 115 }
+				color={ 178 164 185 }
 				color2={ 255 255 255 }
 		
 				b_grasgard = {
@@ -8775,7 +8775,7 @@ e_rhovanion = {
 				}
 			}
 			c_gramavuld = {
-				color={ 11 154 115 }
+				color={ 127 185 146 }
 				color2={ 255 255 255 }
 		
 				b_gramavuld = {
@@ -8790,7 +8790,7 @@ e_rhovanion = {
 				}
 			}	
 			c_burh_kaupis = {
-				color={ 11 154 115 }
+				color={ 203 156 175 }
 				color2={ 255 255 255 }
 			
 				b_burh_kaupis = {
@@ -8805,7 +8805,7 @@ e_rhovanion = {
 				}
 			}	
 			c_tunn_vidugavia = {
-				color={ 11 154 115 }
+				color={ 196 212 107 }
 				color2={ 255 255 255 }
 			
 				b_tunn_vidugavia = {
@@ -8827,7 +8827,7 @@ e_rhovanion = {
 			capital = 548 #Orchal Carnen
 			
 			c_govadnin = {
-				color={ 11 154 115 }
+				color={ 107 212 139 }
 				color2={ 255 255 255 }
 		
 				b_govadnin = {
@@ -8842,7 +8842,7 @@ e_rhovanion = {
 				}
 			}	
 			c_ningloruin = {
-				color={ 11 154 115 }
+				color={ 102 165 141 }
 				color2={ 255 255 255 }
 			
 				b_ningloruin = {
@@ -8857,7 +8857,7 @@ e_rhovanion = {
 				}
 			}	
 			c_upper_carnen = {
-				color={ 11 154 115 }
+				color={ 57 125 155 }
 				color2={ 255 255 255 }
 			
 				b_orchal_carnen = {
@@ -9110,7 +9110,7 @@ e_rhovanion = {
 				}
 			}
 			c_dol_dagor = {
-				color={ 118 90 14 }
+				color={ 104 99 79 }
 				color2={ 255 255 255 }
 			
 				b_dol_dagor = {
@@ -9149,7 +9149,7 @@ e_rhovanion = {
 		culture_arnorian = "Dor Rhûnen"
 		
 			c_tirith_thoron = {
-				color={ 11 154 115 }
+				color={ 178 164 111 }
 				color2={ 255 255 255 }
 			
 				b_tirith_thoron = {
@@ -9164,7 +9164,7 @@ e_rhovanion = {
 				}
 			}
 			c_thrumav = {
-				color={ 11 154 115 }
+				color={ 178 130 111 }
 				color2={ 255 255 255 }
 			
 				b_thrumav = {
@@ -9179,7 +9179,7 @@ e_rhovanion = {
 				}
 			}
 			c_dor_rhunen = {
-				color={ 11 154 115 }
+				color={ 202 84 85 }
 				color2={ 255 255 255 }
 			
 				b_ursh_lanna = {
@@ -9194,7 +9194,7 @@ e_rhovanion = {
 				}
 			}
 			c_burh_rhovan = {
-				color={ 11 154 115 }
+				color={ 71 144 65 }
 				color2={ 255 255 255 }
 			
 				b_burh_rhovan = {
@@ -9267,7 +9267,7 @@ e_rhovanion = {
 				}
 			}
 			c_burh_santhis = {
-				color={ 11 154 115 }
+				color={ 65 142 105 }
 				color2={ 255 255 255 }
 			
 				b_burh_sauthis = {
@@ -9282,7 +9282,7 @@ e_rhovanion = {
 				}
 			}
 			c_buhr_waldmarhis = {
-				color={ 11 154 115 }
+				color={ 116 146 131 }
 				color2={ 255 255 255 }
 			
 				b_burh_waldmarhis = {
@@ -9297,7 +9297,7 @@ e_rhovanion = {
 				}
 			}	
 			c_burh_widu = {
-				color={ 11 154 115 }
+				color={ 50 74 40 }
 				color2={ 255 255 255 }
 			
 				b_burh_widu = {
@@ -9334,7 +9334,7 @@ e_rhovanion = {
 				}
 			}
 			c_south_celduin = {
-				color={ 11 154 115 }
+				color={ 15 173 93 }
 				color2={ 255 255 255 }
 			
 				b_burh_celduin = {
@@ -9412,7 +9412,7 @@ e_rhovanion = {
 			capital = 576 # Szrel-Kain
 			
 			c_srzel_kain = {
-				color={ 11 154 115 }
+				color={ 135 107 52 }
 				color2={ 255 255 255 }
 			
 				b_srzel_kain = {
@@ -12824,7 +12824,6 @@ k_black_serpent = {
 	religion = religion_southron
 	
 	landless = yes
-	primary = yes
 	
 	allow = {
 		AND = {
@@ -12847,6 +12846,8 @@ d_master_buckland = {
 	
 	title = "MASTER"
 	title_female = "MISTRESS"
+	
+	dignity = 1000
 
 }
 
@@ -12871,6 +12872,8 @@ e_noldor = {
 	capital = 234 # Imladris
 	
 	culture = culture_noldor
+	
+	dignity = 1000 # Counted as having this many more counties than it does		
 	
 	allow = {
 		has_landed_title = k_eregion
@@ -12909,10 +12912,11 @@ e_reunited_kingdom = {
 	color={ 245 245 247 }
 	color2={ 125 125 142 }
 
-	capital = 422 # Minas Tirith	
+	capital = 659 #Annuminas	
     creation_requires_capital = yes
 	short_name = yes
-	primary = yes
+	
+	dignity = 1000 # Counted as having this many more counties than it does	
 
 	allow = {
 		e_gondor = {
@@ -12954,6 +12958,7 @@ color2={ 125 125 142 }
 short_name = yes
 
 capital = 642 # Gundabad
+	dignity = 1000 # Counted as having this many more counties than it does	
 
 	allow = {
 		e_durins_folk = {
@@ -12997,8 +13002,7 @@ e_numenor = {
 		culture = culture_numenorean
 		prestige = 250000000	
 	}
-	#Cannot be held as a secondary title
-	primary = yes
+	dignity = 1000 # Counted as having this many more counties than it does	
 	
 	k_andunie = {
 		color={ 194 129 255 }
@@ -13014,7 +13018,6 @@ e_numenor = {
 			prestige = 250000000	
 		}
 		#Cannot be held as a secondary title
-		primary = yes
 	}
 }
 e_isengard = {
@@ -13023,7 +13026,6 @@ e_isengard = {
 			color2={ 125 125 142 }
 			
 			capital = 225 # Orthanc	
-	        primary = yes
 			creation_requires_capital = yes		
 	allow = {
 			culture = culture_istari
@@ -13039,7 +13041,6 @@ e_angmar = {
 			color2={ 125 125 142 }
 			
 			capital = 225 # Orthanc	
-	        primary = yes
 			creation_requires_capital = yes		
 	allow = {
 			culture = culture_wight
@@ -13054,7 +13055,6 @@ e_silvan_elves = {
 	color2={ 125 125 142 }
 	
 	short_name = yes
-	primary = yes
 
 	capital = 225 # Orthanc		
 }
@@ -13064,7 +13064,6 @@ k_woodsmen_mirkwood = {
 	color2={ 125 125 142 }
 	
 	capital = 415 #Wuduburg
-	primary = yes
 	allow = { culture = culture_woodsmen }	
 	
 	
@@ -13075,7 +13074,6 @@ k_khundolars = {
 	
 	capital = 410 #Haradnur
 	short_name = yes
-	primary = yes
 	allow = {
 	culture = culture_khundolars
 	prestige = 100000000 }
@@ -13085,7 +13083,7 @@ k_khundolars = {
 k_jangovars = {
 	color={ 127 127 150 }
 	color2={ 125 125 142 }
-	primary = yes
+	
 	capital = 406 # Undeeps
 	short_name = yes
 	
@@ -13097,7 +13095,7 @@ k_jangovars = {
 k_balchoths = {
 	 color={ 203 188 130 }
 	color2={ 125 125 142 }
-	primary = yes
+
 	capital = 406 # Undeeps
 	short_name = yes
 	
@@ -13107,7 +13105,7 @@ k_balchoths = {
 k_wainriders = {
 	 color={ 204 160 110 }
 	color2={ 125 125 142 }
-	primary = yes
+
 	capital = 422 # Minas Tirith	
 	allow = {culture = culture_wainriders}
 	
@@ -13115,7 +13113,7 @@ k_wainriders = {
 k_hillmen = {
 	 color={ 197 205 148 }
 	color2={ 125 125 142 }
-	primary = yes
+
 	capital = 373 #Cameth Brin
 	culture = culture_hillmen
 	religion = religion_haldadian
@@ -13125,7 +13123,7 @@ k_hillmen = {
 k_angmarim_hillmen = {
 	 color={ 183 97 97 }
 	color2={ 125 125 142 }
-	primary = yes
+
     capital = 633 # Aughaire
 	culture = culture_hillmen
 	religion = religion_angmarim
@@ -13136,7 +13134,7 @@ k_angmarim_hillmen = {
 k_eothed = {
 	color={ 14 68 1 }
 	color2={ 255 255 252 }
-	primary = yes
+
 	capital = 413 # South Opposite Lorien
 	allow = { culture = culture_eothed }
 	culture = culture_eotheod
@@ -13148,7 +13146,7 @@ k_eothed = {
 k_silvan_ithilien = {
 	color={ 14 68 1 }
 	color2={ 255 255 252 }
-	primary = yes
+
 	capital = 239
 	
 	allow= {
@@ -13159,7 +13157,7 @@ k_silvan_ithilien = {
 k_nogrod = {
 	color={ 14 68 1 }
 	color2={ 255 255 252 }
-	primary = yes
+
 	capital = 239
 	
 	allow= {
@@ -13172,7 +13170,7 @@ k_nogrod = {
 k_belegost = {
 	color={ 14 68 1 }
 	color2={ 255 255 252 }
-    primary = yes
+
 	capital = 239
 	
 	allow= {
@@ -13258,7 +13256,7 @@ k_eredrim = { ## Realm of Lamedon before Gondor - Future Army of the Dead
 d_ringbearer = { 
     color={ 218 165 32 }
 	color2={ 255 255 20 }
-	primary = yes
+
 	title = "BEARER"
 	foa = "BEARER_FOA"
 	title_female = "BEARER"	
@@ -13281,6 +13279,8 @@ e_valinor = {
 	foa = "LORD_FOA"
 	title_female = "LADY"	
 	title_prefix = "LAND_OF"
+	
+	dignity = 1000 # Counted as having this many more counties than it does	
 	
 	allow = {
 		always = no

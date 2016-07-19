@@ -47,6 +47,8 @@ character_event = {
 	only_rulers = yes
 	only_independent = yes
 
+	is_triggered_only = yes
+	
 	trigger = {
 		NOT = { culture_group = culture_group_halfling }
 		NOT = { culture = culture_maiar }
@@ -54,9 +56,6 @@ character_event = {
 		trait = paranoid
 	}
 
-	mean_time_to_happen = {
-		years = 3
-	}
 
 	option = {
 		name = "EVTOPTAring.1"#To the dungeon with this cretin!
@@ -275,7 +274,6 @@ character_event = {
 		trait = ring
 		NOT = { culture_group = culture_group_halfling }
 		NOT = { culture = culture_maiar }
-		year = 11375
 	}
 
 	mean_time_to_happen = {

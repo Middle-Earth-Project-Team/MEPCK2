@@ -101,9 +101,8 @@ silvan_mercenaries = {
 	}
 swan_knights_mercenaries = {
 	levy_size = 1
-	knights = 300
-	heavy_infantry = 450
-	archers = 300
+	knights = 800
+	heavy_infantry = 1000
 }	
 sakalai_mercenaries = {
 	levy_size = 1

@@ -2082,6 +2082,727 @@ spriteType = {
 	}	
 
 
+### Nandor-Avari Portraits ####
+	
+# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+	
+# Elves male
+	portraitType = {
+		name = "PORTRAIT_silvangfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_nandor_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_nandor_male_clothes:p3:c2"
+			"GFX_nandor_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_nandor_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# middle age
+	portraitType = {
+		name = "PORTRAIT_silvangfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_nandor_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_nandor_male_clothes:p3:c2"
+			"GFX_nandor_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_nandor_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 110 110 110 } { 255 250 255 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# old age
+	portraitType = {
+		name = "PORTRAIT_silvangfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_nandor_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_nandor_male_clothes:p3:c2"
+			"GFX_nandor_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_nandor_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  80 80 80 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	
+	# Elf Female
+	portraitType = {
+		name = "PORTRAIT_silvangfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}
+
+	# Elf female midage
+	portraitType = {
+		name = "PORTRAIT_silvangfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}
+
+	# Elf female oldage
+	portraitType = {
+		name = "PORTRAIT_silvangfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  70 70 70 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}	
+	
+	spriteType = {
+		name = "GFX_nandor_male_headgear_mid"
+		texturefile = "gfx\\characters\\elf_male\\nandor_male_headgear_mid.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	spriteType = {
+		name = "GFX_nandor_male_headgear"
+		texturefile = "gfx\\characters\\elf_male\\nandor_male_headgear.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	spriteType = {
+		name = "GFX_nandor_male_headgear_behind"
+		texturefile = "gfx\\characters\\elf_male\\nandor_male_headgear_behind.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}		
+
+	spriteType = {
+		name = "GFX_nandor_male_clothes"
+		texturefile = "gfx\\characters\\elf_male\\nandor_male_clothes.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+	
+### sindar-Avari Portraits ####
+	
+# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
+	
+# Elves male
+	portraitType = {
+		name = "PORTRAIT_sindargfx_male"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_sindar_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_sindar_male_clothes:p3:c2"
+			"GFX_sindar_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_sindar_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# middle age
+	portraitType = {
+		name = "PORTRAIT_sindargfx_male1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_sindar_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_sindar_male_clothes:p3:c2"
+			"GFX_sindar_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_sindar_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 110 110 110 } { 255 250 255 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	# old age
+	portraitType = {
+		name = "PORTRAIT_sindargfx_male2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_sindar_male_headgear_behind:p5:c1"
+			"GFX_elf_male_hair_behind:p1:h:y"
+			"GFX_elf_male_base:p2"
+			"GFX_elf_male_neck:d0"
+			"GFX_elf_male_cheeks:d4"
+			"GFX_elf_male_chin:d1"
+			"GFX_elf_male_mouth:d2"
+			"GFX_elf_male_nose:d3"
+			"GFX_elf_male_eyes:d6"
+			"GFX_elf_male_eyes2:d6:e"
+			"GFX_sindar_male_clothes:p3:c2"
+			"GFX_sindar_male_headgear_mid:p5:c3"
+			"GFX_elf_male_ear:d7"			
+		   	"GFX_elf_male_hair:p1:h:y"
+			"GFX_empty:p3:c4"
+			"GFX_character_scars:p7"
+			"GFX_elves_reddots:p8"
+			"GFX_male_elves_child:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_sindar_male_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  80 80 80 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+		
+		headgear_that_hides_hair = { 10 }
+	}
+	
+	
+	# Elf Female
+	portraitType = {
+		name = "PORTRAIT_sindargfx_female"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}
+
+	# Elf female midage
+	portraitType = {
+		name = "PORTRAIT_sindargfx_female1"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}
+
+	# Elf female oldage
+	portraitType = {
+		name = "PORTRAIT_sindargfx_female2"
+		effectFile = "gfx/FX/portrait.lua"
+		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
+			"GFX_elf_background:p0"
+			"GFX_elf_female_clothes_behind:p3:c0"
+			"GFX_elf_female_headgear_behind:p5:c1"
+			"GFX_elf_female_hair_behind:p1:h:y"
+			"GFX_elf_female_base:p2"
+			"GFX_elf_female_neck:d0"
+			"GFX_elf_female_cheeks:d4"
+			"GFX_elf_female_chin:d1"
+			"GFX_elf_female_mouth:d2"
+			"GFX_elf_female_nose:d3"
+			"GFX_elf_female_eyes:d6"
+			"GFX_elf_female_eyes2:d6:e"			
+			"GFX_elf_female_clothes:p3:c2"
+			"GFX_elf_female_ear:d7"
+			"GFX_elf_female_headgear_mid:p5:c3"
+			"GFX_elf_female_hair:p1:h:y"
+			"GFX_character_scars:p7"
+			"GFX_empty:p8"
+			"GFX_female_elves_child:p9"
+			":p3:c4"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_elf_female_headgear:p5:c5"
+			"GFX_character_imprisoned:p6"
+			"GFX_empty:p11"
+		}
+
+		
+		hair_color_index = 8
+		hair_color = { # dark, base, highlight
+			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
+			{ 10 10 10 } {  70 70 70 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
+			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
+			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+		}
+
+		eye_color_index = 9
+		eye_color = {
+			{ 58 109 193}
+			{ 34 103 36 }
+			{ 0 192 255} # Turquoise Eyes
+			{ 111 5 124 } # Purple Eyes
+			{ 0 12 248 } # Dark Blue
+			{ 210 178 0 } # Dark Yellow
+		}
+	}	
+	
+	spriteType = {
+		name = "GFX_sindar_male_headgear_mid"
+		texturefile = "gfx\\characters\\elf_male\\sindar_male_headgear_mid.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	spriteType = {
+		name = "GFX_sindar_male_headgear"
+		texturefile = "gfx\\characters\\elf_male\\sindar_male_headgear.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	spriteType = {
+		name = "GFX_sindar_male_headgear_behind"
+		texturefile = "gfx\\characters\\elf_male\\sindar_male_headgear_behind.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}		
+
+	spriteType = {
+		name = "GFX_sindar_male_clothes"
+		texturefile = "gfx\\characters\\elf_male\\sindar_male_clothes.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}
+		
 	
 }	
 	

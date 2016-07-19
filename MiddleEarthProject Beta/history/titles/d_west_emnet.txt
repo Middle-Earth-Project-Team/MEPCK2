@@ -261,3 +261,11 @@ holder =  145 # Grimbold
 {
 holder =  146 # Elfgrim
 }
+11422.1.1=
+{
+holder =  550 # Grimhere
+}
+11462.1.1=
+{
+holder =  550 # Grimhold
+}

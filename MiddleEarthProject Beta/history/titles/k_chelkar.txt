@@ -152,11 +152,21 @@ holder =  6081 # Akli
 {
 holder =  6082 # Anaba IV
 }
+11350.1.1={
+set_tribute_suzerain = { who = e_barad_dur percentage = 0.30 }
+}
+11363.1.1={
+clear_tribute_suzerain = e_barad_dur
+}
 11363.1.1=
 {
 holder =  6083 # Herumor VI
 }
 11437.1.1=
 {
-holder =  6084 # Ghumer II
+holder =  6086 # Ghumer II
+}
+11465.1.1=
+{
+holder =  30023 # Mennad
 }

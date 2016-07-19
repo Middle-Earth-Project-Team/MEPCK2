@@ -1,7 +1,7 @@
 4992.1.1=
 {
 liege= k_mirkwood
-holder =  3102 # Oropher
+holder =  3182 # Celeglin
 }
 8336.1.1=
 {

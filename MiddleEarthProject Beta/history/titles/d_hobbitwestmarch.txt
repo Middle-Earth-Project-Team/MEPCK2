@@ -115,3 +115,7 @@ liege = k_shire
 {
 holder = 8163 # Elfstan
 }
+11504.1.1=
+{
+holder = 8710 # Samwise
+}

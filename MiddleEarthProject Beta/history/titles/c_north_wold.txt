@@ -94,3 +94,11 @@ holder =  178 # Harding
 {
 holder =  181 # Wídfara
 }
+11401.1.1=
+{
+holder =  650 # Dúnbrand
+}
+11438.1.1=
+{
+holder =  651 # Dúnhelm
+}

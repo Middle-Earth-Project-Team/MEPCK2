@@ -6,7 +6,7 @@ title = c_mispar
 # Settlements
 max_settlements = 5
 
-#b_mispar = castle
+b_mispar = castle
 #b_ashat = castle
 #b_otayk = city
 #b_munik = city

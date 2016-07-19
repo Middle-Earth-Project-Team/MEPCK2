@@ -6,7 +6,7 @@ title = c_gathod
 # Settlements
 max_settlements = 5
 
-#b_gathod = castle
+b_gathod = castle
 #b_gathodpol = city
 #b_sevagothad = castle
 #b_mothradga = city

@@ -6,7 +6,8 @@ character_event = {
 	title = EVTNAMEracetrait.1
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_elves"
-
+	is_triggered_only = yes
+	
 	trigger = {
 		OR = {
 			culture_group = culture_group_quendi
@@ -22,9 +23,7 @@ character_event = {
 		}
 	}
 
-	mean_time_to_happen = { 
-		days = 7
-	} 
+
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -38,15 +37,13 @@ character_event = {
 	title = EVTNAMEracetrait.1
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_dwarves"
-
+	is_triggered_only = yes
+	
 	trigger = {
 		culture_group = culture_group_dwarves		
 		NOT = { trait = dwarven }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -63,14 +60,14 @@ character_event = {
 
 	min_age = 25	   
 				   
+	is_triggered_only = yes
+	
 	trigger = {		
 		trait = elf
 		trait = dwarven	
 		NOT = { has_character_flag = made_choice }
 	}
-	mean_time_to_happen = { 
-		days = 1 
-	} 
+
 		
 	immediate = {
 		remove_trait = elf
@@ -95,14 +92,13 @@ character_event = {
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_elves"
 
+	is_triggered_only = yes
+	
 	trigger = {
 		culture_group = culture_group_wilderness
 		NOT = { trait = wilderness }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -231,14 +227,13 @@ character_event = {
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_coronation"
 
+	is_triggered_only = yes
+	
 	trigger = {
 		culture = culture_entish
 		NOT = { trait = ent }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 	name = EVTOPTAracetrait.1
@@ -253,6 +248,8 @@ character_event = {
    desc = EVTDESCracetrait.1
    picture = "GFX_evt_coronation"
 
+   is_triggered_only = yes
+   
 	trigger = {
 		OR = {
 			culture = culture_orkish
@@ -263,9 +260,6 @@ character_event = {
 		NOT = { trait = orkish }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 	    name = EVTOPTAracetrait.1
@@ -280,14 +274,12 @@ character_event = {
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_coronation"
 
+	is_triggered_only = yes
+	
 	trigger = {
 		culture = culture_spider
 		NOT = { trait = spider }
 	}
-
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -303,14 +295,13 @@ character_event = {
 	picture = "GFX_evt_dwarves"
 	hide_window = yes
 
+	is_triggered_only = yes
+	
 	trigger = {
 		culture_group = culture_group_halfling		
 		NOT = { trait = hobbit }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -326,14 +317,13 @@ character_event = {
 	picture = "GFX_evt_dwarves"
 	hide_window = yes
 
+	is_triggered_only = yes
+	
 	trigger = {
 		culture = culture_eagles	
 		NOT = { trait = eagle }
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 		name = EVTOPTAracetrait.1
@@ -349,6 +339,8 @@ character_event = {
 	picture = "GFX_evt_coronation"
 	hide_window = yes 
 
+	is_triggered_only = yes
+	
 	trigger = {
 		OR = {
 			culture = culture_orkish
@@ -362,9 +354,6 @@ character_event = {
 		age = 16
 	}
 
-	mean_time_to_happen = { 
-		days = 1 
-	} 
 
 	option = {
 	    name = EVTOPTAracetrait.1

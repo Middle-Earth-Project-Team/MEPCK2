@@ -1,6 +1,6 @@
 1900 = {
 	name="Imrazôr"
-	dynasty=106
+	dynasty=101
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	
@@ -166,6 +166,7 @@
 	11329.1.1={
 		add_spouse=1988
 		give_nickname = nick_the_fair
+		prestige = 500		
 	}
 	11398.1.1={
 		death="11398.1.1"
@@ -350,6 +351,152 @@
 	}
 	11457.1.1={
 		death="11457.1.1"
+	}
+}
+
+1840 = {
+	name="Galador"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=proud
+	add_trait=tall
+	add_trait=fair
+	add_trait=brilliant_strategist
+	add_trait=amroth_knight
+	
+	father=1912
+	
+	11401.1.1={
+		birth="11401.1.1"
+	}
+	11505.1.1={
+		death="11505.1.1"
+	}
+}
+
+1841 = {
+	name="Abrahil"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=honest
+	add_trait=tall
+	add_trait=fair
+	add_trait=charismatic_negociator
+	add_trait=amroth_knight
+	
+	father=1840
+	
+	11442.1.1={
+		birth="11442.1.1"
+	}
+	11557.1.1={
+		death="11557.1.1"
+	}
+}
+
+1842 = {
+	name="Imrahil"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=brave
+	add_trait=tall
+	add_trait=strong
+	add_trait=tough_soldier
+	add_trait=amroth_knight
+	
+	father=1840
+	
+	11439.1.1={
+		birth="11439.1.1"
+	}
+	11557.1.1={
+		death="11557.1.1"
+	}
+}
+
+1843 = {
+	name="Aerinel"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=brave
+	add_trait=tall
+	add_trait=strong
+	add_trait=tough_soldier
+	add_trait=amroth_knight
+	
+	female=yes
+	
+	father=1840
+	
+	11444.1.1={
+		birth="11444.1.1"
+	}
+	11557.1.1={
+		death="11557.1.1"
+	}
+}
+
+1844 = {
+	name="Agathor"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	father = 1911
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=fair
+	add_trait=proud
+	add_trait=kind
+	add_trait=fortune_builder
+	add_trait=amroth_knight
+	
+	11402.1.1={
+		birth=yes
+	}
+	11511.1.1={
+		death=yes
+	}
+}
+
+1845 = {
+	name="Arador"
+	dynasty=101
+	religion="religion_dunedain"
+	culture="culture_gondorian"
+	
+	father = 1844
+	
+	add_trait=blood_of_numenor
+	add_trait=elven_blood
+	add_trait=fair
+	add_trait=proud
+	add_trait=ambitious
+	add_trait=skilled_tactician
+	add_trait=amroth_knight
+	
+	11402.1.1={
+		birth=yes
+	}
+	11511.1.1={
+		death=yes
 	}
 }
 
@@ -835,6 +982,8 @@
 		add_trait = celibate
 		add_trait = shy
 		remove_trait = brave
+		wealth = 2000
+		prestige = 500
 	}
 	11362.3.15={
 		death="11362.3.15"
@@ -4307,6 +4456,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
+	father=12353
 	8263.1.1={
 		birth="8263.1.1"
 	}
@@ -5475,7 +5625,7 @@
 
 1017 = {
 	name="Ostomir"
-	dynasty=12008
+	dynasty=12004
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
@@ -8262,6 +8412,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
+	father=12383
 	8330.1.1={
 		birth="8330.1.1"
 	}
@@ -13283,9 +13434,8 @@
 }
 
 1732 = {
-	name="Tindómiel" #wife of Siriondil, daughter of Lord of Tolfalas
+	name="Tindómiel" #wife of Siriondil
 	female=yes
-	dynasty=107
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
@@ -13399,6 +13549,7 @@
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor
+	father=1813
 	9538.1.1={
 		birth="9538.1.1"
 	}
@@ -13552,7 +13703,7 @@
 1745 = {
 	name="Elian" #wife of Morlaen
 	female=yes
-	dynasty=122
+
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
@@ -13636,7 +13787,6 @@
 1749 = {
 	name="Andaranel" #wife of Elendin
 	female=yes
-	dynasty=105
 	religion="religion_dunedain"
 	culture="culture_gondorian"
 	add_trait=blood_of_numenor2
@@ -14878,7 +15028,7 @@
 	add_trait=just
 	add_trait=humble
 	add_trait=honest
-	father=1822
+	father=182200
 	10285.1.1={
 		birth=yes
 	}
@@ -14886,7 +15036,7 @@
 		death=yes
 	} #Slain in Sauron's retaking of Mordor
 }
-1822 = {
+182200 = {
 	name="Hallas"
 	dynasty=100
 	religion="religion_dunedain"
@@ -14970,7 +15120,6 @@
 1825 = {
 	name="Meleth"
 	female=yes
-	dynasty=184
 	religion="religion_dunedain"
 	culture="culture_gondorian_middlemen"
 	add_trait=fair
@@ -15125,3 +15274,4 @@
 		death=yes
 	}
 }
+

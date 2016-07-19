@@ -317,35 +317,33 @@ spriteTypes = {
 	
 # CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 	
-# istariS male
+# istari male
 	portraitType = {
 		name = "PORTRAIT_istarigfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_istari_background:p0"
-			"GFX_istari_male_clothes_behind:p3:c0"
-			"GFX_istari_male_headgear_behind:p5:c1"
-			"GFX_istari_male_hair_behind_oldage:p1:h:y"
-			"GFX_istari_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
-			"GFX_character_scars:p7:y"
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_istari_male_clothes_infront:p3:c4"
+			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_istari_male_clothes:p3:c2"
-			"GFX_istari_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"
-			"GFX_istari_male_beard_oldage:p4:h:y"
-			"GFX_istari_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
-			"GFX_istari_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -353,7 +351,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 140 140 140 } {  255 255 255 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -376,30 +374,28 @@ spriteTypes = {
 		name = "PORTRAIT_istarigfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_istari_background:p0"
-			"GFX_istari_male_clothes_behind:p3:c0"
-			"GFX_istari_male_headgear_behind:p5:c1"
-			"GFX_istari_male_hair_behind_oldage:p1:h:y"
-			"GFX_istari_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
-			"GFX_character_scars:p7:y"
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_istari_male_clothes_infront:p3:c4"
+			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_istari_male_clothes:p3:c2"
-			"GFX_istari_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"
-			"GFX_istari_male_beard_oldage:p4:h:y"
-			"GFX_istari_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
-			"GFX_istari_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -407,12 +403,12 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 140 140 140 } {  255 255 255 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
 			{ 30 22 18 } { 178 51 41 } { 255 255 255 }
-			{ 60 60 60 } { 187 187 187 } { 255 255 255 }
+			{ 110 110 110 } { 255 250 255 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -430,30 +426,28 @@ spriteTypes = {
 		name = "PORTRAIT_istarigfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
-			"GFX_istari_background:p0"
-			"GFX_istari_male_clothes_behind:p3:c0"
-			"GFX_istari_male_headgear_behind:p5:c1"
-			"GFX_istari_male_hair_behind_oldage:p1:h:y"
-			"GFX_istari_male_beard_behind_oldage:p4:h:y"
-			"GFX_western_male_base_oldage:p2"
-			"GFX_western_male_neck_oldage:d0"
-			"GFX_western_male_cheeks_oldage:d4"
-			"GFX_western_male_chin_oldage:d1"
-			"GFX_western_male_mouth_oldage:d2:o75x52"
-			"GFX_western_male_nose_oldage:d3:o80x66"
-			"GFX_western_male_eyes_oldage:d6:o46x73"
-			"GFX_western_male_eyes2:d6:e:o74x92"
-			"GFX_character_scars:p7:y"
+			"GFX_elf_background:p0"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_istari_male_clothes_infront:p3:c4"
+			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_istari_male_clothes:p3:c2"
-			"GFX_istari_male_headgear_mid:p5:c3"
-			"GFX_western_male_ear_oldage:d7:o25x51"
-			"GFX_istari_male_beard_oldage:p4:h:y"
-			"GFX_istari_male_hair_oldage:p1:h:y"
-			"GFX_empty:p3:c4"
-			"GFX_istari_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -461,7 +455,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 36 35 29 } { 196 172 91 } { 255 255 255 }
-			{ 140 140 140 } {  255 255 255 } { 255 255 255 }
+			{ 10 10 10 } {  80 80 80 } { 255 255 255 }
 			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
@@ -477,7 +471,7 @@ spriteTypes = {
 		}
 		
 		headgear_that_hides_hair = { 10 }
-	}		
+	}
 
 	### istari MALE ####
 	spriteType = {
@@ -867,7 +861,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_istari_male_clothes_infront"
-		texturefile = "gfx\\characters\\istari_male\\istari_male_clothes_infront.dds"
+		texturefile = "gfx\\characters\\valar_male\\istari_clothes_infront.dds"
 		noOfFrames = 15
 		norefcount = yes
 		can_be_lowres = yes
@@ -1385,12 +1379,29 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_valar_female_clothes_infront"
+		texturefile = "gfx\\characters\\valar_male\\valar_female_clothes_infront.dds"
+		noOfFrames = 15
+		norefcount = yes
+		can_be_lowres = yes
+	}	
+	
+	spriteType = {
 		name = "GFX_valar_male_headgear"
 		texturefile = "gfx\\characters\\valar_male\\valar_male_headgear.dds"
 		noOfFrames = 15
 		norefcount = yes
 		can_be_lowres = yes
 	}
+	
+	
+	spriteType = {
+		name = "GFX_valar_boils"
+		texturefile = "gfx\\characters\\valar_male\\morgoth_form.dds"
+		noOfFrames = 2
+		norefcount = yes
+		can_be_lowres = yes
+	}		
 	
 ### Valar ####
 	
@@ -1402,27 +1413,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_valar_male_clothes_behind:p3:c0"
-			"GFX_valar_male_headgear_behind:p5:c1"
-			"GFX_valar_male_hair_behind:p1:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_elf_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_valar_male_eyes:d6"
-			"GFX_valar_male_eyes2:d6:e"
-			"GFX_valar_male_clothes:p3:c2"
-			"GFX_valar_male_headgear_mid:p5:c3"
-			"GFX_elf_male_ear:d7"			
-		   	"GFX_valar_male_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
 			"GFX_valar_male_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_valar_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -1454,27 +1465,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_valar_male_clothes_behind:p3:c0"
-			"GFX_valar_male_headgear_behind:p5:c1"
-			"GFX_valar_male_hair_behind:p1:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_elf_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_valar_male_eyes:d6"
-			"GFX_valar_male_eyes2:d6:e"
-			"GFX_valar_male_clothes:p3:c2"
-			"GFX_valar_male_headgear_mid:p5:c3"
-			"GFX_elf_male_ear:d7"			
-		   	"GFX_valar_male_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
 			"GFX_valar_male_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_valar_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -1506,27 +1517,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_valar_male_clothes_behind:p3:c0"
-			"GFX_valar_male_headgear_behind:p5:c1"
-			"GFX_valar_male_hair_behind:p1:h:y"
-			"GFX_western_male_base:p2"
-			"GFX_western_male_neck:d0"
-			"GFX_western_male_cheeks:d4"
-			"GFX_elf_male_chin:d1"
-			"GFX_western_male_mouth:d2:o75x49"
-			"GFX_western_male_nose:d3:o80x65"
-			"GFX_valar_male_eyes:d6"
-			"GFX_valar_male_eyes2:d6:e"
-			"GFX_valar_male_clothes:p3:c2"
-			"GFX_valar_male_headgear_mid:p5:c3"
-			"GFX_elf_male_ear:d7"			
-		   	"GFX_valar_male_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
 			"GFX_valar_male_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
 			"GFX_empty:p10"
-			"GFX_valar_male_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -1559,27 +1570,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_elf_female_clothes_behind:p3:c0"
-			"GFX_valar_female_headgear_behind:p5:c1"
-			"GFX_elf_female_hair_behind:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"                       #8
-			"GFX_western_female_nose:d3:o80x65"                        #9
-			"GFX_valar_female_eyes:d6:o49x79"                        #10
-			"GFX_valar_female_eyes2:d6:e:o72x88"			            #11		
-			"GFX_elf_female_clothes:p3:c2"
-			"GFX_elf_female_ear:d7"
-			"GFX_valar_female_headgear_mid:p5:c3"
-			"GFX_elf_female_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_valar_female_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
-			"GFX_empty:p3:c4"
 			"GFX_empty:p10"
-			"GFX_valar_female_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -1609,27 +1620,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_elf_female_clothes_behind:p3:c0"
-			"GFX_valar_female_headgear_behind:p5:c1"
-			"GFX_elf_female_hair_behind:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"                       #8
-			"GFX_western_female_nose:d3:o80x65"                        #9
-			"GFX_valar_female_eyes:d6:o49x79"                        #10
-			"GFX_valar_female_eyes2:d6:e:o72x88"			            #11		
-			"GFX_elf_female_clothes:p3:c2"
-			"GFX_elf_female_ear:d7"
-			"GFX_valar_female_headgear_mid:p5:c3"
-			"GFX_elf_female_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_valar_female_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
-			"GFX_empty:p3:c4"
 			"GFX_empty:p10"
-			"GFX_valar_female_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}
@@ -1659,27 +1670,27 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_elf_background:p0"
-			"GFX_elf_female_clothes_behind:p3:c0"
-			"GFX_valar_female_headgear_behind:p5:c1"
-			"GFX_elf_female_hair_behind:p1:h:y"
-			"GFX_western_female_base:p2"
-			"GFX_western_female_neck:d0"
-			"GFX_western_female_cheeks:d4"
-			"GFX_western_female_chin:d1"
-			"GFX_western_female_mouth:d2:o72x48"                       #8
-			"GFX_western_female_nose:d3:o80x65"                        #9
-			"GFX_valar_female_eyes:d6:o49x79"                        #10
-			"GFX_valar_female_eyes2:d6:e:o72x88"			            #11		
-			"GFX_elf_female_clothes:p3:c2"
-			"GFX_elf_female_ear:d7"
-			"GFX_valar_female_headgear_mid:p5:c3"
-			"GFX_elf_female_hair:p1:h:y"
+			"GFX_empty:p3:c0"
+			"GFX_empty:p5:c1"
+			"GFX_empty:p1:h:y"
+			"GFX_empty:p2"
+			"GFX_empty:d0"
+			"GFX_empty:d4"
+			"GFX_empty:d1"
+			"GFX_empty:d2:o75x49"
+			"GFX_empty:d3:o80x65"
+			"GFX_empty:d6"
+			"GFX_empty:d6:e"
+			"GFX_empty:p3:c2"
+			"GFX_empty:p5:c3"
+			"GFX_empty:d7"			
+		   	"GFX_empty:p1:h:y"
+			"GFX_valar_female_clothes_infront:p3:c4"
 			"GFX_empty:p7"
 			"GFX_empty:p8"
 			"GFX_empty:p9"
-			"GFX_empty:p3:c4"
 			"GFX_empty:p10"
-			"GFX_valar_female_headgear:p5:c5"
+			"GFX_empty:p5:c5"
 			"GFX_character_imprisoned:p6"
 			"GFX_empty:p11"
 		}

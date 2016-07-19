@@ -545,6 +545,9 @@ death_reason = death_battle
 	add_trait=good_rider
 	11369.1.1={birth="11369.1.1"}
 	11400.1.1={give_nickname = nick_the_fair}
+	11427.1.1={
+		add_trait=gutwhine	
+	}
 	11469.1.1={death="11469.1.1"}
 }
 
@@ -4741,6 +4744,8 @@ death_reason = death_battle
 	add_trait=fair
 	add_trait=cavalry_leader
 	add_trait=good_rider
+	dna="wbufz0mxmg0"
+	properties="cd0dad000000"	
 	11437.1.1={
 		birth="11437.1.1"
 	}
@@ -5314,3 +5319,611 @@ death_reason = death_battle
 	}
 }
 
+
+### Heirs of Eomer during New Shadow ###
+
+405 = {
+	name="Éofara" ## Son of Elfwine, grandson of Eomer
+	dynasty=5
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=29
+	add_trait=brave
+	add_trait=cavalry_leader
+	add_trait=good_rider
+	11410.1.1={
+		birth=yes
+	}
+	11469.1.1={
+		add_trait=gutwhine	
+	}	
+	11495.1.1={
+		death=yes
+	}
+}
+
+406 = {
+	name="Éobrand"
+	dynasty=5
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=405
+	add_trait=brave
+	add_trait=cavalry_leader
+	add_trait=good_rider
+	11445.1.1={
+		birth=yes
+	}
+	11495.1.1={
+		add_trait=gutwhine	
+	}	
+	11532.1.1={
+		death=yes
+	}
+}
+
+407 = {
+	name="Éogar"
+	dynasty=5
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=406
+	11488.1.1={
+		birth=yes
+	}
+	11532.1.1={
+		add_trait=gutwhine	
+	}	
+	11562.1.1={
+		death=yes
+	}
+}
+408 = {
+	name="Éogrim"
+	dynasty=5
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=406
+	11490.1.1={
+		birth=yes
+	}
+	11567.1.1={
+		death=yes
+	}
+}
+409 = {
+	name="Éohild"
+	dynasty=5
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=406
+	female=yes
+	11492.1.1={
+		birth=yes
+	}
+	11562.1.1={
+		death=yes
+	}
+}
+
+## House Wulfhelming - New Shadow ##
+
+450 = {
+	name="Isenhere" #son of Isenmund
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=205
+	mother=49
+	add_trait=fair
+	11344.1.1={
+		birth=yes
+	}
+	11418.1.1={
+		death=yes
+	}
+}
+451 = {
+	name="Isenhold"
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=450
+	add_trait=strong
+	11387.1.1={
+		birth=yes
+	}
+	11454.1.1={
+		death=yes
+	}
+}
+452 = {
+	name="Isenhir"
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=451
+	add_trait=proud
+	11412.1.1={
+		birth=yes
+	}
+	11489.1.1={
+		death=yes
+	}
+}
+455 = {
+	name="Isenwulf"
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=451
+	add_trait=just
+	11435.1.1={
+		birth=yes
+	}
+	11511.1.1={
+		death=yes
+	}
+}
+453 = {
+	name="Isenhelm"
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=451
+	add_trait=kind
+	11439.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+454 = {
+	name="Isenfleda"
+	dynasty=10
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=451
+	add_trait=just
+	female=yes
+	11442.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+
+### House of Erkenbrand - New Shadow ###
+
+500 = {
+	name="Cuthbrand" #son of Herubrand
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=111
+
+	add_trait=strong
+	add_trait=just
+	add_trait=skilled_tactician
+	add_trait=proud
+	add_trait=brave
+	add_trait=good_rider
+	
+	11354.1.1={
+		birth=yes
+	}
+	11432.1.1={
+		death=yes
+	}
+}
+
+501 = {
+	name="Erkenbrand" # II
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=500
+	
+	add_trait=good_rider
+	
+	11399.1.1={
+		birth=yes
+	}
+	11475.1.1={
+		death=yes
+	}
+}
+
+502 = {
+	name="Herubrand"
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=500
+	
+	add_trait=good_rider
+	
+	11403.1.1={
+		birth=yes
+	}
+	11477.1.1={
+		death=yes
+	}
+}
+
+503 = {
+	name="Léobrand"
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=501
+	
+	add_trait=good_rider
+	
+	11427.1.1={
+		birth=yes
+	}
+	11495.1.1={
+		death=yes
+	}
+}
+
+504 = {
+	name="Hamabrand"
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=501
+	
+	add_trait=good_rider
+	
+	11433.1.1={
+		birth=yes
+	}
+	11510.1.1={
+		death=yes
+	}
+}
+
+505 = {
+	name="Béortfleda"
+	dynasty=7
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	female=yes
+	
+	father=501
+	
+	add_trait=fair
+	
+	11445.1.1={
+		birth=yes
+	}
+	11536.1.1={
+		death=yes
+	}
+}
+
+
+### House of Grimbold - New Shadow ###
+
+550 = {
+	name="Grimhere" #son of Elfgrim
+	dynasty=8
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=146
+	add_trait=good_rider
+	11389.1.1={
+		birth=yes
+	}
+	11423.1.1={
+		add_spouse=554
+	}
+	11462.1.1={
+		death=yes
+	}
+}
+
+551 = {
+	name="Grimhold" 
+	dynasty=8
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=550
+	mother=554
+	add_trait=good_rider
+	11424.1.1={
+		birth=yes
+	}
+	11503.1.1={
+		death=yes
+	}
+}
+
+552 = {
+	name="Grimund" 
+	dynasty=8
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=550
+	mother=554
+	add_trait=good_rider
+	11431.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+
+553 = {
+	name="Gunhild" 
+	dynasty=8
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	father=550
+	mother=554
+	female=yes
+	11443.1.1={
+		birth=yes
+	}
+	11522.1.1={
+		death=yes
+	}
+}
+
+554 = {
+	name="Léofwyn" 
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	female=yes
+	11409.1.1={
+		birth=yes
+	}
+	11475.1.1={
+		death=yes
+	}
+}
+
+### House of Elfhelm - New Shadow ###
+
+600 = {
+	name="Elfmund"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=88
+	
+	add_trait=good_rider
+	
+	11375.1.1={
+		birth=yes
+	}
+	11449.1.1={
+		death=yes
+	}
+}
+
+601 = {
+	name="Elfbrand"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=600
+	
+	add_trait=good_rider
+	
+	11404.1.1={
+		birth=yes
+	}
+	11489.1.1={
+		death=yes
+	}
+}
+
+602 = {
+	name="Elfhelm"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=601
+	
+	add_trait=good_rider
+	add_trait=strong
+	add_trait=brave
+	add_trait=proud
+	add_trait=brilliant_strategist
+	add_trait=patient
+	
+	11437.1.1={
+		birth=yes
+	}
+	11518.1.1={
+		death=yes
+	}
+}
+
+603 = {
+	name="Elfric"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=601
+	
+	add_trait=good_rider
+	
+	11441.1.1={
+		birth=yes
+	}
+	11520.1.1={
+		death=yes
+	}
+}
+
+604 = {
+	name="Elfhere"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=601
+	
+	add_trait=good_rider
+	
+	11443.1.1={
+		birth=yes
+	}
+	11521.1.1={
+		death=yes
+	}
+}
+
+605 = {
+	name="Elfhild"
+	dynasty=6
+	
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	father=601
+	
+	female=yes
+	
+	11445.1.1={
+		birth=yes
+	}
+	11523.1.1={
+		death=yes
+	}
+}
+
+### House of Wold - New Shadow ###
+
+650 = {
+	name="Dúnbrand" #son of Horn
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	add_trait=good_rider
+	
+	father=179
+	
+	11361.1.1={
+		birth=yes
+	}
+	11438.1.1={
+		death=yes
+	}
+}
+
+651 = {
+	name="Dúnhelm"
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	add_trait=good_rider
+
+	father=650
+	
+	11405.1.1={
+		birth=yes
+	}
+	11478.1.1={
+		death=yes
+	}
+}
+
+652 = {
+	name="Dernhere"
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	add_trait=good_rider
+
+	father=651
+	
+	11438.1.1={
+		birth=yes
+	}
+	11517.1.1={
+		death=yes
+	}
+}
+
+653 = {
+	name="Ifing"
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	add_trait=good_rider
+
+	father=651
+	
+	11440.1.1={
+		birth=yes
+	}
+	11520.1.1={
+		death=yes
+	}
+}
+
+654= {
+	name="Dastwyn"
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	female=yes
+	
+	add_trait=twin
+
+	father=651
+	
+	11443.1.1={
+		birth=yes
+	}
+	11520.1.1={
+		death=yes
+	}
+}
+
+655= {
+	name="Horsweg"
+	dynasty=9
+	religion="religion_rhovanion"
+	culture="culture_rohirrim"
+	
+	female=yes
+	
+	add_trait=twin	
+
+	father=651
+	
+	11443.1.1={
+		birth=yes
+	}
+	11520.1.1={
+		death=yes
+	}
+}

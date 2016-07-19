@@ -10,12 +10,13 @@
 }
 8221.1.1=
 {
-liege="e_gondor"
+liege="e_reunited_kingdom"
 holder =  12136 # Isildur
 }
 8343.1.1=
 {
 holder =  1017 # Ostomir
+liege = "e_gondor"
 }
 8543.1.1=
 {
@@ -138,7 +139,7 @@ holder =  12223 # Minas Ithil taken by the Nazgul
 11362.3.25=
 {
 law = centralization_2
-liege="e_gondor"
+liege="e_reunited_kingdom"
 holder = 1945 # Faramir
 }
 11446.1.1=

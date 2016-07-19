@@ -129,3 +129,6 @@ holder = 19050 ## Bernold
 holder = 19051 ## Osred
 }
 
+11440.1.1={
+holder=9280 # Dain of the House of Girion
+}
