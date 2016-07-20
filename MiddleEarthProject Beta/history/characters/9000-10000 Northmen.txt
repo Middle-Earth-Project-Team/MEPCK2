@@ -232,6 +232,17 @@
 	dynasty=902
 	religion="religion_rhovanion"
 	culture="culture_northmen"
+	
+	dna="ccfac0gbdc0"
+	properties="ba0abobeaaba"
+	
+	add_trait=fair
+	add_trait=honest
+	add_trait=kind
+	add_trait=tough_soldier
+	add_trait=just
+	add_trait=patient
+	
 	father=9012
 	9706.1.1={
 		birth="9706.1.1"

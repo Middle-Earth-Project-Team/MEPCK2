@@ -1812,7 +1812,7 @@
 	1 = { # red dots
 		factor = 1
 		modifier = {
-			factor = 10000
+			factor = 0
 			trait = elf
 			trait = beard_elf
 		}

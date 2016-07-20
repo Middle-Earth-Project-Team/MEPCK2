@@ -253,6 +253,10 @@
 	add_trait=brave
 	add_trait=charitable
 	add_trait=proud
+	
+	dna="cfmbe0ledc0"
+	properties="al0bgbbebbba"	
+	
 	9487.1.1={
 		birth="9487.1.1"
 	}
@@ -323,6 +327,10 @@
 	father=2015
 	add_trait=blood_of_isildur
 	add_trait=blood_of_numenor	
+	
+	dna="dmacb0bgac0"
+	properties="ua0acobebbba"
+  
 	9734.1.1={
 		birth="9734.1.1"
 	}

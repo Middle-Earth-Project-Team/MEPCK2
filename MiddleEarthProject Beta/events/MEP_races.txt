@@ -6,7 +6,6 @@ character_event = {
 	title = EVTNAMEracetrait.1
 	desc = EVTDESCracetrait.1
 	picture = "GFX_evt_elves"
-	is_triggered_only = yes
 	
 	trigger = {
 		OR = {
@@ -22,8 +21,10 @@ character_event = {
 			NOT = { mother = { always = yes } }
 		}
 	}
-
-
+	
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	option = {
 		name = EVTOPTAracetrait.1

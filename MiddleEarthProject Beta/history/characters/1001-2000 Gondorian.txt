@@ -12213,6 +12213,10 @@
 	add_trait=brilliant_strategist
 	father=1666
 	mother=1667
+	
+	dna="ckbfh0khdc0"
+	properties="ai0oaobebbba"
+  
 	9469.1.1={
 		birth="9469.1.1"
 	}
@@ -12258,6 +12262,10 @@
 	add_trait=charismatic_negotiator
 	father=1668
 	mother=1669
+	
+	dna="cmfff0fiab0"
+	properties="um0oeobebbba"
+ 
 	9537.1.1={
 		birth="9537.1.1"
 	}
@@ -12283,6 +12291,10 @@
 	add_trait=tough_soldier
 	father=1670
 	mother=9255
+	
+	dna="cklbf0adab0"
+	properties="ub0odebebbba"	
+	
 	9598.1.1={
 		birth="9598.1.1"
 		effect = {
@@ -13572,6 +13584,10 @@
 	add_trait=brave
 	father=1737
 	mother=1738
+	
+	dna="bcgbk0kjgc0"
+	properties="ul0ebfbebbba"	
+
 	9602.1.1={
 		birth="9602.1.1"
 		effect = {

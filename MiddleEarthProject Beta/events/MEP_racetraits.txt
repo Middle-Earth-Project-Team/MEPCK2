@@ -15,9 +15,6 @@ character_event = {
 
 	immediate = {
 		if = {
-			limit = {
-				is_father_real_father = yes
-			}
 		
 			if = {
 				limit = {

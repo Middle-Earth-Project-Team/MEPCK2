@@ -18,6 +18,9 @@
 	add_trait=siege_leader
 	add_trait=inspiring_leader
 	
+	dna="dmmmk0mjgc0"
+	properties="gn0ohobebbba"
+	
 	6652.1.1={
 		birth="6652.1.1"
 	}

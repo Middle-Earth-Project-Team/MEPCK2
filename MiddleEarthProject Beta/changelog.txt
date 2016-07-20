@@ -1,7 +1,17 @@
 ﻿-------MIDDLE-EARTH PROJECT----------
 
-#### 0.5.5b Changelog ####
-- Compatibility to CKII 2.5.2
+#### 0.6b HOTFIX ####
+- Fixed a crash because of performance in 1th february, governments vanilla values are settled
+- Added several characters to Bookmarks selection screen (Fall of Arnor, Kinstrife)
+- Changed death dates for numenoreans with the traits "Blood of Anarion / blood of Isildur", so they won't die around 150 years old, but around 200-220.
+- Changed the max age in the ruler designer to 350 instead of 50
+- Fixed a bug with bearded elves
+- Fixed a bug with inheritance of elf trait / trait given to random characters
+- Fixed a bug where Osgiliath is holded by the heirs of Isildur before 9980
+
+
+#### 0.6b Changelog ####
+- Compatibility to CKII 2.5.x
 - Added two new bookmarks
 - Expanded several lines to new bookmarks
 - Added some new portraits

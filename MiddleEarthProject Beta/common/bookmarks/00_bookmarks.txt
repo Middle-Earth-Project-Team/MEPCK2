@@ -15,8 +15,8 @@ bm_fallofarnor = {
 		title_name = k_arthedain
 		
 		character = {
-			dna = bcedirmbfcy
-			properties = aj00bc00000
+			dna="cfmbe0ledc0"
+			properties="al0bgbbebbba"
 			religion="religion_dunedain"
 			culture="culture_dunedain"
 			government = feudal_government
@@ -32,8 +32,8 @@ bm_fallofarnor = {
 		title_name = e_gondor
 		
 		character = {
-			dna = bcedirmbfcy
-			properties = aj00bc00000
+			dna="ckbfh0khdc0"
+			properties="ai0oaobebbba"
 			religion="religion_dunedain"
 			culture="culture_gondorian"
 			government = feudal_government
@@ -41,12 +41,22 @@ bm_fallofarnor = {
 		}
 	}		
 	
-	character = 12223 # The Witch-King of Angmar
-	character = 9010 # King Fulkahari of Rhovanion
-	character = 4097 # King Dor of Durin's Folk - Khazad-Dum
-	character = 3104 # King Oropher of Mirkwood
-	character = 2089 # King Minalcar of Cardolan
-	character = 2097 # King Forodacil of Rudhaur
+	selectable_character = {
+		id = 12223 # the Witch-King
+		age = 1600
+		name = ERA_CHAR_NAME_12223
+		title = k_angmar
+		title_name = k_angmar
+		
+		character = {
+			dna="dmmmk0mjgc0"
+			properties="gn0ohobebbba"
+			religion="religion_wight"
+			culture="culture_wight"
+			government = feudal_government
+			dynasty=19017
+		}
+	}
 }
 
 bm_kinstrife = {
@@ -58,11 +68,91 @@ bm_kinstrife = {
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_image_2
 	
-	character = 2016 # King Araphor of Arthedain
-	character = 1670 # King Valacar of Gondor
-	character = 1739 # Castamir	
-	character = 12223 # The Witch-King of Angmar
-	character = 9013 # King Liubagilds of Rhovanion
+	selectable_character = {
+		id = 2016 # King Araphor of Arthedain
+		age = 36
+		name = ERA_CHAR_NAME_2016
+		title = k_arthedain
+		title_name = k_arthedain
+		
+		character = {
+			dna="dmacb0bgac0"
+			properties="ua0acobebbba"
+			religion="religion_dunedain"
+			culture="culture_dunedain"
+			government = feudal_government
+			dynasty=2001
+		}
+	}	
+	
+	selectable_character = {
+		id = 1670 # King Valacar of Gondor
+		age = 150
+		name = ERA_CHAR_NAME_1670
+		title = e_gondor
+		title_name = e_gondor
+		
+		character = {
+			dna="cmfff0fiab0"
+			properties="um0oeobebbba"
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = feudal_government
+			dynasty=102
+		}
+	}	
+	
+	selectable_character = {
+		id = 1739 # Castamir
+		age = 160
+		name = ERA_CHAR_NAME_1739
+		title = c_pelargir
+		title_name = c_pelargir
+		
+		character = {
+			dna="bcgbk0kjgc0"
+			properties="ul0ebfbebbba"
+			religion="religion_dunedain"
+			culture="culture_gondorian"
+			government = feudal_government
+			dynasty=102
+		}
+	}	
+	
+	selectable_character = {
+		id = 12223 # the Witch-King
+		age = 1600
+		name = ERA_CHAR_NAME_12223
+		title = k_angmar
+		title_name = k_angmar
+		
+		character = {
+			dna="dmmmk0mjgc0"
+			properties="gn0ohobebbba"
+			religion="religion_wight"
+			culture="culture_wight"
+			government = feudal_government
+			dynasty=19017
+		}
+	}	
+	
+	selectable_character = {
+		id = 9013 # liubagilds of Rhovanion
+		age = 64
+		name = ERA_CHAR_NAME_9013
+		title = e_rhovanion
+		title_name = e_rhovanion
+		
+		character = {
+			dna="ccfac0gbdc0"
+			properties="ba0abobeaaba"
+			religion="religion_rhovanion"
+			culture="culture_northmen"
+			government = feudal_government
+			dynasty=902
+		}
+	}	
+	
 }
 
 bm_wotr = {

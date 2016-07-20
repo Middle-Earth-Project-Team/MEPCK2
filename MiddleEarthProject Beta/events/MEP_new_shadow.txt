@@ -6,7 +6,7 @@ character_event= {
 	hide_window = yes
 	
 	trigger = {
-		year = 11362
+		year = 11370
 		NOT = {
 			OR = {
 				has_global_flag = mouthrising
@@ -41,34 +41,65 @@ character_event= {
 	option = { name = ok }
 }
 
-#character_event = {
+### The New Shadow events ###
+
+### Creation of a Dark Cult in the Reunited Kingdom - A Random vassal/courtier will have the ability to create the Dark Tree Cult ###
+#narrative_event = {
 #	id = newshadow.1
 #	desc = newshadow
+	
 #	hide_window = yes
-#	
+	
 #	trigger = {
-#		NOT = {
-#			any_independent_ruler = {
-#				has_character_flag = aragorn
-#			}
+#		year = 11370
+#		OR = {
+#			has_landed_title = e_reunited_kingdom
+#			has_landed_title = e_gondor
+#			has_landed_title = e_arnor
 #		}
+#		NOT = { has_global_flag = dark_tree_cult_start }
 #	}
-#	
+	
 #	immediate = {
-#		trigger_switch = {
-#			on_trigger = has_global_flag
-#			mouthrising = { any_independent_ruler = { character_event = { id = newshadow.2 } } }
-#			urukwarlord = { any_independent_ruler = { character_event = { id = newshadow. } } }
-#			madelf = { any_independent_ruler = { character_event = { id = newshadow. } } }
-#			blacknumenorreanpower = { any_independent_ruler = { character_event = { id = newshadow. } } }
+#		set_global_flag = dark_tree_cult_start
+#		random_vassal = {
+#			limit = {
+#				NOT = { trait = weak }
+#				NOT = { trait = imbecile }
+#				NOT = { trait = infirm }
+#				NOT = { trait = good_side }
+#			}
+#			narrative_event = { id = newshadow.2 days = 10 }
 #		}
 #	}
-#	
+	
 #	mean_time_to_happen = {
-#		months = 12
+#		days = 1
+#	}
+	
+#	option = { 
+#		name = ok 		
+#	}
+#}
+
+#### A Random Courtier/vassal of Dunedains will have the ability to create the cult of Dark Tree ####
+#narrative_event = {
+#	id = newshadow.2
+#	title = EVTNAMEnewshadow.2
+#	desc = EVTDESCnewshadow.2
+#	picture = GFX_evt_gondor_kingdom
+#	border = GFX_event_narrative_frame_economy	
+#	
+#	is_triggered_only = yes
+#	
+#	option = { 
+#		name = "EVTOPTAnewshadow.2"  ## Yes, i like the darkness!
+#		add_trait = seal_of_herumor
+#		name = "Herumor"
 #	}
 #	
-#	option = {
-#		name = ok
-#	}
+#	option = { 
+#		name = "EVTOPTAnewshadow.2"  ## No needs.
+#		clr_global_flag = dark_tree_cult_start
+#	}	
 #}

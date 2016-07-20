@@ -4259,6 +4259,14 @@
                   name="Voronwionath"
                   culture = culture_black_numenorean
 }
+18002 = { 
+                  name="Êruhilionath"
+                  culture = culture_black_numenorean
+}
+18004 = { 
+                  name="Êruhilionath"
+                  culture = culture_black_numenorean
+}
 18005 = { 
                   name="Ainarauta"
                   culture = culture_black_numenorean
